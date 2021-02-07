@@ -813,8 +813,9 @@ input[type=number] {
 .switch-field input:checked + label {
 	background-color: #FEE101;
 	box-shadow: none;
+    margin-bottom: 0;
+    border-radius: 10px
 }
-
 .switch-field label:first-of-type {
 	border-radius: 0 10px 10px 0px;
 }
@@ -824,17 +825,20 @@ input[type=number] {
 }
 .r-ch1{
     width: 30%;
-    text-align: start
+    text-align: start;
 }
 .r-ch1 i{
     color: #FEE101
 }
 .r-ch2{
     width: 70%;
-    padding: 0 30px 0 0;
+    margin: 0 50px 0 0;
+    background-color: #F4F4F4;
+    border-radius: 10px
 }
 .r-ch2 label:first-of-type,.r-ch2 label:last-of-type{
     width: 50%;
+    margin-bottom: 0
 }
 .radio-chose{
     display: flex;
@@ -1179,9 +1183,6 @@ input[type=number] {
 .flag-img img{
     margin-right: 5px
 }
-
-
-
 
 
 
