@@ -4,7 +4,7 @@
         <div class="row p-f">
             <div class="col-lg-7">
                 <div class="row">
-                    <div class="col-lg-3"><a href=""><img src="lib/img/footer-logo.svg" alt=""></a></div>
+                    <div class="col-lg-3"><a href=""><img class="fw-img login100-pic js-tilt" data-tilt src="lib/img/footer-logo.svg" alt=""></a></div>
                     <div class="col-lg-9">
                         <h4 class="h-f">المنصة الأولى في الوطن العربي</h4>
                         <p class="phr-f">هذا نص تجريبي لاختبار شكل و حجم النصوص و طريقة عرضهاi في هذا المكان و حجم و لون الخط حيث يتم التحكم في هذا النص وامكانية تغييرة في اي وقت عن طريق ادارة الموقع . يتم اضافة هذا النص كنص </p>

@@ -21,9 +21,9 @@
                 <div class="row justify-content-center">
                     <div class="pro-ser col-3">
                         <!-- start navs section -->
-                        <div class="col-lg most-l" id="myAnchor">
-                            <a href="#" class="active">الطلبات الحالية</a>
-                            <a href="#">الطلبات السابقة</a>
+                        <div class="col-lg most-l">
+                            <a href="javascript:;" class="active">الطلبات الحالية</a>
+                            <a href="javascript:;">الطلبات السابقة</a>
                         </div>
                     </div>
                 </div>

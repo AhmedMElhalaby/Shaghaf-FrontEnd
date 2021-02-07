@@ -397,7 +397,6 @@ ul{
     position: relative;
     border-radius: 30px;
     cursor: pointer;
-    box-shadow: 0px 0px 8px -3px #707070;
 }
 .carousel-inner{
     overflow: hidden
@@ -860,6 +859,9 @@ input[type=number] {
     justify-content: flex-start;
     padding: 10px 0;
 }
+.secound-m .flag-img{
+    padding: 0 20px
+}
 .vcode-input {
   width: 40px;
   height: 40px;
@@ -1012,7 +1014,8 @@ input[type=number] {
     padding: 70px 0px 40px;
 }
 .pro-ser-card{
-    background-color: #fff!important
+    background-color: #fff!important;
+    box-shadow: 0px 0px 8px -3px #707070;
 }
 .pro-ser-card .card-body {
     padding: 1.25rem 1rem 1rem;
@@ -1164,6 +1167,17 @@ input[type=number] {
 }
 .edit-c i{
     color: #fff !important
+}
+.flag-img{
+    border: 1px solid #ced4da;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.flag-img img{
+    margin-right: 5px
 }
 
 

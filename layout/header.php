@@ -11,7 +11,7 @@
                  <div class="container">
                      <div class="row w-100">
                          <div class="col-lg-3 page-logo" onclick="location.href='index.php';">
-                            <div class="row">
+                            <div class="row login100-pic js-tilt" data-tilt>
                             <div class="col-lg-5">
                              <a href=""><img src="lib/img/logo.svg" alt=""></a>
                              </div>
@@ -47,26 +47,26 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav nav-ul">
-      <li class="nav-item active">
+      <li class="nav-item active scroll">
         <a class="nav-link" href="#">الرئيسية <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#about-us">من نحن</a>
+        <a class="nav-link scroll" href="#about-us">من نحن</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#our-serve">خدماتنا</a>
+        <a class="nav-link scroll" href="#our-serve">خدماتنا</a>
       </li>
             <li class="nav-item">
-        <a class="nav-link" href="#most-wanted">الاكثر طلبا</a>
+        <a class="nav-link scroll" href="#most-wanted">الاكثر طلبا</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#said-about-us">قالوا عنا</a>
+        <a class="nav-link scroll" href="#said-about-us">قالوا عنا</a>
       </li>
             <li class="nav-item">
-        <a class="nav-link" href="#our-goals">اهدافنا</a>
+        <a class="nav-link scroll" href="#our-goals">اهدافنا</a>
       </li>
             <li class="nav-item">
-        <a class="nav-link" href="#contact-us">تواصل معنا</a>
+        <a class="nav-link scroll" href="#contact-us">تواصل معنا</a>
       </li>
     </ul>
   </div>

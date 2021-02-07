@@ -172,9 +172,9 @@
                 <div class="row justify-content-center">
                     <div class="pro-ser col-3">
                         <!-- start navs section -->
-                        <div class="col-lg most-l" id="myAnchor">
-                            <a href="#" class="active">منتجات </a>
-                            <a href="#">خدمات</a>
+                        <div class="col-lg most-l">
+                            <a href="javascript:;" class="active">منتجات </a>
+                            <a href="javascript:;">خدمات</a>
                         </div>
                     </div>
                 </div>

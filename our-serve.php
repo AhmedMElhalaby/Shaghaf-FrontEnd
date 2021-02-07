@@ -19,12 +19,12 @@
                         <li class="breadcrumb-item active" aria-current="page">التصميم الجرافيكي</li>
                     </ol>
                 </nav>
-                <div class="col-lg most-l" id="myAnchor">
-                    <a href="#" class="active">الكل</a>
-                    <a href="#">التصميم الجرافيكي</a>
-                    <a href="#">الموشن جرافيك</a>
-                    <a href="#">الترجمة</a>
-                    <a href="#">التعليق الصوتي</a>
+                <div class="col-lg most-l">
+                    <a href="javascript:;" class="active">الكل</a>
+                    <a href="javascript:;">التصميم الجرافيكي</a>
+                    <a href="javascript:;">الموشن جرافيك</a>
+                    <a href="javascript:;">الترجمة</a>
+                    <a href="javascript:;">التعليق الصوتي</a>
                 </div>
                 <div class="cards">
                     <div class="row">
