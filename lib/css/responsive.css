@@ -1,0 +1,28 @@
+/*Large devices (desktops, 992px and up)*/ 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .l-r a,.l-r a i{
+        font-size: 10px;
+    }
+    html{
+        font-size: 10px
+    }
+    .carousel-control-next, .carousel-control-prev {
+    width: 4%;
+}
+    .card-footer span {
+    font-size: 10px;
+}
+    .card-body {
+    padding: 5.25rem 1rem 1rem;
+    text-align: center;
+}
+    .card-body p{
+        font-size: 11px
+    }
+    .contact-us-f {
+    border: 1px solid #FEC725;
+    padding: 60px 40px 72px;
+    border-radius: 30px;
+    text-align: center;
+}
+}
