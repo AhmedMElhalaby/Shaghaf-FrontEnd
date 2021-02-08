@@ -1160,6 +1160,10 @@ input[type=number] {
 .siting-body .form-control:disabled::placeholder{
     color: #000
 }
+.siting-body .flag-img{
+    border: 1px solid #000;
+    border-right: none
+}
 .sitting-h-b{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px
@@ -1180,6 +1184,7 @@ input[type=number] {
 }
 .flag-img{
     border: 1px solid #ced4da;
+    border-right: none;
     display: flex;
     align-items: center;
     padding: 0 20px;
@@ -1189,7 +1194,157 @@ input[type=number] {
 .flag-img img{
     margin-right: 5px
 }
+.change-pas .modal-header{
+    padding: 1rem;
+}
+.change-pas .modal-body .tab-button button{
+    color: #000
+}
+.change-pas .modal-body .tab-a,.change-sit .modal-body .tab-a{
+    padding-bottom: 20px;   
+}
+/** Start Orders Details **/
+.orders-details{
+    padding: 60px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 12px -7px #707070;
+    border-radius: 20px;
+    margin-bottom: 5rem;
+}
+.orders-details .card-body p{
+    background-color: transparent
+}
+.orders-details .midd-line{
+    border: 1px solid #E0E0E0;
+    width: 1px;
+    height: 100%;
+    margin: auto;
+}
 
+.orders-details .t-d{
+    display: flex;
+    padding: 30px;
+    background-color: #F0F0F0;
+    border-radius: 30px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1.5rem
+}
+.orders-details .t-d span{
+    font-size: 13px
+}
+.orders-details .total-price p{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 1rem !important
+}
+.orders-details .total-price span{
+    font-weight: bold;
+    color: #FEE101;
+    font-size: 1.1rem !important
+}
+.orders-details .order-state .order-header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #FEE101;
+    padding: 15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.orders-details .order-state{
+    background-color: #F0F0F0;
+    border-radius: 30px;
+}
 
+/*----- TIMELINE MARKER -----*/
+.timeline-marker {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15px;
+}
+.timeline-marker:before {
+  background: #FF6B6B;
+  border: 3px solid transparent;
+  border-radius: 100%;
+  content: "";
+  display: block;
+  height: 15px;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 15px;
+  transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+.timeline-marker:after {
+  content: "";
+  width: 3px;
+  background: #CCD5DB;
+  display: block;
+  position: absolute;
+  top: 24px;
+  bottom: 0;
+  left: 6px;
+}
+.timeline-item:last-child .timeline-marker:after {
+  content: none;
+}
 
-
+.timeline-item:not(.period):hover .timeline-marker:before {
+  background: transparent;
+  border: 3px solid #FF6B6B;
+}
+.doted-bor{
+    position: relative;
+    text-align: start;
+}
+.doted-bor span{
+    font-size: 1.1rem !important;
+    font-weight: bold
+}
+.doted-bor p{
+    color: #B3B5B4
+}
+.time-line{
+    position: absolute;
+    height: 100%;
+    top: 3%;
+    right: -20%;
+    width: min-content;
+}
+.time-line i{
+    color: #FEE101
+}
+.time-line span{
+    width: 1px;
+    height: 30%;
+    display: flex;
+    border: 1px dashed #C9C9C9;
+    position: relative;
+    top: 0;
+    margin: auto;
+}
+.orders-details .tab-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.orders-details .tab-button button{
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 10px 30px;   
+}
+.refused{
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    padding-left: 0;
+    align-items: center;
+    justify-content: center
+}
+.orders .pro-ser-card{
+    margin-bottom: 1rem
+}
