@@ -30,7 +30,7 @@
                             <li><a href="">سياسة الاستخدام</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 pl-0">
                         <ul class="footer-ul l-s-f">
                             <li>(+800) 123 456 7890 <i class="fas fa-phone-alt"></i></li>
                             <li>manager@shop.com <i class="far fa-envelope"></i></li>

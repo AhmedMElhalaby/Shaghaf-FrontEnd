@@ -209,10 +209,16 @@ ul{
     text-align: end;
     color: #000
 }
+.l-s-f li i{
+    margin-right: 1rem
+}
 .last-ul li a{
     color: #000;
     font-size: 16px;
     margin-right: 20px;
+}
+.last-ul li a i{
+    font-weight: bold
 }
 .footer-hr{
     border-color: #000
