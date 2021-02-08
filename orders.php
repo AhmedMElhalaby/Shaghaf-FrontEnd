@@ -29,7 +29,7 @@
                 </div>
                 <div class="row mb-5">
                     <div class="col-lg-3">
-                        <div class="card pro-ser-card">
+                        <div class="card pro-ser-card" onclick="location.href='orders-details.php';">
                             <img class="card-img-top" src="lib/img/product-1.svg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title">لوحة دفنشي</h6>
@@ -59,7 +59,7 @@
                         </div>
                     </div>
                                         <div class="col-lg-3">
-                        <div class="card pro-ser-card">
+                        <div class="card pro-ser-card" onclick="location.href='orders-details.php';">
                             <img class="card-img-top" src="lib/img/product-1.svg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title">لوحة دفنشي</h6>
@@ -89,7 +89,7 @@
                         </div>
                     </div>
                                         <div class="col-lg-3">
-                        <div class="card pro-ser-card">
+                        <div class="card pro-ser-card" onclick="location.href='orders-details.php';">
                             <img class="card-img-top" src="lib/img/product-1.svg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title">لوحة دفنشي</h6>
@@ -119,7 +119,7 @@
                         </div>
                     </div>
                                         <div class="col-lg-3">
-                        <div class="card pro-ser-card">
+                        <div class="card pro-ser-card" onclick="location.href='orders-details.php';">
                             <img class="card-img-top" src="lib/img/product-1.svg" alt="Card image cap">
                             <div class="card-body">
                                 <h6 class="card-title">لوحة دفنشي</h6>

@@ -21,7 +21,7 @@
                        <input type="password" class="form-control" id="inputPassword-3" placeholder="تأكيد كلمة المرور الجديدة">
                    </div>
                    <div class="tab-button">
-                       <button type="submit" class="btn">تأكيد</button>
+                       <button type="submit" class="btn">تغيير</button>
                    </div>
                    <div class="tab-a"></div>
                </div>

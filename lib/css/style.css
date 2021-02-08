@@ -931,7 +931,8 @@ input[type=number] {
 }
 /** Start Sevice User **/
 .sevice-user .card{
-    background-color: #FEE101
+    background-color: #FEE101;
+    margin-bottom: 2rem
 }
 .sevice-user .card .img-o-h{
     top: 30px
@@ -1086,7 +1087,9 @@ input[type=number] {
     border-radius: 30px;
     margin-top: 15px;
     width: 100%;
-    margin: 
+    width: 50%;
+    margin: 15px auto 0;
+}
 }
 .count-pr{
     font-size: 1.1rem !important;
