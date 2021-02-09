@@ -401,7 +401,7 @@ ul{
 }
 .card{
     position: relative;
-    border-radius: 30px;
+    border-radius: 20px;
     cursor: pointer;
 }
 .carousel-inner{
@@ -1488,6 +1488,9 @@ input[type=number] {
 .uploader div {
   margin: 0 0 0.5rem 0;
   color: #5f6982;
+}
+.uploader div img {
+  max-height: 70px
 }
 .uploader .btn {
   display: inline-block;

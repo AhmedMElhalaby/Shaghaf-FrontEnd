@@ -52,40 +52,7 @@
                               </div>
                           </div>
                     </div>
-                    <div class="row  navbar-expand-lg w-100 p-top">
-                        <div class="col-lg-2"></div>
-                        <div class="col-lg-8 m-auto b-link">
-                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav nav-ul">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">الرئيسية <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about-us">من نحن</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#our-serve">خدماتنا</a>
-      </li>
-            <li class="nav-item">
-        <a class="nav-link" href="#most-wanted">الاكثر طلبا</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#said-about-us">قالوا عنا</a>
-      </li>
-            <li class="nav-item">
-        <a class="nav-link" href="#our-goals">اهدافنا</a>
-      </li>
-            <li class="nav-item">
-        <a class="nav-link" href="#contact-us">تواصل معنا</a>
-      </li>
-    </ul>
-  </div>
-                        </div>
-                        <div class="col-lg-2"></div>
-                    </div>
+
                 </div>
             </nav>
         </header>

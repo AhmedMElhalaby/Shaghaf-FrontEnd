@@ -53,19 +53,12 @@
     <div class="col-lg-6">
              <h6 class="text-right">صورة الهوية الوطنية</h6>                                                                                                   <!-- Upload  -->
 <form id="file-upload-form" class="uploader">
-  <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
+  <input id="file-upload" type="file" name="fileUpload" onchange="ImageViewTrigger(this,'image12')" accept="image/*" />
 
   <label for="file-upload" id="file-drag">
-    <img id="file-image" src="#" alt="Preview" class="hidden">
+<!--    <img id="file-image" src="#" alt="Preview" class="hidden">-->
     <div id="start">
-      <img src="lib/img/upload.svg" alt="">
-      <div id="notimage" class="hidden">Please select an image</div>
-    </div>
-    <div id="response" class="hidden">
-      <div id="messages"></div>
-      <progress class="progress" id="file-progress" value="0">
-        <span>0</span>%
-      </progress>
+      <img src="lib/img/upload.svg" class="w-100" id="image12" alt="">
     </div>
   </label>
 </form>
