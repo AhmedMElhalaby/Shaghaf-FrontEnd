@@ -9,7 +9,7 @@
         </div>
         <div class="modal-body secound-m">
             <div class="model-img login100-pic js-tilt" data-tilt><img src="lib/img/verification-code.svg" alt=""></div>
-                    <span>يرجى إدخال الرمز المرسل الى رقم الجوال 1234567890</span>
+                    <span class="vc-m">يرجى إدخال الرمز المرسل الى رقم الجوال 1234567890</span>
 <div class="v-code-main">
   <div class="vcode" id="vcode">
     <input type="phone" class="vcode-input" maxlength="1" id="vcode1">
@@ -19,9 +19,9 @@
   </div>
 </div>
                                                  <div class="tab-button">
-        <button type="submit" class="btn btn-primary">تأكيد</button>
+        <button type="submit" class="btn">تأكيد</button>
    </div>
-      <div class="tab-a"> <span>لم يتم ارسال الكود</span> <a href="">اعادة الارسال</a></div>
+      <div class="tab-a"> <span> لم يتم ارسال الكود <a href=""> اعادة الارسال </a></span></div>
         </div>
       </div>
       </div>

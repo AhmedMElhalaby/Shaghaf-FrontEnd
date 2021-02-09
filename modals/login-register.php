@@ -33,9 +33,9 @@
   </div>
   <a href="" data-toggle="modal" data-target="#exampleModalCenter-1"  aria-label="Close" data-dismiss="modal">هل نسيت كلمة المرور؟</a>
    <div class="tab-button">
-        <button type="submit" class="btn btn-primary">تسجيل الدخول</button>
+        <button type="submit" class="btn">تسجيل الدخول</button>
    </div>
-   <div class="tab-a"> <span> لا تملك حساب؟</span> <a href="">أنشئ حسابك الآن!</a></div>
+   <div class="tab-a"> <span> لا تملك حساب؟ <a href="">أنشئ حسابك الآن!</a></span></div>
   </form>
 
                                     
@@ -80,9 +80,9 @@
     </div>
   </div>
                                           <div class="tab-button">
-        <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter-2"  aria-label="Close" data-dismiss="modal">إنشاء حساب</button>
+        <button type="submit" class="btn" data-toggle="modal" data-target="#exampleModalCenter-2"  aria-label="Close" data-dismiss="modal">إنشاء حساب</button>
    </div>
-                                       <div class="tab-a"> <span> هل لديك حساب بالفعل؟</span> <a href="">تسجيل دخول</a></div>
+                                       <div class="tab-a"> <span> هل لديك حساب بالفعل؟ <a href="">تسجيل دخول</a></span> </div>
                                         </form>
                                 </div>
                             </div>

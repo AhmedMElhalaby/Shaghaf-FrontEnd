@@ -40,7 +40,9 @@
         <div class="dropdown-menu" id="MyAccountDropdown" aria-labelledby="MyAccount">
           <a class="dropdown-item" href="#">حسابي</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">طلباتي</a>
+          <a class="dropdown-item" href="#">خدماتي</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">عملياتي المالية</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">تسجيل خروج</a>
         </div>

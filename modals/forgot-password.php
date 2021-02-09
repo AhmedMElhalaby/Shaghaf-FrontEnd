@@ -9,7 +9,7 @@
         </div>
         <div class="modal-body secound-m">
             <div class="model-img login100-pic js-tilt" data-tilt><img src="lib/img/forget-password.svg" alt=""></div>
-                    <span>سوف نساعدك استعادة كلمة المرور الخاصة بك</span>
+                    <span class="vc-m">سوف نساعدك استعادة كلمة المرور الخاصة بك</span>
  <div class="form-group">
     <label for="exampleInputEmail1"> <i class="fas fa-phone-alt"></i> رقم الجوال</label>
  
@@ -18,7 +18,7 @@
 <span class="flag-img">(+966) <img src="lib/img/saudi-arabia.svg" alt=""></span>
                               </div> </div>
                                                  <div class="tab-button">
-        <button type="submit" class="btn btn-primary">تأكيد</button>
+        <button type="submit" class="btn">تأكيد</button>
    </div>
        <div class="tab-a"></div>
         </div>

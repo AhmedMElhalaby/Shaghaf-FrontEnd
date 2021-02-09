@@ -864,9 +864,9 @@ input[type=number] {
     justify-content: center;
     padding: 20px 0;
 }
-.secound-m span{
+.secound-m .vc-m{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 10px 0;
 }
 .secound-m .flag-img{
@@ -1083,13 +1083,14 @@ input[type=number] {
     padding-left: 10px
 }
 .pro-ser-button{
-    border: 1px solid #000;
+    border: 1px solid #FEE101;
     border-radius: 30px;
     margin-top: 15px;
     width: 100%;
     width: 50%;
     margin: 15px auto 0;
-}
+    color: #fff;
+    background-color: #FEE101
 }
 .count-pr{
     font-size: 1.1rem !important;
@@ -1350,4 +1351,307 @@ input[type=number] {
 }
 .orders .pro-ser-card{
     margin-bottom: 1rem
+}
+/** Start Account Sitting 2 Page **/
+.acount-sitting-2 textarea{
+    overflow: hidden;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 15.5px;
+    color: #000
+}
+.acount-sitting-2 .acount-user-img{
+    position: relative;
+    width: min-content;
+    margin: auto;
+    border: 1px solid #FEE101;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.acount-sitting-2 .acount-user-img span {
+    position: absolute;
+    top: 80%;
+    background-color: #fff;
+    border-radius: 50%;
+    left: 5%;
+    font-size: 1.2rem;
+    display: inline-flex;
+}
+.acount-sitting-2 select{
+    border: 1px solid #000;
+    border-radius: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+/** For Upload Img **/
+
+.uploader {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+}
+.uploader label {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  background: #F4F4F4;
+  border-radius: 7px;
+  border: 3px solid #eee;
+  transition: all 0.2s ease;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.uploader label:hover {
+  border-color: #F4F4F4;
+}
+.uploader label.hover {
+  border: 3px solid #454cad;
+  box-shadow: inset 0 0 0 6px #eee;
+}
+.uploader label.hover #start i.fa {
+  transform: scale(0.8);
+  opacity: 0.3;
+}
+.uploader #start {
+  width: 100%;
+}
+.uploader #start.hidden {
+  display: none;
+}
+.uploader #start i.fa {
+  font-size: 50px;
+  margin-bottom: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+.uploader #response {
+  width: 100%;
+}
+.uploader #response.hidden {
+  display: none;
+}
+.uploader #response #messages {
+  margin-bottom: 0.5rem;
+}
+.uploader #file-image {
+  display: inline;
+  margin: 0 auto 0.5rem auto;
+  width: auto;
+  height: auto;
+  max-width: 180px;
+}
+.uploader #file-image.hidden {
+  display: none;
+}
+.uploader #notimage {
+  display: block;
+  width: 100%;
+}
+.uploader #notimage.hidden {
+  display: none;
+}
+.uploader progress,
+.uploader .progress {
+  display: inline;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 180px;
+  height: 8px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #eee;
+  overflow: hidden;
+}
+.uploader .progress[value]::-webkit-progress-bar {
+  border-radius: 4px;
+  background-color: #eee;
+}
+.uploader .progress[value]::-webkit-progress-value {
+  background: linear-gradient(to right, #393f90 0%, #454cad 50%);
+  border-radius: 4px;
+}
+.uploader .progress[value]::-moz-progress-bar {
+  background: linear-gradient(to right, #393f90 0%, #454cad 50%);
+  border-radius: 4px;
+}
+.uploader input[type=file] {
+  display: none;
+}
+.uploader div {
+  margin: 0 0 0.5rem 0;
+  color: #5f6982;
+}
+.uploader .btn {
+  display: inline-block;
+  margin: 0.5rem 0.5rem 1rem 0.5rem;
+  clear: both;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: initial;
+  border: none;
+  border-radius: 0.2rem;
+  outline: none;
+  padding: 0 1rem;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  box-sizing: border-box;
+  background: #454cad;
+  border-color: #454cad;
+  cursor: pointer;
+}
+.Identity img{
+    width: 100%
+}
+
+.acount-sitting-2 .flag-img{
+    border-right: none
+}
+.acount-sitting-2 button,.change-password-2 button{
+    font-weight: bold
+}
+.acount-sitting-2 .modal-header,.change-password-2 .modal-header{
+    font-weight: bold;
+    padding: 1rem;
+    font-weight: bold
+}
+.acount-sitting-2 .secound-m textarea,.acount-sitting-2 .secound-m select{
+    border: 1px solid #ced4da !important;
+    color: #495057 
+}
+.acount-sitting-2 .edit-c{
+     top: 8%;   
+}
+.thanks .modal-body{
+    padding: 40px 
+}
+.thanks .modal-body h4{
+    font-weight: bold
+}
+.thanks .modal-body p{
+    letter-spacing: 3px
+}
+/** Rate Star **/
+.rate {
+    padding: 0 10px;
+    text-align: center
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 4rem;
+  color: #EFEFEF;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+.rate-page h5{
+    text-align: start
+}
+.rate-page .modal-body .form-control {
+    border-radius: 20px;
+    background-color: #F3F3F3;
+    border-color: #F3F3F3
+}
+/** Start Add Service **/
+.add-serv{
+    padding: 0 0 30px 15px;
+}
+.add-serv button{
+    display: flex;
+    border: 1px solid #FEE102;
+    border-radius: 30px;
+    background-color: #FEE101;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.add-serv button i{
+    margin-left: 5px;
+}
+.add-orders .count-pr{
+    padding: 0px 0 15px;
+}
+.add-orders .card-body button{
+    font-size: 14px;
+    border: 1px solid #FEE101;
+    border-radius: 20px;
+    background-color: #FEE101;
+    font-weight: bold;
+    width: 100%
+}
+.add-orders .card-body .no-bg{
+    background-color: #fff !important;
+    border: 1px solid #000
+}
+.add-orders .card-body button i{
+    margin-left: 5px; 
+}
+.add-o .modal-header{
+    padding: 1rem;
+    font-weight: bold
+}
+.add-o .modal-body select{
+    appearance: none;
+}
+.add-o .modal-body select::before {
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+}
+.add-o .modal-body .form-control{
+    border: 1px solid #000;
+    color: #000
+}
+.add-o .modal-body .form-control::placeholder{
+    color: #000
+}
+.add-o .modal-body label,.add-o .modal-body button{
+    font-weight: bold
+}
+select.minimal {
+  background-image: linear-gradient(45deg, transparent 50%, #000 50%),
+    linear-gradient(135deg, #000 50%, transparent 50%);
+  background-position: calc(10% - 20px) calc(1em + 2px),
+    calc(10% - 15px) calc(1em + 2px);
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+
+
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
 }
