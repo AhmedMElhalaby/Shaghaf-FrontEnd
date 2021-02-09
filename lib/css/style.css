@@ -1316,11 +1316,12 @@ input[type=number] {
     position: absolute;
     height: 100%;
     top: 3%;
-    right: -20%;
+    right: -25%;
     width: min-content;
 }
 .time-line i{
-    color: #FEE101
+    color: #FEE101;
+    font-size: 1.2rem;
 }
 .time-line span{
     width: 1px;
@@ -1654,4 +1655,39 @@ select.minimal {
 select:-moz-focusring {
   color: transparent;
   text-shadow: 0 0 0 #000;
+}
+/** Start Orders 2 **/
+.orders-2 .color-1 button{
+    width: 70%;
+    background-color: #fdef85;
+    border: 1px solid #fdef85
+}
+.orders-2 .color-2 button{
+    width: 70%;
+    background-color: #9dd2ff;
+    border: 1px solid #9dd2ff
+}
+.orders-2 .color-3 button{
+    width: 70%;
+    background-color: #7cef96;
+    border: 1px solid #7cef96
+}
+.orders-2 .color-4 button{
+    width: 70%;
+    background-color: #f9ccb1;
+    border: 1px solid #f9ccb1
+}
+.orders-2 .count-pr{
+    padding: 0
+}
+.orders-2 .bg-h{
+    margin-bottom: 1rem
+}
+/** Orders Details 2 **/
+.orders-details-2 .tab-button{
+    margin-top: 0rem;
+}
+.color-y{
+    background-color: #FEE101;
+    border: 1px solid #FEE101 !important
 }
