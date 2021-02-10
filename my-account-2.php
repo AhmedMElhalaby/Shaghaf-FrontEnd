@@ -32,7 +32,7 @@
                                 <div class="acount-user-img">
                                     <img src="lib/img/user-img.svg" id="profile-image" alt="">
                                     <input type="file" class="d-none" id="profile-img" onchange="ImageViewTrigger(this,'profile-image')" accept="image/*">
-                                    <label for="profile-img" class="d-inline"><span><i class="fas fa-plus-circle"></i></span></label>
+                                    <label for="profile-img"><span><i class="fas fa-plus-circle"></i></span></label>
                                 </div>
                                 <div class="form-group">
                                     <div class="form-group">
@@ -61,6 +61,16 @@
                                     <label for="exampleInputEmail1"><i class="fas fa-map-marker-alt"></i> الموقع</label>
                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="المملكة العربية السعودية - المدينة المنورة - شارع الملك عبد الله" disabled>
                                 </div>
+                                                                <div class="form-group">
+    <label for="exampleFormControlSelect1">المدينة</label>
+    <select disabled class="form-control minimal" id="exampleFormControlSelect1">
+      <option>المملكة العربية السعودية - المدينة المنورة</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
                                 <div class="row">
                                     <div class="form-group col-lg-6">
                                     <label for="formGroupExampleInput"> رقم الايبان</label>

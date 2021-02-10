@@ -74,7 +74,7 @@
                                 </div>
                                 
                                     <div class="color-2">
-                                        <button type="submit" class="btn" data-toggle="modal" data-target="#exampleModalCenter-9" aria-label="Close" data-dismiss="modal"> تم التقييم  </button>
+                                        <button type="submit" class="btn" data-toggle="modal" data-target="#exampleModalCenter-9" aria-label="Close" data-dismiss="modal"> تم تاكيد الحجز   </button>
                                   
                                 </div>
                             </div>
@@ -100,7 +100,7 @@
                                 </div>
                                 
                                     <div class="color-3">
-                                        <button type="submit" class="btn" data-toggle="modal" data-target="#exampleModalCenter-9" aria-label="Close" data-dismiss="modal"> تم التقييم  </button>
+                                        <button type="submit" class="btn" data-toggle="modal" data-target="#exampleModalCenter-9" aria-label="Close" data-dismiss="modal"> طلب مقبول  </button>
                                   
                                 </div>
                             </div>
@@ -126,7 +126,7 @@
                                 </div>
                                 
                                     <div class="color-4">
-                                        <button type="submit" class="btn" data-toggle="modal" data-target="#exampleModalCenter-9" aria-label="Close" data-dismiss="modal"> تم التقييم  </button>
+                                        <button type="submit" class="btn" data-toggle="modal" data-target="#exampleModalCenter-9" aria-label="Close" data-dismiss="modal"> طلب جديد   </button>
                                   
                                 </div>
                             </div>

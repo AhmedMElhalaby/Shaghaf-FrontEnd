@@ -11,12 +11,12 @@
                  <div class="container">
                      <div class="row w-100">
                          <div class="col-lg-3 page-logo" onclick="location.href='index.php';">
-                            <div class="row">
+                            <div class="row login100-pic js-tilt" data-tilt>
                             <div class="col-lg-5">
-                             <a href=""><img src="lib/img/logo.svg" alt=""></a>
+                             <a href="index.php"><img src="lib/img/logo.svg" alt=""></a>
                              </div>
                              <div class="col-lg-7 padding">
-                              <a class="navbar-brand">منصة شغف</a>
+                              <a class="navbar-brand" href="index.php">منصة شغف</a>
                               </div>
                               </div>
                           </div>

@@ -1,5 +1,5 @@
     <!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade login-register" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -63,6 +63,16 @@
                               <input class="form-control mr-sm-2 search-t col-lg" type="number" placeholder="ادخال رقم الجوال" aria-label="Search">
 <span class="flag-img">(+966) <img src="lib/img/saudi-arabia.svg" alt=""></span>
                               </div> </div>
+                                                                <div class="form-group">
+    <label for="exampleFormControlSelect1">المدينة</label>
+    <select class="form-control minimal" id="exampleFormControlSelect1">
+      <option>المملكة العربية السعودية - المدينة المنورة </option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
      <div class="form-group">
     <label for="exampleInputEmail1"><i class="fas fa-envelope"></i> البريد الالكتروني</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ادخال البريد الالكتروني">

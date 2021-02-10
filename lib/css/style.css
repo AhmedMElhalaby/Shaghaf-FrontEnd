@@ -31,13 +31,16 @@ header .header-1 a:hover{
     color: #fff;
 }
 header .user-name{
-        display: flex;
+    display: flex;
     align-items: center;
     padding: 0;
 }
 header .user-name img{
-    width: 15%;
-    margin-left: 5px
+    width: 40px;
+    margin-left: 5px;
+    border: 1px solid #EFEFEF;
+    border-radius: 50%;
+    height: 40px;
 }
 header .user-name i{
     margin-left: 5px;
@@ -646,6 +649,9 @@ ul{
     margin-left: 0.5rem
 }
 /** login **/
+.login-register select.minimal{
+    color: #495057;
+}
 .modal-content .close {
     float: left;
     position: absolute;
@@ -1372,14 +1378,28 @@ input[type=number] {
     padding: 5px;
     margin-bottom: 20px;
 }
+.acount-sitting-2 .acount-user-img img{
+    width: 110px;
+    height: 110px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
 .acount-sitting-2 .acount-user-img span {
     position: absolute;
     top: 80%;
     background-color: #fff;
     border-radius: 50%;
-    left: 5%;
+    left: 8%;
     font-size: 1.2rem;
     display: inline-flex;
+}
+.acount-sitting-2 .acount-user-img a{
+    font-size: 1rem;
+    display: inline
+}
+.acount-sitting-2 .acount-user-img label{
+    display: inline;
+    cursor: pointer
 }
 .acount-sitting-2 select{
     border: 1px solid #000;
@@ -1623,6 +1643,9 @@ input[type=number] {
 .add-orders .card-body button i{
     margin-left: 5px; 
 }
+.add-orders .card,.sevice-user .card{
+    cursor: default
+}
 .add-o .modal-header{
     padding: 1rem;
     font-weight: bold
@@ -1651,10 +1674,11 @@ select.minimal {
     calc(10% - 15px) calc(1em + 2px);
   background-size: 5px 5px, 5px 5px, 1px 1.5em;
   background-repeat: no-repeat;
+    color: #000
 }
-
-
-
+select{
+    appearance: none; 
+}
 select:-moz-focusring {
   color: transparent;
   text-shadow: 0 0 0 #000;

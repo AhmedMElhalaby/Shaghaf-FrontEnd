@@ -52,12 +52,12 @@
     <div class="col-lg-6">
              <h6 class="text-right">صورة الخدمة</h6>                                                                                                   <!-- Upload  -->
 <form id="file-upload-form" class="uploader">
-  <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
+  <input id="file-upload" type="file" name="fileUpload" onchange="ImageViewTrigger(this,'edit-order')" accept="image/*" />
 
   <label for="file-upload" id="file-drag">
     <img id="file-image" src="#" alt="Preview" class="hidden">
     <div id="start">
-      <img src="lib/img/upload.svg" alt="">
+      <img src="lib/img/upload.svg" alt="" id="edit-order">
       <div id="notimage" class="hidden">Please select an image</div>
     </div>
     <div id="response" class="hidden">

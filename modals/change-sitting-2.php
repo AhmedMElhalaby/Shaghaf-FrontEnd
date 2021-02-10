@@ -32,6 +32,16 @@
                                     <label for="exampleInputEmail1"><i class="fas fa-envelope"></i> البريد الالكتروني</label>
                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
                                 </div>
+                                                                                                <div class="form-group">
+    <label for="exampleFormControlSelect1">المدينة</label>
+    <select class="form-control minimal" id="exampleFormControlSelect1">
+      <option>المملكة العربية السعودية - المدينة المنورة</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
                                 <div class="form-group">
                                     <label for="exampleInputEmail1"><i class="fas fa-map-marker-alt"></i> الموقع</label>
                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="المملكة العربية السعودية - المدينة المنورة - شارع الملك عبد الله">
