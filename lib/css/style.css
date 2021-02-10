@@ -961,7 +961,7 @@ input[type=number] {
     font-size: 13px
 }
 .sevice-user .card-body span{
-    font-size: 14px;
+    font-size: 12px;
     text-align: justify;
     font-weight: 700;
     margin: 20px 10px;
@@ -1111,10 +1111,11 @@ input[type=number] {
 }
 .m-name{
     display: flex;
-    padding: 0px;
+    padding-left: 0px;
     border-radius: 30px;
     background-color: #fff8c1;
-    margin: 15px 0
+    margin: 15px 0;
+    padding-right: 5px;
 }
 .m-name p{
     width: 60% !important;
@@ -1353,8 +1354,9 @@ input[type=number] {
     font-weight: bold;
     display: flex;
     padding-left: 0;
+    padding-right: 5px;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 .orders .pro-ser-card{
     margin-bottom: 1rem
@@ -1643,8 +1645,11 @@ input[type=number] {
 .add-orders .card-body button i{
     margin-left: 5px; 
 }
-.add-orders .card,.sevice-user .card{
-    cursor: default
+.add-orders .card,.sevice-user .card,.orders-details .card,.orders-2 .card{
+    cursor: default !important;
+}
+.orders .card{
+    cursor: pointer
 }
 .add-o .modal-header{
     padding: 1rem;

@@ -30,7 +30,7 @@
                     <div class="row">
                         <div class="col-lg-3">
 
-                            <div class="card">
+                            <div class="card" onclick="location.href='#';">
                                 <div class="img-o-h">
                                     <div class="order-card-img">
                                         <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
@@ -57,7 +57,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3">
-                            <div class="card">
+                            <div class="card" onclick="location.href='#';">
                                 <div class="img-o-h">
                                     <div class="order-card-img">
                                         <img class="card-img-top" src="lib/img/m-2.svg" alt="Card image cap">
