@@ -9,7 +9,7 @@
 <body>
     <?php include('layout/header-login.php') ?>
     <?php include('modals/add-order.php') ?>
-    <?php include('modals/edit-order.php') ?>s
+    <?php include('modals/edit-order.php') ?>
     <!-- start wrapper -->
     <div class="wrapper">
         <div class="container">

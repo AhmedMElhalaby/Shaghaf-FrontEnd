@@ -1723,3 +1723,59 @@ select:-moz-focusring {
     background-color: #FEE101;
     border: 1px solid #FEE101 !important
 }
+/** Start Financial Operations **/
+.financial-operations .balance{
+        padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px -5px #707070;
+    border-radius: 10px;
+    text-align: center;
+}
+.financial-operations .balance h5{
+    margin-bottom: 1.2rem;
+    font-weight: bold;
+    font-size: 1.15rem
+}
+.financial-operations .balance p{
+    margin-bottom: 0;
+    color: #919191;
+    font-weight: bold;
+    font-size: 0.9rem
+}
+.financial-operations .p-balance{
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+.financial-operations .balance span{
+    font-weight: bold
+}
+.financial-operations .balance i{
+    padding: 10px;
+    background-color: #fee101;
+    color: #FFF;
+    border-radius: 15px;
+    margin-left: 1rem
+}
+.financial-operations .balance-op{
+    text-align: right;
+    margin: 10px 0;
+    padding: 25px 10px;
+}
+.financial-operations .balance-op-p{
+    color: #3E3E3E !important;
+    padding-top: 15px
+}
+.financial-operations .balance-op-p span{
+    color: #919191 !important
+}
+.financial-operations .balance-op-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 0
+}
+.financial-operations .balance-op-link i{
+    color: #979797;
+    background-color: transparent;
+    margin: 0
+}
