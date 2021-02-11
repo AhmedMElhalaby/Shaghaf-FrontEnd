@@ -35,7 +35,7 @@
    <div class="tab-button">
         <button type="submit" class="btn">تسجيل الدخول</button>
    </div>
-   <div class="tab-a"> <span> لا تملك حساب؟ <a href="">أنشئ حسابك الآن!</a></span></div>
+   <div class="tab-a"> <span> لا تملك حساب؟ <a id="RegNavBtn-2" href="javascript:;">أنشئ حسابك الآن!</a></span></div>
   </form>
 
                                     
@@ -92,7 +92,7 @@
                                           <div class="tab-button">
         <button type="submit" class="btn" data-toggle="modal" data-target="#exampleModalCenter-2"  aria-label="Close" data-dismiss="modal">إنشاء حساب</button>
    </div>
-                                       <div class="tab-a"> <span> هل لديك حساب بالفعل؟ <a href="">تسجيل دخول</a></span> </div>
+                                       <div class="tab-a"> <span> هل لديك حساب بالفعل؟ <a id="LogNavBtn-2" href="javascript:;">تسجيل دخول</a></span> </div>
                                         </form>
                                 </div>
                             </div>

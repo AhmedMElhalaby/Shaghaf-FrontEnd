@@ -73,27 +73,27 @@
                 <h5 class="text-right"><span class="text-con"> خدماتنا </span><span class="text-c"></span></h5>
                 <div class="row">
                     <div class="col-lg-3 login100-pic js-tilt" data-tilt>
-                        <div class="service" onclick="location.href='#';">
+                        <div class="service" onclick="location.href='our-serve.php';">
                             <img src="lib/img/s-1.svg" alt="">
                             <p>التصميم الجرافيكي</p>
                         </div>
                     </div>
                     <div class="col-lg-3 login100-pic js-tilt" data-tilt>
-                        <div class="service" onclick="location.href='#';">
+                        <div class="service" onclick="location.href='our-serve.php';">
                             <img src="lib/img/s-2.svg" alt="">
                             <p>الموشن جرافيك</p>
                         </div>
                     </div>
                     <div class="col-lg-3 login100-pic js-tilt" data-tilt>
-                        <div class="service" onclick="location.href='#';">
+                        <div class="service" onclick="location.href='our-serve.php';">
                             <img src="lib/img/s-3.svg" alt="">
                             <p>التعليق الصوتي</p>
                         </div>
                     </div>
                     <div class="col-lg-3 login100-pic js-tilt" data-tilt>
-                        <div class="service" onclick="location.href='#';">
+                        <div class="service" onclick="location.href='our-serve.php';">
                             <img src="lib/img/s-4.svg" alt="">
-                            <p>الترجمة</p>
+                            <p>التجميل والعناية</p>
                         </div>
                     </div>
                 </div>
@@ -479,7 +479,7 @@
  
   <div>                                         
 
-                                            <div class="card" onclick="location.href='#';">
+                                            <div class="card" onclick="location.href='service-user.php';">
                                                 <div class="img-o-h">
                                                     <div class="order-card-img">
                                                         <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
@@ -505,7 +505,7 @@
                                                 </div>
                                             </div>
                                         </div> 
-  <div>  <div class="card" onclick="location.href='#';">
+  <div>  <div class="card" onclick="location.href='service-user.php';">
                                                 <div class="img-o-h">
                                                     <div class="order-card-img">
                                                         <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
@@ -530,7 +530,7 @@
                                                     </div>
                                                 </div>
                                             </div> </div>
-  <div>  <div class="card" onclick="location.href='#';">
+  <div>  <div class="card" onclick="location.href='service-user.php';">
                                                 <div class="img-o-h">
                                                     <div class="order-card-img">
                                                         <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
@@ -555,7 +555,7 @@
                                                     </div>
                                                 </div>
                                             </div> </div>
-  <div>  <div class="card" onclick="location.href='#';">
+  <div>  <div class="card" onclick="location.href='service-user.php';">
                                                 <div class="img-o-h">
                                                     <div class="order-card-img">
                                                         <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
@@ -580,7 +580,7 @@
                                                     </div>
                                                 </div>
                                             </div> </div>
-  <div>  <div class="card" onclick="location.href='#';">
+  <div>  <div class="card" onclick="location.href='service-user.php';">
                                                 <div class="img-o-h">
                                                     <div class="order-card-img">
                                                         <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
@@ -605,7 +605,7 @@
                                                     </div>
                                                 </div>
                                             </div> </div>
-  <div>  <div class="card" onclick="location.href='#';">
+  <div>  <div class="card" onclick="location.href='service-user.php';">
                                                 <div class="img-o-h">
                                                     <div class="order-card-img">
                                                         <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
@@ -630,7 +630,7 @@
                                                     </div>
                                                 </div>
                                             </div> </div>
-  <div>  <div class="card" onclick="location.href='#';">
+  <div>  <div class="card" onclick="location.href='service-user.php';">
                                                 <div class="img-o-h">
                                                     <div class="order-card-img">
                                                         <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">

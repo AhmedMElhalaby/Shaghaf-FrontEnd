@@ -16,7 +16,7 @@
             <div class="sevice-user orders add-orders">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i></a></li>
+                        <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home"></i></a></li>
                         <li class="breadcrumb-item active" aria-current="page">خدماتي</li>
                     </ol>
                 </nav>
@@ -46,7 +46,7 @@
                                         <button type="submit" class="btn" data-toggle="modal" data-target="#exampleModalCenter-9" aria-label="Close" data-dismiss="modal"><i class="fas fa-pen" ></i> تعديل </button>
                                     </div>
                                     <div class="col-lg-6">
-                                        <button type="submit" class="btn no-bg" data-toggle="modal" data-target="#exampleModalCenter-10" aria-label="Close" data-dismiss="modal"><i class="far fa-trash-alt"></i> حذف </button>
+                                        <button type="submit" class="btn no-bg"><i class="far fa-trash-alt"></i> حذف </button>
                                     </div>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@
                                         <button type="submit" class="btn" data-toggle="modal" data-target="#exampleModalCenter-9" aria-label="Close" data-dismiss="modal"><i class="fas fa-pen" ></i> تعديل </button>
                                     </div>
                                     <div class="col-lg-6">
-                                        <button type="submit" class="btn no-bg" data-toggle="modal" data-target="#exampleModalCenter-10" aria-label="Close" data-dismiss="modal"><i class="far fa-trash-alt"></i> حذف </button>
+                                        <button type="submit" class="btn no-bg"><i class="far fa-trash-alt"></i> حذف </button>
                                     </div>
                                 </div>
                             </div>
@@ -98,7 +98,7 @@
                                         <button type="submit" class="btn" data-toggle="modal" data-target="#exampleModalCenter-9" aria-label="Close" data-dismiss="modal"><i class="fas fa-pen" ></i> تعديل </button>
                                     </div>
                                     <div class="col-lg-6">
-                                        <button type="submit" class="btn no-bg" data-toggle="modal" data-target="#exampleModalCenter-10" aria-label="Close" data-dismiss="modal"><i class="far fa-trash-alt"></i> حذف </button>
+                                        <button type="submit" class="btn no-bg"><i class="far fa-trash-alt"></i> حذف </button>
                                     </div>
                                 </div>
                             </div>
@@ -124,7 +124,7 @@
                                         <button type="submit" class="btn" data-toggle="modal" data-target="#exampleModalCenter-9" aria-label="Close" data-dismiss="modal"><i class="fas fa-pen" ></i> تعديل </button>
                                     </div>
                                     <div class="col-lg-6">
-                                        <button type="submit" class="btn no-bg" data-toggle="modal" data-target="#exampleModalCenter-10" aria-label="Close" data-dismiss="modal"><i class="far fa-trash-alt"></i> حذف </button>
+                                        <button type="submit" class="btn no-bg"><i class="far fa-trash-alt"></i> حذف </button>
                                     </div>
                                 </div>
                             </div>

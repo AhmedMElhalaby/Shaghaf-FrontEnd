@@ -27,7 +27,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mb-5">
+                <div class="row">
                     <div class="col-lg-2"></div>
                      <div class="col-lg-8 p-0">
                      <div class="row p-balance">            
@@ -52,6 +52,11 @@
                     </div>                
                      </div>
                      <div class="col-lg-2"></div>   
+                </div>
+                <div class="row">
+                   <div class="col-lg-5"></div>
+                    <div class="col-lg-2"> <button type="submit" class="btn">طلب تحصيل</button></div>
+                    <div class="col-lg-5"></div>
                 </div>
             </div>
         </div>

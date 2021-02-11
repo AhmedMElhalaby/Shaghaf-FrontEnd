@@ -1744,7 +1744,7 @@ select:-moz-focusring {
 }
 .financial-operations .p-balance{
     padding-top: 2rem;
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
 }
 .financial-operations .balance span{
     font-weight: bold
@@ -1778,4 +1778,10 @@ select:-moz-focusring {
     color: #979797;
     background-color: transparent;
     margin: 0
+}
+.financial-operations button{
+    border: 1px solid;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 4rem
 }
