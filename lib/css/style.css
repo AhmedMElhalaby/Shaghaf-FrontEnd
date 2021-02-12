@@ -1785,3 +1785,30 @@ select:-moz-focusring {
     width: 100%;
     margin-bottom: 4rem
 }
+.financial-operations .modal-tab,.financial-operations .modal-tab li{
+    padding: 0!important
+}
+.financial-operations .modal-tab .nav-pills .nav-link.active,.financial-operations .modal-tab .nav-pills .show>.nav-link,.financial-operations .modal-tab ul a,.financial-operations .modal-tab{
+    color: #000;
+    font-size: 0.9rem
+}
+.financial-operations .modal-tab{
+    background-color: #eee;
+    border: none
+}
+.collection-request h5{
+    padding: 20px 0px 0px;
+    margin-bottom: 0;   
+}
+.collection-request .secound-m .vc-m{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FEE101;   
+}
+.collection-request .model-img{
+    padding: 0
+}
+.collection-request .modal-body .tab-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
