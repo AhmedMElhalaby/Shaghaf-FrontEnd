@@ -74,7 +74,7 @@
                 <div class="row">
                     <div class="col-lg-3 login100-pic js-tilt" data-tilt>
                         <div class="service" onclick="location.href='our-serve.php';">
-                            <img class="img-thumbnail" src="lib/img/aaa.svg" alt="">
+                            <img src="lib/img/s-1.svg" alt="">
                             <p>التصميم الجرافيكي</p>
                         </div>
                     </div>
