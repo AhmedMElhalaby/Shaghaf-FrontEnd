@@ -74,7 +74,7 @@
                 <div class="row">
                     <div class="col-lg-3 login100-pic js-tilt" data-tilt>
                         <div class="service" onclick="location.href='our-serve.php';">
-                            <img src="lib/img/s-1.svg" alt="">
+                            <img class="img-thumbnail" src="lib/img/aaa.svg" alt="">
                             <p>التصميم الجرافيكي</p>
                         </div>
                     </div>
@@ -117,7 +117,7 @@
                             </div>
                         </div>
                     </div>
-<!--
+
                     <div id="carouselExampleControls-1" class="carousel slide" data-ride="carousel">
                         <div class="container">
                             <div class="carousel-inner">
@@ -472,8 +472,8 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
--->
-<!-- Set up your HTML -->
+
+<!--
 <div class="container">
 <div class="owl-carousel owl-theme">
  
@@ -659,6 +659,7 @@
 </div>
 
                </div>
+-->
                
                 </div>
             </div>

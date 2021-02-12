@@ -14,8 +14,8 @@
             <div class="our-services">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i></a></li>
-                        <li class="breadcrumb-item"><a href="#">خدماتنا</a></li>
+                        <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home"></i></a></li>
+                        <li class="breadcrumb-item"><a href="our-serve.php">خدماتنا</a></li>
                         <li class="breadcrumb-item active" aria-current="page">التصميم الجرافيكي</li>
                     </ol>
                 </nav>
@@ -30,7 +30,7 @@
                     <div class="row">
                         <div class="col-lg-3">
 
-                            <div class="card" onclick="location.href='#';">
+                            <div class="card" onclick="location.href='service-user.php';">
                                 <div class="img-o-h">
                                     <div class="order-card-img">
                                         <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
@@ -57,7 +57,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3">
-                            <div class="card" onclick="location.href='#';">
+                            <div class="card" onclick="location.href='service-user.php';">
                                 <div class="img-o-h">
                                     <div class="order-card-img">
                                         <img class="card-img-top" src="lib/img/m-2.svg" alt="Card image cap">
@@ -84,7 +84,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3">
-                            <div class="card" onclick="location.href='#';">
+                            <div class="card" onclick="location.href='service-user.php';">
                                 <div class="img-o-h">
                                     <div class="order-card-img">
                                         <img class="card-img-top" src="lib/img/m-3.svg" alt="Card image cap">
@@ -111,7 +111,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3">
-                            <div class="card" onclick="location.href='#';">
+                            <div class="card" onclick="location.href='service-user.php';">
                                 <div class="img-o-h">
                                     <div class="order-card-img">
                                         <img class="card-img-top" src="lib/img/m-4.svg" alt="Card image cap">
@@ -141,7 +141,7 @@
                     <div class="row">
                         <div class="col-lg-3">
 
-                            <div class="card" onclick="location.href='#';">
+                            <div class="card" onclick="location.href='service-user.php';">
                                 <div class="img-o-h">
                                     <div class="order-card-img">
                                         <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
@@ -168,7 +168,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3">
-                            <div class="card" onclick="location.href='#';">
+                            <div class="card" onclick="location.href='service-user.php';">
                                 <div class="img-o-h">
                                     <div class="order-card-img">
                                         <img class="card-img-top" src="lib/img/m-2.svg" alt="Card image cap">
@@ -195,7 +195,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3">
-                            <div class="card" onclick="location.href='#';">
+                            <div class="card" onclick="location.href='service-user.php';">
                                 <div class="img-o-h">
                                     <div class="order-card-img">
                                         <img class="card-img-top" src="lib/img/m-3.svg" alt="Card image cap">
@@ -222,7 +222,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3">
-                            <div class="card" onclick="location.href='#';">
+                            <div class="card" onclick="location.href='service-user.php';">
                                 <div class="img-o-h">
                                     <div class="order-card-img">
                                         <img class="card-img-top" src="lib/img/m-4.svg" alt="Card image cap">

@@ -60,16 +60,16 @@
                                             <div class="carousel-item active">
                                                 <div class="row">
                                                     <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-1.svg" alt=""></a>
+                                                        <img src="lib/img/p-w-1.svg" alt="">
                                                     </div>
                                                     <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-2.svg" alt=""></a>
+                                                        <img src="lib/img/p-w-2.svg" alt="">
                                                     </div>
                                                     <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-3.svg" alt=""></a>
+                                                        <img src="lib/img/p-w-3.svg" alt="">
                                                     </div>
                                                     <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-1.svg" alt=""></a>
+                                                        <img src="lib/img/p-w-1.svg" alt="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -77,64 +77,64 @@
                                             <div class="carousel-item">
                                                 <div class="row">
                                                     <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-1.svg" alt=""></a>
+                                                        <img src="lib/img/p-w-1.svg" alt="">
                                                     </div>
                                                     <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-2.svg" alt=""></a>
+                                                        <img src="lib/img/p-w-2.svg" alt="">
                                                     </div>
                                                     <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-3.svg" alt=""></a>
+                                                        <img src="lib/img/p-w-3.svg" alt="">
                                                     </div>
                                                     <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-1.svg" alt=""></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                <div class="row">
-                                                    <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-1.svg" alt=""></a>
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-2.svg" alt=""></a>
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-3.svg" alt=""></a>
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-1.svg" alt=""></a>
+                                                        <img src="lib/img/p-w-1.svg" alt="">
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="carousel-item">
                                                 <div class="row">
                                                     <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-1.svg" alt=""></a>
+                                                        <img src="lib/img/p-w-1.svg" alt="">
                                                     </div>
                                                     <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-2.svg" alt=""></a>
+                                                        <img src="lib/img/p-w-2.svg" alt="">
                                                     </div>
                                                     <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-3.svg" alt=""></a>
+                                                        <img src="lib/img/p-w-3.svg" alt="">
                                                     </div>
                                                     <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-1.svg" alt=""></a>
+                                                        <img src="lib/img/p-w-1.svg" alt="">
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="carousel-item">
                                                 <div class="row">
                                                     <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-1.svg" alt=""></a>
+                                                        <img src="lib/img/p-w-1.svg" alt="">
                                                     </div>
                                                     <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-2.svg" alt=""></a>
+                                                        <img src="lib/img/p-w-2.svg" alt="">
                                                     </div>
                                                     <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-3.svg" alt=""></a>
+                                                        <img src="lib/img/p-w-3.svg" alt="">
                                                     </div>
                                                     <div class="col-lg-3">
-                                                        <a href=""><img src="lib/img/p-w-1.svg" alt=""></a>
+                                                        <img src="lib/img/p-w-1.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="row">
+                                                    <div class="col-lg-3">
+                                                        <img src="lib/img/p-w-1.svg" alt="">
+                                                    </div>
+                                                    <div class="col-lg-3">
+                                                        <img src="lib/img/p-w-2.svg" alt="">
+                                                    </div>
+                                                    <div class="col-lg-3">
+                                                        <img src="lib/img/p-w-3.svg" alt="">
+                                                    </div>
+                                                    <div class="col-lg-3">
+                                                        <img src="lib/img/p-w-1.svg" alt="">
                                                     </div>
                                                 </div>
                                             </div>

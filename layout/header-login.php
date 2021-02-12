@@ -38,13 +38,13 @@
          <i class="fas fa-chevron-down"></i><span>صلاح الدين بن محمد حمدان</span>
         </a>
         <div class="dropdown-menu" id="MyAccountDropdown" aria-labelledby="MyAccount">
-          <a class="dropdown-item" href="#">حسابي</a>
+          <a class="dropdown-item" href="my-account.php">حسابي</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">خدماتي</a>
+          <a class="dropdown-item" href="our-serve.php">خدماتي</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">عملياتي المالية</a>
+          <a class="dropdown-item" href="financial-operations.php">عملياتي المالية</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">تسجيل خروج</a>
+          <a class="dropdown-item" href="index.php">تسجيل خروج</a>
         </div>
                                         </div>
                                     </div>
