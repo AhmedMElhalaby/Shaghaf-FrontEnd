@@ -47,6 +47,7 @@
                                            </span>
                                        </div>
                                        <div class="cart-counter">
+                                       1
                                        </div>
                                        <div class="remove-from-cart">
                                            <span>
