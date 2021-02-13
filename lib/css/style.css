@@ -1812,3 +1812,87 @@ select:-moz-focusring {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+/** Confirm Order Page **/
+.confirm-order{
+    border: 1px solid transparent;
+    margin: 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px -3px #707070;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.confirm-order img{
+    border: 2px solid #FEE101;
+    border-radius: 17px;  
+}
+.confirm-order-content{
+    text-align: right;
+}
+.confirm-order-content h5{
+    margin-bottom: 1rem;
+    font-size: 1.1rem
+}
+.confirm-order-content p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #919191;
+    text-align: right;
+    margin-bottom: 1rem;
+
+}
+.confirm-order-content span{
+    color: #FEE101;
+    font-weight: bold;
+}
+.count-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap
+}
+.cart-counter{
+    margin-top: 1rem !important;
+    margin-bottom: 1rem;
+    min-height: 25px
+}
+.count-card span{
+    cursor: pointer
+}
+.count-card span i{
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #FEE101;
+}
+.confirm-order-page label{
+    font-weight: bold;
+    display: flex;
+    width: 100%
+}
+.confirm-order-page label img{
+    width: 4%;
+    margin-left: 10px
+}
+.total-price{
+    padding: 30px 0px 20px;
+    border-bottom: 1px;
+    border-bottom: 1px dashed #B3B5B4;
+    margin: 0 15px;
+}
+.total-price h6,.total-price p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.total-price h6{
+    text-align: right;
+    padding-right: 0
+}
+.total-price p{
+    text-align: left;
+    color: #FEE101;
+    padding-left: 0;
+}

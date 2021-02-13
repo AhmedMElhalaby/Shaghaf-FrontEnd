@@ -8,6 +8,7 @@
 
 <body>
     <?php include('layout/header-login.php') ?>
+    <?php include('modals/confirm-order.php') ?>
     <!-- start wrapper -->
     <div class="wrapper">
         <div class="container">
@@ -196,7 +197,7 @@
                                     <div class="col-lg-6"><span class="count count-pr">300 ر.س</span></div>
                                      <div class="col-lg-3"></div>
                                 </div>
-                                <a href="#" class="btn pro-ser-button">أطلب الان</a>
+                                <a href="#" class="btn pro-ser-button" data-toggle="modal" data-target="#exampleModalCenter-12"  aria-label="Close" data-dismiss="modal">أطلب الان</a>
                             </div>
                         </div>
                     </div>
@@ -217,7 +218,7 @@
                                     <div class="col-lg-6"><span class="count count-pr">300 ر.س</span></div>
                                      <div class="col-lg-3"></div>
                                 </div>
-                                <a href="#" class="btn pro-ser-button">أطلب الان</a>
+                                <a href="#" class="btn pro-ser-button" data-toggle="modal" data-target="#exampleModalCenter-12"  aria-label="Close" data-dismiss="modal">أطلب الان</a>
                             </div>
                         </div>
                     </div>
@@ -238,7 +239,7 @@
                                     <div class="col-lg-6"><span class="count count-pr">300 ر.س</span></div>
                                      <div class="col-lg-3"></div>
                                 </div>
-                                <a href="#" class="btn pro-ser-button">أطلب الان</a>
+                                <a href="#" class="btn pro-ser-button" data-toggle="modal" data-target="#exampleModalCenter-12"  aria-label="Close" data-dismiss="modal">أطلب الان</a>
                             </div>
                         </div>
                     </div>
@@ -259,7 +260,7 @@
                                     <div class="col-lg-6"><span class="count count-pr">300 ر.س</span></div>
                                      <div class="col-lg-3"></div>
                                 </div>
-                                <a href="#" class="btn pro-ser-button">أطلب الان</a>
+                                <a href="#" class="btn pro-ser-button" data-toggle="modal" data-target="#exampleModalCenter-12"  aria-label="Close" data-dismiss="modal">أطلب الان</a>
                             </div>
                         </div>
                     </div>
@@ -280,7 +281,7 @@
                                     <div class="col-lg-6"><span class="count count-pr">300 ر.س</span></div>
                                      <div class="col-lg-3"></div>
                                 </div>
-                                <a href="#" class="btn pro-ser-button">أطلب الان</a>
+                                <a href="#" class="btn pro-ser-button" data-toggle="modal" data-target="#exampleModalCenter-12"  aria-label="Close" data-dismiss="modal">أطلب الان</a>
                             </div>
                         </div>
                     </div>
@@ -301,7 +302,7 @@
                                     <div class="col-lg-6"><span class="count count-pr">300 ر.س</span></div>
                                      <div class="col-lg-3"></div>
                                 </div>
-                                <a href="#" class="btn pro-ser-button">أطلب الان</a>
+                                <a href="#" class="btn pro-ser-button" data-toggle="modal" data-target="#exampleModalCenter-12"  aria-label="Close" data-dismiss="modal">أطلب الان</a>
                             </div>
                         </div>
                     </div>
@@ -322,7 +323,7 @@
                                     <div class="col-lg-6"><span class="count count-pr">300 ر.س</span></div>
                                      <div class="col-lg-3"></div>
                                 </div>
-                                <a href="#" class="btn pro-ser-button">أطلب الان</a>
+                                <a href="#" class="btn pro-ser-button" data-toggle="modal" data-target="#exampleModalCenter-12"  aria-label="Close" data-dismiss="modal">أطلب الان</a>
                             </div>
                         </div>
                     </div>
@@ -343,7 +344,7 @@
                                     <div class="col-lg-6"><span class="count count-pr">300 ر.س</span></div>
                                      <div class="col-lg-3"></div>
                                 </div>
-                                <a href="#" class="btn pro-ser-button">أطلب الان</a>
+                                <a href="#" class="btn pro-ser-button" data-toggle="modal" data-target="#exampleModalCenter-12"  aria-label="Close" data-dismiss="modal">أطلب الان</a>
                             </div>
                         </div>
                     </div>
