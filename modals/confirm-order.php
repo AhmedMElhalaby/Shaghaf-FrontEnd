@@ -13,7 +13,7 @@
                        <input type="date" class="form-control" id="formGroupExampleInput" placeholder="05873131316">
                    </div>
                    <div class="form-group">
-                       <label for="formGroupExampleInput"><img src="lib/img/clock-1.svg" alt=""> رقم الايبان</label>
+                       <label for="formGroupExampleInput"><img src="lib/img/clock-1.svg" alt=""> توقيت التسليم</label>
                        <input type="number" class="form-control" id="formGroupExampleInput" placeholder="05873131316">
                    </div>
                    <div class="form-group">
