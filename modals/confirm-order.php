@@ -14,7 +14,7 @@
                    </div>
                    <div class="form-group">
                        <label for="formGroupExampleInput"><img src="lib/img/clock-1.svg" alt=""> توقيت التسليم</label>
-                       <input type="number" class="form-control" id="formGroupExampleInput" placeholder="05873131316">
+                       <input type="time" class="form-control" id="formGroupExampleInput" placeholder="05873131316">
                    </div>
                    <div class="form-group">
                        <label for="exampleFormControlTextarea1"><img src="lib/img/chat%20(1).svg" alt=""> الملاحظات</label>
