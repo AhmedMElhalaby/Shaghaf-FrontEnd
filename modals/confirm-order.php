@@ -10,7 +10,7 @@
                <div class="modal-body secound-m">
                    <div class="form-group">
                        <label for="formGroupExampleInput"><img src="lib/img/calendar%20(1).svg" alt=""> تاريخ التسليم</label>
-                       <input type="number" class="form-control" id="formGroupExampleInput" placeholder="05873131316">
+                       <input type="date" class="form-control" id="formGroupExampleInput" placeholder="05873131316">
                    </div>
                    <div class="form-group">
                        <label for="formGroupExampleInput"><img src="lib/img/clock-1.svg" alt=""> رقم الايبان</label>
