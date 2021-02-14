@@ -22,7 +22,7 @@
                 </nav>
                 <div class="row justify-content-end">
                     <div class="add-serv col-lg-2">
-                        <button type="submit" class="btn" data-toggle="modal" data-target="#exampleModalCenter-9" aria-label="Close" data-dismiss="modal"><i class="fas fa-plus-circle"></i> إضافة خدمة</button>
+                        <button type="submit" class="btn button" data-toggle="modal" data-target="#exampleModalCenter-9" aria-label="Close" data-dismiss="modal"><i class="fas fa-plus-circle"></i> إضافة خدمة</button>
                     </div>
                 </div>
                 <div class="row mb-5">

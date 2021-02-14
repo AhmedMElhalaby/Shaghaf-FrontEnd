@@ -28,7 +28,7 @@
   </div>
                      </form>
                       <div class="tab-button">
-                          <button type="submit" class="btn">تقييم</button>
+                          <button type="submit" class="btn button">تقييم</button>
                       </div>
                   </div>
               </div>
