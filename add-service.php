@@ -43,10 +43,10 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <button type="submit" class="btn" data-toggle="modal" data-target="#exampleModalCenter-9" aria-label="Close" data-dismiss="modal"><i class="fas fa-pen" ></i> تعديل </button>
+                                        <button type="submit" class="btn button" data-toggle="modal" data-target="#exampleModalCenter-9" aria-label="Close" data-dismiss="modal"><i class="fas fa-pen" ></i> تعديل </button>
                                     </div>
                                     <div class="col-lg-6">
-                                        <button type="submit" class="btn no-bg"><i class="far fa-trash-alt"></i> حذف </button>
+                                        <button type="submit" class="btn no-bg button"><i class="far fa-trash-alt"></i> حذف </button>
                                     </div>
                                 </div>
                             </div>
