@@ -1512,7 +1512,8 @@ input[type=number] {
   color: #5f6982;
 }
 .uploader div img {
-  max-height: 70px
+  max-height: 70px;
+    width: 100%
 }
 .uploader .btn {
   display: inline-block;
