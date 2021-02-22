@@ -521,7 +521,7 @@ ul{
     background-image: url(../img/most-wanted.svg);
     background-clip: content-box;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .co-p{
     padding: 60px 0;

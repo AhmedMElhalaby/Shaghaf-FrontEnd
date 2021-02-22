@@ -9,6 +9,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="lib/css/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="lib/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/css/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="lib/css/style.css"><!-- main style -->
     <link rel="stylesheet" type="text/css" href="lib/css/responsive.css"><!-- responsive style -->
     <script src="lib/js/head.js"></script>
