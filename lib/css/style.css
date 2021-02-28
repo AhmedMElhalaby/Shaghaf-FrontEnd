@@ -2001,7 +2001,7 @@ Start Chats Page
 }
 .d-flex-chat{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center
 }
 .chat-upload-img,.upload-voice a{
@@ -2010,6 +2010,9 @@ Start Chats Page
 }
 .chat-button button{
     font-size: 1.5rem;
+}
+.chat-button button i{
+    height: 100%
 }
 .chat-button button,.write-m-chat textarea{
     width: 100%;
