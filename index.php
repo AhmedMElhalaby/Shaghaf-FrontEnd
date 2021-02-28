@@ -117,367 +117,8 @@
                             </div>
                         </div>
                     </div>
-
-                    <div id="carouselExampleControls-1" class="carousel slide" data-ride="carousel">
-                        <div class="container">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="row">
-                                        <div class="col-lg-3">
-
-                                            <div class="card" onclick="location.href='#';">
-                                                <div class="img-o-h">
-                                                    <div class="order-card-img">
-                                                        <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
-                                                    </div>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4>عبدالله جرغون</h4>
-                                                    <p class="card-text">مصمم جرافيك</p>
-                                                </div>
-                                                <div class="card-footer">
-                                                    <div class="row">
-                                                        <div class="col-3 p-0"><span><i class="fas fa-map-marker-alt"></i> الرياض</span></div>
-                                                        <div class="col-3 p-0"><span><i class="fas fa-user"></i> شخصي</span></div>
-                                                        <div class="col-lg-2"></div>
-                                                        <div class="col-4 star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="card" onclick="location.href='#';">
-                                                <div class="img-o-h">
-                                                    <div class="order-card-img">
-                                                        <img class="card-img-top" src="lib/img/m-2.svg" alt="Card image cap">
-                                                    </div>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4>عبدالله جرغون</h4>
-                                                    <p class="card-text">مصمم جرافيك</p>
-                                                </div>
-                                                <div class="card-footer">
-                                                    <div class="row">
-                                                        <div class="col-3 p-0"><span><i class="fas fa-map-marker-alt"></i> الرياض</span></div>
-                                                        <div class="col-3 p-0"><span><i class="fas fa-user"></i> شخصي</span></div>
-                                                        <div class="col-lg-2"></div>
-                                                        <div class="col-4 star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="card" onclick="location.href='#';">
-                                                <div class="img-o-h">
-                                                    <div class="order-card-img">
-                                                        <img class="card-img-top" src="lib/img/m-3.svg" alt="Card image cap">
-                                                    </div>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4>عبدالله جرغون</h4>
-                                                    <p class="card-text">مصمم جرافيك</p>
-                                                </div>
-                                                <div class="card-footer">
-                                                    <div class="row">
-                                                        <div class="col-3 p-0"><span><i class="fas fa-map-marker-alt"></i> الرياض</span></div>
-                                                        <div class="col-3 p-0"><span><i class="fas fa-user"></i> شخصي</span></div>
-                                                        <div class="col-lg-2"></div>
-                                                        <div class="col-4 star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="card" onclick="location.href='#';">
-                                                <div class="img-o-h">
-                                                    <div class="order-card-img">
-                                                        <img class="card-img-top" src="lib/img/m-4.svg" alt="Card image cap">
-                                                    </div>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4>عبدالله جرغون</h4>
-                                                    <p class="card-text">مصمم جرافيك</p>
-                                                </div>
-                                                <div class="card-footer">
-                                                    <div class="row">
-                                                        <div class="col-3 p-0"><span><i class="fas fa-map-marker-alt"></i> الرياض</span></div>
-                                                        <div class="col-3 p-0"><span><i class="fas fa-user"></i> شخصي</span></div>
-                                                        <div class="col-lg-2"></div>
-                                                        <div class="col-4 star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="card" onclick="location.href='#';">
-                                                <div class="img-o-h">
-                                                    <div class="order-card-img">
-                                                        <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
-                                                    </div>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4>عبدالله جرغون</h4>
-                                                    <p class="card-text">مصمم جرافيك</p>
-                                                </div>
-                                                <div class="card-footer">
-                                                    <div class="row">
-                                                        <div class="col-3 p-0"><span><i class="fas fa-map-marker-alt"></i> الرياض</span></div>
-                                                        <div class="col-3 p-0"><span><i class="fas fa-user"></i> شخصي</span></div>
-                                                        <div class="col-lg-2"></div>
-                                                        <div class="col-4 star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="card" onclick="location.href='#';">
-                                                <div class="img-o-h">
-                                                    <div class="order-card-img">
-                                                        <img class="card-img-top" src="lib/img/m-2.svg" alt="Card image cap">
-                                                    </div>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4>عبدالله جرغون</h4>
-                                                    <p class="card-text">مصمم جرافيك</p>
-                                                </div>
-                                                <div class="card-footer">
-                                                    <div class="row">
-                                                        <div class="col-3 p-0"><span><i class="fas fa-map-marker-alt"></i> الرياض</span></div>
-                                                        <div class="col-3 p-0"><span><i class="fas fa-user"></i> شخصي</span></div>
-                                                        <div class="col-lg-2"></div>
-                                                        <div class="col-4 star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="card" onclick="location.href='#';">
-                                                <div class="img-o-h">
-                                                    <div class="order-card-img">
-                                                        <img class="card-img-top" src="lib/img/m-3.svg" alt="Card image cap">
-                                                    </div>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4>عبدالله جرغون</h4>
-                                                    <p class="card-text">مصمم جرافيك</p>
-                                                </div>
-                                                <div class="card-footer">
-                                                    <div class="row">
-                                                        <div class="col-3 p-0"><span><i class="fas fa-map-marker-alt"></i> الرياض</span></div>
-                                                        <div class="col-3 p-0"><span><i class="fas fa-user"></i> شخصي</span></div>
-                                                        <div class="col-lg-2"></div>
-                                                        <div class="col-4 star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="card" onclick="location.href='#';">
-                                                <div class="img-o-h">
-                                                    <div class="order-card-img">
-                                                        <img class="card-img-top" src="lib/img/m-4.svg" alt="Card image cap">
-                                                    </div>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4>عبدالله جرغون</h4>
-                                                    <p class="card-text">مصمم جرافيك</p>
-                                                </div>
-                                                <div class="card-footer">
-                                                    <div class="row">
-                                                        <div class="col-3 p-0"><span><i class="fas fa-map-marker-alt"></i> الرياض</span></div>
-                                                        <div class="col-3 p-0"><span><i class="fas fa-user"></i> شخصي</span></div>
-                                                        <div class="col-lg-2"></div>
-                                                        <div class="col-4 star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="card" onclick="location.href='#';">
-                                                <div class="img-o-h">
-                                                    <div class="order-card-img">
-                                                        <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
-                                                    </div>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4>عبدالله جرغون</h4>
-                                                    <p class="card-text">مصمم جرافيك</p>
-                                                </div>
-                                                <div class="card-footer">
-                                                    <div class="row">
-                                                        <div class="col-3 p-0"><span><i class="fas fa-map-marker-alt"></i> الرياض</span></div>
-                                                        <div class="col-3 p-0"><span><i class="fas fa-user"></i> شخصي</span></div>
-                                                        <div class="col-lg-2"></div>
-                                                        <div class="col-4 star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="card" onclick="location.href='#';">
-                                                <div class="img-o-h">
-                                                    <div class="order-card-img">
-                                                        <img class="card-img-top" src="lib/img/m-2.svg" alt="Card image cap">
-                                                    </div>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4>عبدالله جرغون</h4>
-                                                    <p class="card-text">مصمم جرافيك</p>
-                                                </div>
-                                                <div class="card-footer">
-                                                    <div class="row">
-                                                        <div class="col-3 p-0"><span><i class="fas fa-map-marker-alt"></i> الرياض</span></div>
-                                                        <div class="col-3 p-0"><span><i class="fas fa-user"></i> شخصي</span></div>
-                                                        <div class="col-lg-2"></div>
-                                                        <div class="col-4 star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="card" onclick="location.href='#';">
-                                                <div class="img-o-h">
-                                                    <div class="order-card-img">
-                                                        <img class="card-img-top" src="lib/img/m-3.svg" alt="Card image cap">
-                                                    </div>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4>عبدالله جرغون</h4>
-                                                    <p class="card-text">مصمم جرافيك</p>
-                                                </div>
-                                                <div class="card-footer">
-                                                    <div class="row">
-                                                        <div class="col-3 p-0"><span><i class="fas fa-map-marker-alt"></i> الرياض</span></div>
-                                                        <div class="col-3 p-0"><span><i class="fas fa-user"></i> شخصي</span></div>
-                                                        <div class="col-lg-2"></div>
-                                                        <div class="col-4 star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="card" onclick="location.href='#';" s>
-                                                <div class="img-o-h">
-                                                    <div class="order-card-img">
-                                                        <img class="card-img-top" src="lib/img/m-4.svg" alt="Card image cap">
-                                                    </div>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4>عبدالله جرغون</h4>
-                                                    <p class="card-text">مصمم جرافيك</p>
-                                                </div>
-                                                <div class="card-footer">
-                                                    <div class="row">
-                                                        <div class="col-3 p-0"><span><i class="fas fa-map-marker-alt"></i> الرياض</span></div>
-                                                        <div class="col-3 p-0"><span><i class="fas fa-user"></i> شخصي</span></div>
-                                                        <div class="col-lg-2"></div>
-                                                        <div class="col-4 star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls-1" role="button" data-slide="prev">
-                            <span class="arow-s-l arow-s" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls-1" role="button" data-slide="next">
-                            <span class="arow-s-r arow-s" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-
-<!--
 <div class="container">
-<div class="owl-carousel owl-theme">
- 
-  <div>                                         
+<div class="your-class">                                      
 
                                             <div class="card" onclick="location.href='service-user.php';">
                                                 <div class="img-o-h">
@@ -504,8 +145,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div> 
-  <div>  <div class="card" onclick="location.href='service-user.php';">
+ <div class="card" onclick="location.href='service-user.php';">
                                                 <div class="img-o-h">
                                                     <div class="order-card-img">
                                                         <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
@@ -529,8 +169,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div> </div>
-  <div>  <div class="card" onclick="location.href='service-user.php';">
+                                            </div> 
+<div class="card" onclick="location.href='service-user.php';">
                                                 <div class="img-o-h">
                                                     <div class="order-card-img">
                                                         <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
@@ -554,8 +194,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div> </div>
-  <div>  <div class="card" onclick="location.href='service-user.php';">
+                                            </div> 
+<div class="card" onclick="location.href='service-user.php';">
                                                 <div class="img-o-h">
                                                     <div class="order-card-img">
                                                         <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
@@ -579,8 +219,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div> </div>
-  <div>  <div class="card" onclick="location.href='service-user.php';">
+                                            </div> 
+ <div class="card" onclick="location.href='service-user.php';">
                                                 <div class="img-o-h">
                                                     <div class="order-card-img">
                                                         <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
@@ -604,8 +244,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div> </div>
-  <div>  <div class="card" onclick="location.href='service-user.php';">
+                                            </div>
+<div class="card" onclick="location.href='service-user.php';">
                                                 <div class="img-o-h">
                                                     <div class="order-card-img">
                                                         <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
@@ -629,8 +269,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div> </div>
-  <div>  <div class="card" onclick="location.href='service-user.php';">
+                                            </div> 
+  <div class="card" onclick="location.href='service-user.php';">
                                                 <div class="img-o-h">
                                                     <div class="order-card-img">
                                                         <img class="card-img-top" src="lib/img/m-1.svg" alt="Card image cap">
@@ -654,20 +294,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div> </div>
-
-</div>
-
-               </div>
--->
-<div class="container">
-<div class="your-class">
-  <div>your content</div>
-  <div>your content</div>
-  <div>your content</div>
-  <div>your content</div>
-  <div>your content</div>
-  <div>your content</div>
+                                            </div>
 </div></div>
                
                 </div>
