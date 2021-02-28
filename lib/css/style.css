@@ -1971,6 +1971,25 @@ Start Chats Page
     width: 100%;
     margin-top: 1rem;
 }
+.chat-l img,.chat-l audio{
+    width: 100%
+}
+.b-r-half{
+    border-radius: 50%
+}
+.b-r-cus{
+    border-radius: 10px
+}
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload i
+{
+    width: 100%;
+    cursor: pointer;
+}
 /**  
 
 End Chats Page
