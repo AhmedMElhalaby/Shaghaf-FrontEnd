@@ -1908,6 +1908,9 @@ select:-moz-focusring {
 Start Chats Page 
 
 **/
+.chats{
+    padding-bottom: 3rem
+}
 .chats .chat-r img{
     width: 100%;
     border: 1px solid transparent;
@@ -1995,6 +1998,24 @@ Start Chats Page
 {
     width: 100%;
     cursor: pointer;
+}
+.d-flex-chat{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.chat-upload-img,.upload-voice a{
+    font-size: 1.5rem;
+    color: #FEE101
+}
+.chat-button button{
+    font-size: 1.5rem;
+}
+.chat-button button,.write-m-chat textarea{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: none;
 }
 /**  
 

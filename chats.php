@@ -145,25 +145,25 @@
                             <hr class="ml-0 mr-0">
                             <div class="row">
                                    <div class="col-lg-1"></div>
-                                    <div class="col-lg-1">
+                                    <div class="col-lg-1 d-flex-chat p-0 chat-button">
                                         <button type="submit">
                                             <i class="fas fa-paper-plane"></i>
                                         </button> 
                                     </div>
-                                    <div class="col-lg-7">
+                                    <div class="col-lg-7 p-0">
                                         <form>
-                                              <div class="form-group">
+                                              <div class="write-m-chat">
     <label style="display:none" for="exampleFormControlTextarea1"></label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="كتابة رسالة"></textarea>
   </div>
                                         </form>
                                     </div>
-                                    <div class="col-lg-1">
+                                    <div class="col-lg-1 d-flex-chat upload-voice">
                                         <a href="#">
                                             <i class="fas fa-microphone"></i>
                                         </a>
                                     </div>
-                                    <div class="col-lg-1">
+                                    <div class="col-lg-1 d-flex-chat chat-upload-img">
                                         <form>
 <div class="image-upload">
     <label for="file-input">
