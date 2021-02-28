@@ -367,15 +367,21 @@ ul{
 /** The Most Wanted Section **/
 
 .order-card-img{
-    padding: 5px;
     border: 3px solid #fff;
     border-radius: 50%;
     width: 35%;
-    background-color: #FEE101;
+    background: #fff;
+    padding: 0;
     margin: auto;
     box-shadow: 0px 0px 0px 5px #fee101;
     z-index: 99999;
     transition: 0.4s ease-in-out
+}
+.order-card-img img{
+    border: 5px solid #FEE101;
+    border-radius: 50%;
+    width: 100%;
+    min-height: 5.2rem;
 }
 .most-wanted .card{
     background-color: transparent;
