@@ -274,7 +274,7 @@ ul{
     color: #000;
     border: 1px solid;
     border-radius: 50%;
-    font-size: 14px;
+    font-size: 1rem;
     padding: 5px 7px 5px 9px;
 }
 .slick-prev {
@@ -564,6 +564,9 @@ ul{
 .said-about-us{
     padding: 60px 0
 }
+.said-cur-p{
+    padding: 0 15px
+}
 .said-about-us p {
     text-align: start;
     margin-top: 20px
@@ -584,7 +587,9 @@ ul{
     padding-top: 5px
 }
 .o-h{
-    overflow: hidden
+    display: flex;
+    width: 100%;
+    justify-content: flex-start
 }
 .said-img{
     display: flex;
@@ -617,6 +622,9 @@ ul{
 }
 .said-about-us .carousel-inner{
     padding: 5px
+}
+.my-class{
+    width: 100%
 }
 .our-goals{
     background-image: url(../img/our-goals.svg);
@@ -985,6 +993,16 @@ input[type=number] {
     position: absolute;
     top: 5%;
     left: 5%;
+}
+.my-class .slick-next{
+    left: -3.59rem;
+    top: 9.9rem;
+    right: auto
+}
+.my-class .slick-prev{
+    left: -3.59rem;
+    top: 7.55rem;
+    right: auto;
 }
 .sevice-user .card-body p {
     border: 2px solid #000;

@@ -308,11 +308,73 @@
                         <p>عرض بعض مراجعات الزبائن في التعامل من منصة شغف</p>
                         <div class="row">
                             <div class="col-lg-11 o-h">
-                                <div id="carouselExampleControls-3" class="carousel slide" data-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <div class="row">
-                                                <div class="col-lg-4 text-center">
+                                
+                               <div class="my-class">
+                                 <div class="said-cur-p text-center">
+                                   <div class="b-sh">
+                                                        <div class="said-img">
+                                                            <img src="lib/img/said-1.svg" alt="">
+                                                        </div>
+                                                        <h4>Salah Khattab</h4>
+                                                        <p>من أجمل المواقع لشراء البطاقات من أجمل المواقع لطلب المشاريع بكل</p>
+                                                        <div class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                    <div class="said-cur-p text-center">
+                                   <div class="b-sh">
+                                                        <div class="said-img">
+                                                            <img src="lib/img/said-1.svg" alt="">
+                                                        </div>
+                                                        <h4>Salah Khattab</h4>
+                                                        <p>من أجمل المواقع لشراء البطاقات من أجمل المواقع لطلب المشاريع بكل</p>
+                                                        <div class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                    <div class="said-cur-p text-center">
+                                   <div class="b-sh">
+                                                        <div class="said-img">
+                                                            <img src="lib/img/said-1.svg" alt="">
+                                                        </div>
+                                                        <h4>Salah Khattab</h4>
+                                                        <p>من أجمل المواقع لشراء البطاقات من أجمل المواقع لطلب المشاريع بكل</p>
+                                                        <div class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                  <div class="said-cur-p text-center">
+                                   <div class="b-sh">
+                                                        <div class="said-img">
+                                                            <img src="lib/img/said-1.svg" alt="">
+                                                        </div>
+                                                        <h4>Salah Khattab</h4>
+                                                        <p>من أجمل المواقع لشراء البطاقات من أجمل المواقع لطلب المشاريع بكل</p>
+                                                        <div class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                    <div class="said-cur-p text-center">
                                                     <div class="b-sh">
                                                         <div class="said-img">
                                                             <img src="lib/img/said-1.svg" alt="">
@@ -327,45 +389,8 @@
                                                             <span class="fa fa-star"></span>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-lg-4 text-center">
-                                                    <div class="b-sh">
-                                                        <div class="said-img">
-                                                            <img src="lib/img/said-2.svg" alt="">
-                                                        </div>
-                                                        <h4>Salah Khattab</h4>
-                                                        <p>من أجمل المواقع لشراء البطاقات من أجمل المواقع لطلب المشاريع بكل</p>
-                                                        <div class="star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 text-center">
-                                                    <div class="b-sh">
-                                                        <div class="said-img">
-                                                            <img src="lib/img/said-3.svg" alt="">
-                                                        </div>
-                                                        <h4>Salah Khattab</h4>
-                                                        <p>من أجمل المواقع لشراء البطاقات من أجمل المواقع لطلب المشاريع بكل</p>
-                                                        <div class="star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="carousel-item">
-                                            <div class="row">
-                                                <div class="col-lg-4 text-center">
+                                   </div>
+                                                   <div class="said-cur-p text-center">
                                                     <div class="b-sh">
                                                         <div class="said-img">
                                                             <img src="lib/img/said-1.svg" alt="">
@@ -380,212 +405,11 @@
                                                             <span class="fa fa-star"></span>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-lg-4 text-center">
-                                                    <div class="b-sh">
-                                                        <div class="said-img">
-                                                            <img src="lib/img/said-2.svg" alt="">
-                                                        </div>
-                                                        <h4>Salah Khattab</h4>
-                                                        <p>من أجمل المواقع لشراء البطاقات من أجمل المواقع لطلب المشاريع بكل</p>
-                                                        <div class="star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 text-center">
-                                                    <div class="b-sh">
-                                                        <div class="said-img">
-                                                            <img src="lib/img/said-3.svg" alt="">
-                                                        </div>
-                                                        <h4>Salah Khattab</h4>
-                                                        <p>من أجمل المواقع لشراء البطاقات من أجمل المواقع لطلب المشاريع بكل</p>
-                                                        <div class="star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <div class="row">
-                                                <div class="col-lg-4 text-center">
-                                                    <div class="b-sh">
-                                                        <div class="said-img">
-                                                            <img src="lib/img/said-1.svg" alt="">
-                                                        </div>
-                                                        <h4>Salah Khattab</h4>
-                                                        <p>من أجمل المواقع لشراء البطاقات من أجمل المواقع لطلب المشاريع بكل</p>
-                                                        <div class="star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 text-center">
-                                                    <div class="b-sh">
-                                                        <div class="said-img">
-                                                            <img src="lib/img/said-2.svg" alt="">
-                                                        </div>
-                                                        <h4>Salah Khattab</h4>
-                                                        <p>من أجمل المواقع لشراء البطاقات من أجمل المواقع لطلب المشاريع بكل</p>
-                                                        <div class="star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 text-center">
-                                                    <div class="b-sh">
-                                                        <div class="said-img">
-                                                            <img src="lib/img/said-3.svg" alt="">
-                                                        </div>
-                                                        <h4>Salah Khattab</h4>
-                                                        <p>من أجمل المواقع لشراء البطاقات من أجمل المواقع لطلب المشاريع بكل</p>
-                                                        <div class="star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <div class="row">
-                                                <div class="col-lg-4 text-center">
-                                                    <div class="b-sh">
-                                                        <div class="said-img">
-                                                            <img src="lib/img/said-1.svg" alt="">
-                                                        </div>
-                                                        <h4>Salah Khattab</h4>
-                                                        <p>من أجمل المواقع لشراء البطاقات من أجمل المواقع لطلب المشاريع بكل</p>
-                                                        <div class="star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 text-center">
-                                                    <div class="b-sh">
-                                                        <div class="said-img">
-                                                            <img src="lib/img/said-2.svg" alt="">
-                                                        </div>
-                                                        <h4>Salah Khattab</h4>
-                                                        <p>من أجمل المواقع لشراء البطاقات من أجمل المواقع لطلب المشاريع بكل</p>
-                                                        <div class="star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 text-center">
-                                                    <div class="b-sh">
-                                                        <div class="said-img">
-                                                            <img src="lib/img/said-3.svg" alt="">
-                                                        </div>
-                                                        <h4>Salah Khattab</h4>
-                                                        <p>من أجمل المواقع لشراء البطاقات من أجمل المواقع لطلب المشاريع بكل</p>
-                                                        <div class="star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <div class="row">
-                                                <div class="col-lg-4 text-center">
-                                                    <div class="b-sh">
-                                                        <div class="said-img">
-                                                            <img src="lib/img/said-1.svg" alt="">
-                                                        </div>
-                                                        <h4>Salah Khattab</h4>
-                                                        <p>من أجمل المواقع لشراء البطاقات من أجمل المواقع لطلب المشاريع بكل</p>
-                                                        <div class="star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 text-center">
-                                                    <div class="b-sh">
-                                                        <div class="said-img">
-                                                            <img src="lib/img/said-2.svg" alt="">
-                                                        </div>
-                                                        <h4>Salah Khattab</h4>
-                                                        <p>من أجمل المواقع لشراء البطاقات من أجمل المواقع لطلب المشاريع بكل</p>
-                                                        <div class="star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 text-center">
-                                                    <div class="b-sh">
-                                                        <div class="said-img">
-                                                            <img src="lib/img/said-3.svg" alt="">
-                                                        </div>
-                                                        <h4>Salah Khattab</h4>
-                                                        <p>من أجمل المواقع لشراء البطاقات من أجمل المواقع لطلب المشاريع بكل</p>
-                                                        <div class="star">
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star checked"></span>
-                                                            <span class="fa fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
+                                   </div>
+                                                    
+                               </div>
                             </div>
-                            <div class="col-lg-1">
-                                <a class="carousel-control-prev" href="#carouselExampleControls-3" role="button" data-slide="prev">
-                                    <span class="arow-s-l arow-s" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleControls-3" role="button" data-slide="next">
-                                    <span class="arow-s-r arow-s" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
+
                         </div>
                     </div>
                     <div class="col-lg-3 login100-pic js-tilt" data-tilt><img class="w-100" src="lib/img/said-about.svg" alt=""></div>
