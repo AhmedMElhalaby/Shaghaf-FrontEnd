@@ -2,9 +2,9 @@
 <html>
 <head>
     <title>الصفحة الرئيسية</title><!-- site title-->
-    <?php include('layout/style.php') ?>
+        <?php include('layout/style.php') ?>
 </head>
-<body onload="myFunction()">
+<body>
     <?php include('layout/header.php') ?>
     <?php include('modals/login-register.php') ?>
     <?php include('modals/forgot-password.php') ?>
