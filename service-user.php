@@ -52,110 +52,39 @@
                         </div>
                     </div>
                     <div class="col-lg-8">
-                        <div class="row">
                             <div class="pre-works said-about-us">
-                                <div class="col-lg-11 o-h">
-                                    <h6>الأعمال السابقة</h6>
-                                    <div id="carouselExampleControls-4" class="carousel slide" data-ride="carousel">
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                                <div class="row">
-                                                    <div class="col-lg-3">
+                                <div class="o-h">
+                                    <h6 class="col-lg-2">الأعمال السابقة</h6>
+                                    <div class="col-lg-9 p-0">
+                                    <div class="last-class">
+                                                    <div class="image-lc">
                                                         <img src="lib/img/p-w-1.svg" alt="">
                                                     </div>
-                                                    <div class="col-lg-3">
+                                                    <div class="image-lc">
                                                         <img src="lib/img/p-w-2.svg" alt="">
                                                     </div>
-                                                    <div class="col-lg-3">
+                                                    <div class="image-lc">
                                                         <img src="lib/img/p-w-3.svg" alt="">
                                                     </div>
-                                                    <div class="col-lg-3">
+                                                    <div class="image-lc">
                                                         <img src="lib/img/p-w-1.svg" alt="">
                                                     </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="carousel-item">
-                                                <div class="row">
-                                                    <div class="col-lg-3">
+                                                    <div class="image-lc">
                                                         <img src="lib/img/p-w-1.svg" alt="">
                                                     </div>
-                                                    <div class="col-lg-3">
+                                                    <div class="image-lc">
                                                         <img src="lib/img/p-w-2.svg" alt="">
                                                     </div>
-                                                    <div class="col-lg-3">
+                                                    <div class="image-lc">
                                                         <img src="lib/img/p-w-3.svg" alt="">
                                                     </div>
-                                                    <div class="col-lg-3">
+                                                    <div class="image-lc">
                                                         <img src="lib/img/p-w-1.svg" alt="">
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                <div class="row">
-                                                    <div class="col-lg-3">
-                                                        <img src="lib/img/p-w-1.svg" alt="">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <img src="lib/img/p-w-2.svg" alt="">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <img src="lib/img/p-w-3.svg" alt="">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <img src="lib/img/p-w-1.svg" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                <div class="row">
-                                                    <div class="col-lg-3">
-                                                        <img src="lib/img/p-w-1.svg" alt="">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <img src="lib/img/p-w-2.svg" alt="">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <img src="lib/img/p-w-3.svg" alt="">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <img src="lib/img/p-w-1.svg" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                <div class="row">
-                                                    <div class="col-lg-3">
-                                                        <img src="lib/img/p-w-1.svg" alt="">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <img src="lib/img/p-w-2.svg" alt="">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <img src="lib/img/p-w-3.svg" alt="">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <img src="lib/img/p-w-1.svg" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
+                                    </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-1 pre-next">
-                                    <a class="carousel-control-prev" href="#carouselExampleControls-4" role="button" data-slide="prev">
-                                        <span class="arow-s-l arow-s" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleControls-4" role="button" data-slide="next">
-                                        <span class="arow-s-r arow-s" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </div>
                             </div>
-                        </div>
                         <div class="row">
                             <div class="pre-works pre-works-sec">
                                 <div class="col-lg-3">

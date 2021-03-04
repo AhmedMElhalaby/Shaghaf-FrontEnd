@@ -369,6 +369,9 @@ ul{
 .our-serve h5{
     padding-bottom: 20px
 }
+.slick-slide {
+    width: inherit !important
+}
 .service{
     display: block;
     width: 100%;
@@ -566,6 +569,29 @@ ul{
 }
 .said-cur-p{
     padding: 0 15px
+}
+.last-class .slick-track{
+    width: 100%;
+    display: flex
+}
+.last-class .image-lc{
+    padding: 0 5px
+}
+.last-class .image-lc img{
+    width: 9rem;
+    display: flex;
+    border-radius: 7px;
+}
+.last-class .slick-prev {
+    left: -2.4rem;
+}
+.last-class .slick-next {
+    left: -2.5rem;
+    top: 5.5rem;
+    right: auto
+}
+.last-class .slick-next:before{
+    padding: 4px 7px 4px 9px;
 }
 .said-about-us p {
     text-align: start;
