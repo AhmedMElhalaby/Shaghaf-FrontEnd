@@ -4,8 +4,7 @@
     <title>الصفحة الرئيسية</title><!-- site title-->
     <?php include('layout/style.php') ?>
 </head>
-
-<body>
+<body onload="myFunction()">
     <?php include('layout/header.php') ?>
     <?php include('modals/login-register.php') ?>
     <?php include('modals/forgot-password.php') ?>

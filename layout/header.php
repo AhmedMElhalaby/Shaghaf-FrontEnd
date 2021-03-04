@@ -1,4 +1,5 @@
-        <header>
+        <?php include('layout/loader.php') ?>
+           <header>
             <div class="header-1">
                 <div class="container">
                     <a href=""><i class="fas fa-wifi"></i></a>
