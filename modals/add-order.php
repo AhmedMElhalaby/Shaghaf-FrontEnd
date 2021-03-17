@@ -50,7 +50,7 @@
                                 </div>
                                                 <div class="row">
     <div class="col-lg-6">
-             <h6 class="text-right">صورة الخدمة</h6>                                                                                                   <!-- Upload  -->
+             <h6 class="text-start">صورة الخدمة</h6>                                                                                                   <!-- Upload  -->
 <form id="file-upload-form" class="uploader">
   <input id="file-upload" type="file" name="fileUpload" onchange="ImageViewTrigger(this,'add-order')" accept="image/*" />
 

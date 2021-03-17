@@ -24,7 +24,7 @@
                    <div class="row">
                        <div class="col-lg-12">
                            <div class="row confirm-order">
-                               <div class="col-lg-4 pr-0">
+                               <div class="col-lg-4 pr-lang">
                                    <img class="w-100" src="lib/img/c-order.svg" alt="">
                                </div>
                                <div class="col-lg-7 confirm-order-content">

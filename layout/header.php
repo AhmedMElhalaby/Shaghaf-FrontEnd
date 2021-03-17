@@ -23,7 +23,7 @@
                           </div>
                           <form class="form-inline col-lg-5">
                              <div class="row w-100">
-                              <input class="form-control mr-sm-2 search-t col-lg" type="search" placeholder="بحث عن خدمة" aria-label="Search">
+                              <input class="form-control search-t col-lg" type="search" placeholder="بحث عن خدمة" aria-label="Search">
                               <button class="btn btn-outline my-2 my-sm-0 search-b col-lg-2" type="submit"><i class="fas fa-search"></i></button>
                               </div>
                           </form>

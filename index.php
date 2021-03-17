@@ -449,7 +449,7 @@
         <section class="contact-us" id="contact-us">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 for-ltr">
                         <h5 class="text-right"><span class="text-con">تواصل معنا</span><span class="text-c"></span></h5>
                         <img class="fw-img login100-pic js-tilt" data-tilt src="lib/img/contact-us.svg" alt="">
                     </div>

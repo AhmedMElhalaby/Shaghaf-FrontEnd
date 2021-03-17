@@ -14,10 +14,28 @@ header .header-1{
     padding: 10px;
     text-align: start
 }
+.ltr-rtl{
+    padding-right: 0
+}
+.ml-lang{
+    margin-left: auto
+}
+.mr-lang{
+    margin-right: auto
+}
+.text-start{
+    text-align: start
+}
 .logo-h{
     display: flex;
     width: 100%;
     justify-content: center;
+}
+.m-lang{
+    margin-right: 3rem!important;
+}
+.pr-lang{
+    padding-right: 0 !important
 }
 .logo-h .row{
     width: 100%
@@ -1967,11 +1985,11 @@ select:-moz-focusring {
     font-weight: bold;
 }
 .total-price h6{
-    text-align: right;
+    text-align: start;
     padding-right: 0
 }
 .total-price p{
-    text-align: left;
+    text-align: end;
     color: #FEE101;
     padding-left: 0;
 }
@@ -2206,7 +2224,62 @@ body {
     left: 44%;
 }
 /* footer  */
+/**  
 
+Start notifications Page
+
+**/
+.notifications a{
+    text-decoration: none
+}
+.notifications .alert{
+    margin: 7% 0;
+    text-align: start;
+    transition: all .4s ease-in-out;
+}
+.notifications .alert:hover{
+    transform: scale(1.1);
+}
+.notifications span{
+    color: #4D4F5C;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center
+}
+.notifications span:last-of-type{
+justify-content: flex-end;
+}
+.notifications p{
+    font-size: 0.84rem
+}
+.notifications .alert-success {
+    color: #1A1A1A;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px -4px #707070;
+    border: none
+}
+.notifications .alert-icon {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: #FFF4E5;
+    color: #FFCA83;
+}
+.notification{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 6% 0 ;
+    justify-content: flex-start
+}
+.notification h6,.notification p{
+    text-align: start
+}
+/**  
+
+End notifications Page
+
+**/
 
 
 

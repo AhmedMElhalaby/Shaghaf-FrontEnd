@@ -12,5 +12,6 @@
     <link rel="stylesheet" type="text/css" href="lib/css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="lib/css/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="lib/css/style.css"><!-- main style -->
+    <link rel="stylesheet" type="text/css" href="lib/css/ltr.css"><!-- lang style -->
     <link rel="stylesheet" type="text/css" href="lib/css/responsive.css"><!-- responsive style -->
     <script src="lib/js/head.js"></script>

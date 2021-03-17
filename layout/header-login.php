@@ -22,7 +22,7 @@
                           </div>
                           <form class="form-inline col-lg-5">
                              <div class="row w-100">
-                              <input class="form-control mr-sm-2 search-t col-lg" type="search" placeholder="بحث عن خدمة" aria-label="Search">
+                              <input class="form-control search-t col-lg" type="search" placeholder="بحث عن خدمة" aria-label="Search">
                               <button class="btn btn-outline my-2 my-sm-0 search-b col-lg-2" type="submit"><i class="fas fa-search"></i></button>
                               </div>
                           </form>
@@ -32,7 +32,7 @@
                               </div>
                               <div class="col-lg-10 l-r">
                                     <div class="row">
-      <div class="nav-item dropdown col-lg-12 pr-0">
+      <div class="nav-item dropdown col-lg-12 ltr-rtl">
         <a class="nav-link dropdown-toggle user-name" href="#" id="MyAccount" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 <img src="lib/img/login-img.svg" alt="">
          <i class="fas fa-chevron-down"></i><span>صلاح الدين بن محمد حمدان</span>
