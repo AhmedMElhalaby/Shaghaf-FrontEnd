@@ -158,3 +158,11 @@ header .dropdown-menu {
     padding-right: 1rem !important;
     padding-left: 0rem !important
 }
+.notificationDiv{
+direction: rtl !important;
+     right: 0;
+    left: 0;
+}
+.Webnotification {
+    direction: rtl
+}
