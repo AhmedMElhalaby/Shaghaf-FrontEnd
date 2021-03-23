@@ -7,6 +7,7 @@
                     <a href=""><i class="fab fa-facebook-f"></i></a>
                 </div>
             </div>
+                   <div class="notificationDiv">
                     <div class="Webnotification" id="notification">
   <div class="bateria">
     <div class="icon"></div>
@@ -18,6 +19,29 @@
     <a id="closeNotification" href="#notification javascript:;"><i class="fa fa-times"></i></a>
   </div>
 </div>
+                              <div class="Webnotification red" id="notificationRed">
+  <div class="bateria">
+    <div class="icon"></div>
+  </div>
+  <div class="message">
+    <span>Telefone com bateria fraca</span>
+    <p>
+      Carregue a bateria do seu celular para continuar usando o aplicativo</p>
+    <a id="closeNotificationRed" href="#notificationRed javascript:;"><i class="fa fa-times"></i></a>
+  </div>
+</div>
+                              <div class="Webnotification green" id="notificationGreen">
+  <div class="bateria">
+    <div class="icon"></div>
+  </div>
+  <div class="message">
+    <span>Telefone com bateria fraca</span>
+    <p>
+      Carregue a bateria do seu celular para continuar usando o aplicativo</p>
+    <a id="closeNotificationGreen" href="#notificationGreen javascript:;"><i class="fa fa-times"></i></a>
+  </div>
+</div>
+           </div>
             <nav class="navbar navbar-light bg-light">
                  <div class="container">
                      <div class="row w-100">

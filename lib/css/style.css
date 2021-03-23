@@ -2285,6 +2285,11 @@ End notifications Page
 Web Notification
 
 **/
+.notificationDiv{
+    position: fixed;
+     left: 0;
+      z-index: 9999999999;
+}
 .Webnotification {
   height: 90px;
   width: 400px;
@@ -2299,9 +2304,7 @@ Web Notification
   transition: all 2s cubic-bezier(0.85, 0.38, 0.11, 0.66);
   -webkit-animation: show 5s;
   animation: show 2s;
-  position: fixed;
-  z-index: 9999999999;
-  left: 0;
+  position: relative;
   direction: ltr !important
 }
 .Webnotification:target {
@@ -2341,7 +2344,12 @@ Web Notification
   color: white;
   cursor: pointer;
 }
-
+.notificationDiv .red{
+    background-color: #c32b2b !important
+}
+.notificationDiv .green{
+    background-color: #0fbd0f !important
+}
 @-webkit-keyframes show {
   0% {
     transform: translateY(-150%);
