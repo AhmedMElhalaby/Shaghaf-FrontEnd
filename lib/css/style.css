@@ -2368,4 +2368,31 @@ Web Notification
   }
 }
 
+/**
 
+payment Page
+
+**/
+.payMethod{
+    padding: 30px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px -7px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: start;
+}
+.payMethod h3{
+    color: #FEE101
+}
+.payMethod label{
+    font-weight: bold
+}
+.payMethod button,.payMethod button:hover{
+    margin: auto;
+    display: flex;
+    background-color: #FEE101;
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: bold
+}
