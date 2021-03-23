@@ -2280,7 +2280,84 @@ justify-content: flex-end;
 End notifications Page
 
 **/
+/**
 
+Web Notification
 
+**/
+.Webnotification {
+  height: 90px;
+  width: 400px;
+  background: #FEE101;
+  color: #fff;
+  font-size: 14px;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  transition: all 2s cubic-bezier(0.85, 0.38, 0.11, 0.66);
+  -webkit-animation: show 5s;
+  animation: show 2s;
+  position: fixed;
+  z-index: 9999999999;
+  left: 0;
+  direction: ltr !important
+}
+.Webnotification:target {
+  transform: translateY(0%);
+  opacity: 1;
+}
+.Webnotification .bateria .icon {
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Webnotification .bateria .icon:after {
+  content: "";
+  font-family: FontAwesome;
+  transform: rotate(-90deg);
+  color: #ff7043;
+}
+.Webnotification .message span {
+  color: #fff;
+  font-size: 16px;
+}
+.Webnotification .message p {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.Webnotification .message i {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+@-webkit-keyframes show {
+  0% {
+    transform: translateY(-150%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes show {
+  0% {
+    transform: translateY(-150%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
 
 
