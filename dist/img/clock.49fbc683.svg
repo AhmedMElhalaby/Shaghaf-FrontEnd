@@ -1,0 +1,39 @@
+<svg id="clock" xmlns="http://www.w3.org/2000/svg" width="34.125" height="33.986" viewBox="0 0 34.125 33.986">
+  <circle id="Ellipse_3143" data-name="Ellipse 3143" cx="16.944" cy="16.944" r="16.944" transform="translate(0 0.098)" fill="#fee101"/>
+  <path id="Path_201986" data-name="Path 201986" d="M243.294,0q-.461,0-.916.024a17.091,17.091,0,0,1,16.3,16.969,17.091,17.091,0,0,1-16.3,16.969q.455.024.916.024a17.1,17.1,0,0,0,17.214-16.993A17.1,17.1,0,0,0,243.294,0Z" transform="translate(-226.383)" fill="#e5af12"/>
+  <ellipse id="Ellipse_3144" data-name="Ellipse 3144" cx="13.414" cy="13.414" rx="13.414" ry="13.414" transform="translate(3.498 3.8)" fill="#f4fbff"/>
+  <path id="Path_201987" data-name="Path 201987" d="M240.7,56.513c-.372,0-.739.016-1.1.045a13.414,13.414,0,0,1,0,26.737c.364.03.732.045,1.1.045a13.414,13.414,0,0,0,0-26.828Z" transform="translate(-223.787 -52.713)" fill="#fee101" opacity="0.158"/>
+  <g id="Group_54654" data-name="Group 54654" transform="translate(5.824 6.127)">
+    <g id="Group_54646" data-name="Group 54646" transform="translate(10.567)">
+      <path id="Path_201988" data-name="Path 201988" d="M248.794,92.921a.52.52,0,0,1-.52-.52v-.763a.52.52,0,0,1,1.039,0V92.4A.52.52,0,0,1,248.794,92.921Z" transform="translate(-248.274 -91.119)"/>
+    </g>
+    <g id="Group_54647" data-name="Group 54647" transform="translate(17.472 3.107)">
+      <path id="Path_201989" data-name="Path 201989" d="M351.48,138.9a.52.52,0,0,1-.367-.887l.539-.539a.52.52,0,1,1,.735.735l-.539.539A.519.519,0,0,1,351.48,138.9Z" transform="translate(-350.96 -137.323)"/>
+    </g>
+    <g id="Group_54648" data-name="Group 54648" transform="translate(20.316 10.567)">
+      <path id="Path_201990" data-name="Path 201990" d="M394.531,249.314h-.763a.52.52,0,1,1,0-1.039h.763a.52.52,0,1,1,0,1.039Z" transform="translate(-393.249 -248.275)"/>
+    </g>
+    <g id="Group_54649" data-name="Group 54649" transform="translate(17.432 17.472)">
+      <path id="Path_201991" data-name="Path 201991" d="M351.424,352.54a.519.519,0,0,1-.367-.152l-.539-.539a.52.52,0,0,1,.735-.735l.539.539a.52.52,0,0,1-.367.887Z" transform="translate(-350.365 -350.962)"/>
+    </g>
+    <g id="Group_54650" data-name="Group 54650" transform="translate(10.511 20.316)">
+      <path id="Path_201992" data-name="Path 201992" d="M247.952,395.053a.52.52,0,0,1-.52-.52v-.763a.52.52,0,0,1,1.039,0v.763A.52.52,0,0,1,247.952,395.053Z" transform="translate(-247.432 -393.251)"/>
+    </g>
+    <g id="Group_54651" data-name="Group 54651" transform="translate(3.067 17.432)">
+      <path id="Path_201993" data-name="Path 201993" d="M137.245,351.944a.52.52,0,0,1-.367-.887l.539-.539a.52.52,0,0,1,.735.735l-.539.539A.518.518,0,0,1,137.245,351.944Z" transform="translate(-136.726 -350.366)"/>
+    </g>
+    <g id="Group_54652" data-name="Group 54652" transform="translate(0 10.511)">
+      <path id="Path_201994" data-name="Path 201994" d="M92.4,248.473h-.763a.519.519,0,1,1,0-1.039H92.4a.519.519,0,1,1,0,1.039Z" transform="translate(-91.117 -247.434)"/>
+    </g>
+    <g id="Group_54653" data-name="Group 54653" transform="translate(3.107 3.067)">
+      <path id="Path_201995" data-name="Path 201995" d="M138.38,138.306a.518.518,0,0,1-.367-.152l-.539-.539a.52.52,0,1,1,.735-.735l.539.539a.519.519,0,0,1-.367.887Z" transform="translate(-137.322 -136.728)"/>
+    </g>
+  </g>
+  <g id="Group_54655" data-name="Group 54655" transform="translate(11.979 9.565)">
+    <path id="Path_201996" data-name="Path 201996" d="M187.586,150.419h-4.412a.52.52,0,1,1,0-1.039h3.893v-6.61a.52.52,0,1,1,1.039,0V149.9A.519.519,0,0,1,187.586,150.419Z" transform="translate(-182.654 -142.251)"/>
+  </g>
+  <g id="Group_54656" data-name="Group 54656" transform="translate(16.392 16.694)">
+    <path id="Path_201997" data-name="Path 201997" d="M254.122,252.051a.518.518,0,0,1-.237-.058l-5.33-2.741a.52.52,0,1,1,.475-.924l5.33,2.741a.52.52,0,0,1-.238.982Z" transform="translate(-248.272 -248.271)" fill="#fee101"/>
+  </g>
+  <ellipse id="Ellipse_3145" data-name="Ellipse 3145" cx="1.387" cy="1.387" rx="1.387" ry="1.387" transform="translate(15.525 15.827)"/>
+</svg>
