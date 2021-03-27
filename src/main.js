@@ -10,7 +10,7 @@ import jquery from 'jquery'
 import vmApp from './App.vue'
 import '../src/assets/js/head.js';
 import * as carousel from 'vue3-carousel';
-let url = 'https://passionplatforms.com';
+let url = 'https://app.passionplatforms.com';
 export default url;
 
 

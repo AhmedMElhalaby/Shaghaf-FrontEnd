@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-const API_URL = 'http://18.194.157.202';
+const API_URL = 'https://app.passionplatforms.com';
 export class APIService{
 
     constructor(){
