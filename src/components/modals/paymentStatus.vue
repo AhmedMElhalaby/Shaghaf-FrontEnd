@@ -63,13 +63,14 @@ export default {
                 },
                 params:{
                   transaction_id : sessionStorage.getItem('transaction_id'),
+                  value : sessionStorage.getItem('amount'),
                 }
               })
           .then(res=>{
             if (res.data['status']['status'] === "success"){
               this.Transaction = res.data['Transaction'];
             }else {
-              console.log();
+              console.log(res.data['result']);
             }
           })
         }catch (e){

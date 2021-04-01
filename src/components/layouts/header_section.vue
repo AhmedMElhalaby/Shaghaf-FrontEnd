@@ -31,7 +31,7 @@
                     <div class="col-lg-3 page-logo">
                         <div class="row login100-pic js-tilt" data-tilt v-tilt>
                             <div class="col-lg-5">
-                               <a :href="'/'"> <img src="../../assets/img/logo.svg" alt=""> </a>
+                               <a :href="'/'"> <img src="../../assets/img/logo1.png" alt=""> </a>
                             </div>
                             <div class="col-lg-7 padding">
                               <a class="navbar-brand">منصة شغف</a>

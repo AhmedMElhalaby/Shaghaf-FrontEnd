@@ -9,7 +9,7 @@
 
             <div class="col-lg-12 o-h">
               <carousel :items-to-show="1" :wrap-around="true" style="width: 70%">
-                <Slide v-for="slide in 4" :key="slide">
+                <Slide>
                   <div class="said-cur-p text-center col-lg-4" v-for="(review, index) in Reviews" :key="index">
                     <div class="b-sh">
                       <div class="said-img">

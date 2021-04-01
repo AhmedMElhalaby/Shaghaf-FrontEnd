@@ -13,7 +13,7 @@
                         <label for="cats">الخدمة الرئيسية</label>
                         <select class="form-control minimal" id="cats" v-on:change.prevent="showSubCategories()">
                             <option>select</option>
-                            <option v-for="(category, index) in Categories" :key="index" :class="{'selected': index === 0}" :value="category_id = category.id">
+                            <option v-for="(category, index) in Categories" :key="index" :value="category_id = category.id">
                               {{ category.name }}</option>
                         </select>
                     </div>
@@ -44,7 +44,7 @@
                     <div class="form-group">
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1"> الوصف</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" v-text="Product.description" v-model="description">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" :placeholder="Product.description" v-model="description">
                                         </textarea>
                         </div>
                     </div>
@@ -90,6 +90,7 @@ export default {
   },
   created() {
     this.fetchAllCategories();
+    this.fetchDetails();
   },
   methods:{
       fetchAllCategories(){

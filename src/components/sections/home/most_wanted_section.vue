@@ -16,7 +16,7 @@
                 </div>
               <div class="container">
                 <carousel :items-to-show="1" :wrap-around="true">
-                  <Slide v-for="freelancer in 4" :key="freelancer">
+                  <Slide>
                       <div class="carousel__item col-lg-4" v-for="(freelancer, index) in Freelancers" :key="index">
                         <router-link v-on:click="getFreelancerId(freelancer.id)" to="/Freelancer_page">
                           <div class="card">
@@ -130,7 +130,9 @@ export default {
               headers: {
                 'X-localization': 'ar',
               },
-              params: {}
+              params: {
+                per_page: 10
+              }
             },)
                 .then(res => {
                   if (res.data['status']['status'] === "success") {
@@ -154,6 +156,7 @@ export default {
               },
               params: {
                 'category_id': this.category_id,
+                per_page : 10
               },
 
             })

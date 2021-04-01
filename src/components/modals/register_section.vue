@@ -113,10 +113,8 @@ export default {
                 .then(res => {
                   if (res.data['status']['status'] === 'success') {
                     this.User = res.data['User'];
-                    const access_token = res.data['User']['access_token'];
                     const email = res.data['User']['email'];
                     const password = res.data['User']['password'];
-                    sessionStorage.setItem('access_token', access_token);
                     sessionStorage.setItem('email', email);
                     sessionStorage.setItem('password', password);
                     $('#exampleModalCenter').modal('hide');

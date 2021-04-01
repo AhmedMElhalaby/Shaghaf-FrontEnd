@@ -3,7 +3,7 @@
   <deposit></deposit>
   <div class="wrapper">
     <div class="container">
-      <div class="financial-operations">
+      <div class="financial-operations sevice-user orders orders-2 add-orders">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a><i class="fas fa-home"></i></a></li>
@@ -12,7 +12,7 @@
         </nav>
         <!-- start navs section -->
         <div class="row d-flex justify-content-center">
-          <div class="modal-tab col-3">
+          <div class="modal-tab col-3" style="display: none">
             <ul class="nav nav-pills mb-3 list-con row" id="pills-tab" role="tablist">
               <li class="nav-item col-6">
                 <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" v-on:click.prevent="fetchBalance()">رصيدي</a>

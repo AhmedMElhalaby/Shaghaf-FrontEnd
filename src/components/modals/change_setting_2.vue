@@ -62,17 +62,17 @@
                         <div class="col-lg-6">
                             <h6 class="text-right">صورة الهوية الوطنية</h6>                                                                                                   <!-- Upload  -->
                           <form id="file-upload-form" class="">
-                            <input id="file" type="file" ref="file" accept="image/*">
+                            <input id="file" type="file" ref="id_file" accept="image/*">
                           </form>
                         </div>
                     </div>
                   <div class="row">
                     <div class="form-group col-lg-6">
-                      <label for="providerType">نوع الحساب</label>
-                      <select class="form-control" id="providerType" v-on:change.prevent="getProviderTypeValue()">
+                      <label for="providerType"> نوع الحساب</label>
+                      <select class="form-control" id="providerType" @change="onChange($event)">
                         <option>select</option>
-                        <option :value="1">حساب شخصي</option>
-                        <option :value="2">حساب شركة</option>
+                        <option value="1">حساب شخصي</option>
+                        <option value="2">حساب شركة</option>
                       </select>
                     </div>
                   </div>
@@ -133,10 +133,10 @@ export default {
         gender :'',
         identity_image: '',
         iban_number :'',
-        provider_type: null,
+        provider_type: "",
         company_name:'',
         commercial_cert:'',
-        file :'',
+        id_file :'',
         file_commercial: '',
         file_maroof:'',
         lat:'',
@@ -150,19 +150,16 @@ export default {
   methods:{
       changeSetting2(){
         try {
-          let file = this.$refs.file.files[0];
+          let id_file = this.$refs.id_file.files[0];
           let file_commercial = this.$refs.cfile.files[0];
           let file_maroof = this.$refs.mfile.files[0];
-          console.log(file);
-          console.log(file_commercial);
-          console.log(file_maroof);
           let formData = new FormData();
-          formData.append('identity_image', file);
+          formData.append('identity_image', id_file);
           formData.append('commercial_cert', file_commercial);
           formData.append('maroof_cert', file_maroof);
           formData.append('bio', this.bio);
           formData.append('name', this.name);
-          formData.append('mobile', this.mobile);
+          formData.append('mobile','966'+ this.mobile);
           formData.append('email', this.email);
           formData.append('country_id', this.country_id);
           formData.append('city_id', this.city_id);
@@ -184,7 +181,6 @@ export default {
               .then(res => {
                 if (res.data['status']['status'] === "success") {
                   this.User = res.data['User'];
-                  console.log(res.data['status']['message']);
                   $('#exampleModalCenter-5').modal('hide');
                   Swal.fire(
                       res.data['status']['status'],
@@ -207,30 +203,43 @@ export default {
         }
       },
       getProviderTypeValue(){
-        let provider = document.getElementById('providerType').value;
+        let provider = document.getElementById('providerType');
         this.provider_type = provider;
+        console.log(this.provider_type);
       },
       getCurrentLocation(){
         try {
           if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(function (position) {
-
-              this.lat = position.coords.latitude ;
-              this.lng = position.coords.longitude ;
+              if ((!position.coords.latitude)|| (!position.coords.longitud)){
+                console.log();
+              }else {
+                this.lat = position.coords.latitude ;
+                this.lng = position.coords.longitude ;
+              }
             }, function () {
               //alert('Please allow location');
-              $('#location').modal('show');
+            //  $('#location').modal('show');
+              Swal.fire(
+                  'Please allow location',
+                  '',
+                  'warning'
+              );
 
             });
           } else {
             // Browser doesn't support Geolocation
-            alert('Please allow location');
+            Swal.fire(
+                'Please allow location',
+                '',
+                'warning'
+            );
           }
         }catch (e){
           console.log(e);
         }
       },
-    getCities(){
+      getCities(){
       try {
         axios.get(url+'/api/home/install',
             {
@@ -252,6 +261,10 @@ export default {
       }catch (e){
         console.log(e);
       }
+    },
+    onChange(event) {
+        this.provider_type = event.target.value;
+
     }
     }
 

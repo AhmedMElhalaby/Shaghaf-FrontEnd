@@ -68,9 +68,6 @@ import url from '../../main';
 
 export default {
   name: 'my_account',
-    mounted() {
-        console.log('My_account mounted.')
-    },
   components:{
     change_password,
     change_setting,

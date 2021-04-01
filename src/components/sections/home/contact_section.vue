@@ -14,18 +14,18 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="اسمك">
+                                        <input type="text" class="form-control" placeholder="اسمك" v-model="name">
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="البريد الاكتروني">
+                                        <input type="email" class="form-control" placeholder="البريد الاكتروني" v-model="email">
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="الموضوع">
+                                        <input type="text" class="form-control" placeholder="الموضوع" v-model="title">
                                     </div>
                                     <div class="form-group">
-                                        <textarea class="form-control" placeholder="نص الرسالة" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                        <textarea class="form-control" placeholder="نص الرسالة" id="exampleFormControlTextarea1" rows="4" v-model="message"></textarea>
                                     </div>
-                                    <button type="submit" class="btn"><img src="../../../assets/img/mail-send.svg" alt=""> ارسال</button>
+                                    <button type="submit" class="btn" v-on:click.prevent="storeTicket()"><img src="../../../assets/img/mail-send.svg" alt=""> ارسال</button>
                                 </div>
                             </div>
                         </form>
@@ -38,6 +38,58 @@
 </template>
 
 <script>
+import url from '../../../main';
+import axios from "axios";
+import * as Swal from "sweetalert2";
 export default {
+  name: 'contact',
+  data(){
+    return{
+      Ticket:[],
+      name:'',
+      email:'',
+      title:'',
+      message:'',
+    }
+  },
+  methods:{
+    storeTicket(){
+      try {
+        axios.post(url+'/api/tickets/store',
+            {
+              name: this.name,
+              email: this.email,
+              title: this.title,
+              message: this.message,
+            },
+            {
+              headers:{
+                'X-localization': 'ar',
+              }
+            })
+            .then(res=>{
+              if (res.data['status']['status'] === "success"){
+                this.Ticket = res.data['Ticket'];
+                Swal.fire(
+                    res.data['status']['status'],
+                    'تم الارسال بنجاح',
+                    'success'
+                );
+              }else {
+                Swal.fire(
+                    res.data['status']['status'],
+                    'خطأ في البيانات المدخلة',
+                    'error'
+                );
+              }
+            })
+            .catch(e=>{
+              console.log(e);
+            })
+      }catch (e){
+        console.log(e);
+      }
+    }
+  },
 }
 </script>

@@ -13,5 +13,7 @@ import * as carousel from 'vue3-carousel';
 let url = 'https://app.passionplatforms.com';
 export default url;
 
+createApp(App).config.productionTip = false
+
 
 createApp(App).use(vmApp).use(router).use(store).use(VueTilt).use(Bootstrap).use(jquery).use(carousel).use(FileUpload).mount('#app');

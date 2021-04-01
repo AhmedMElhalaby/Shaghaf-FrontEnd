@@ -3,7 +3,7 @@
     <!-- start wrapper -->
     <div class="wrapper">
         <div class="container">
-            <div class="sevice-user orders orders-2 add-orders financial-operations">
+            <div class="orders-2 add-orders">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><router-link to="/"><i class="fas fa-home"></i></router-link></li>
@@ -28,10 +28,10 @@
                   <div class="row">
                     <div class="col-lg-3" v-for="(order, index) in Orders" :key="index" v-on:click.prevent="getOrderId(order.id)">
                       <div class="card pro-ser-card">
-                          <img class="card-img-top" :src="(order.Product)?order.Product.first_image : ''" alt="Card image cap">
+                          <img class="card-img-top imageHeight" :src="order.Product.Media[0].file" alt="Card image cap">
                         <div class="card-body">
-                          <h6 class="card-title">{{(order.Product)? order.Product.name :'' }}</h6>
-                          <p class="card-text">{{ (order.Product)?order.Product.description:'' }}</p>
+                          <h6 class="card-title">{{ order.Product.name }}</h6>
+                          <p class="card-text">{{ order.Product.description }}</p>
                           <hr>
                           <div class="row bg-h">
                             <div class="col-lg-6"><span class="count count-pr">{{ order.total }}</span></div>
@@ -73,10 +73,10 @@
                   <div class="row">
                     <div class="col-lg-3" v-for="(order, index) in Orders" :key="index" v-on:click.prevent="getOrderId(order.id)">
                       <div class="card pro-ser-card">
-                        <img class="card-img-top" :src="(order.Product)? order.Product.first_image : ''" alt="Card image cap">
+                        <img class="card-img-top imageHeight" :src="order.Product.Media[0].file" alt="Card image cap">
                         <div class="card-body">
-                          <h6 class="card-title">{{ (order.Product)? order.Product.name : '' }}</h6>
-                          <p class="card-text">{{ (order.Product)? order.Product.description : '' }}</p>
+                          <h6 class="card-title">{{ order.Product.name }}</h6>
+                          <p class="card-text">{{ order.Product.description }}</p>
                           <hr>
                           <div class="row bg-h">
                             <div class="col-lg-6"><span class="count count-pr">{{ order.total }}</span></div>

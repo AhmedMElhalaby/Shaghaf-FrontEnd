@@ -100,21 +100,21 @@ export default {
                     sessionStorage.setItem('user_type', user_type);
                     $('#exampleModalCenter').modal('hide');
                     this.$emit('RefreshHeader');
+                    if ((sessionStorage.getItem('user_type') === '2') && (res.data['User']['profile_completed'] === false)){
+                      // alert('not completed');
+                     // $('#exampleModalCenter').modal('hide');
+                      $('#profile_status').modal('show');
+                    }else {
+                      Swal.fire(
+                          'أهلا بك في منصة شغف',
+                          '',
+                          'success');
+                    }
                   } else{
                     Swal.fire(
                         res.data['status']['status'],
                         'بيانات الدخول غير صحيحة',
                         'error');
-                  }
-                  if ((res.data['User']['type'] === '2') && (res.data['User']['profile_completed'] === false)){
-                       // alert('not completed');
-                        $('#exampleModalCenter').modal('hide');
-                        $('#profile_status').modal('show');
-                  }else {
-                    Swal.fire(
-                        'أهلا بك في منصة شغف',
-                          '',
-                    'success');
                   }
 
                 })

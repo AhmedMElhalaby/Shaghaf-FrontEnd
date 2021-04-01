@@ -67,9 +67,9 @@ header .user-name i{
 }
 .search-b{
     border-radius: 20px 0 0 20px;
-    background-color: #fee101;
+    background-color: #F7CA0B;
     color: #000;
-    border-color: #fee101;
+    border-color: #F7CA0B;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -157,7 +157,7 @@ header img{
 }
 .f-aws{
     font-size: 15px;
-    background-color: #fee101;
+    background-color: #F7CA0B;
     border-radius: 50%;
     padding: 8px;
     color: #000;
@@ -172,7 +172,7 @@ header img{
     box-shadow: 0px 0px 25px -11px #888888;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-    border-bottom: 3px solid #FEE101
+    border-bottom: 3px solid #F7CA0B
 }
 .p-top{
     padding-top: 25px;
@@ -193,7 +193,7 @@ footer{
 }
 .shape{
     height: 100%;
-    background-color: #FEE101;
+    background-color: #F7CA0B;
     opacity: 0.96;
     width: 100%;
 }
@@ -330,8 +330,8 @@ ul{
     border-radius: 4px;
     border: 1px solid;
     display: flex;
-    color: #FEE101;
-    background-color: #FEE101
+    color: #F7CA0B;
+    background-color: #F7CA0B
 }
 .carousel-indicators li{
     color: #000
@@ -356,7 +356,7 @@ ul{
 }
 .about-us p{
     padding: 30px 115px 30px 25px;
-    background-color: #FEE101;
+    background-color: #F7CA0B;
     text-align: start;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -373,7 +373,7 @@ ul{
 .text-c{
     width: 38px;
     height: 13px;
-    background-color: #fee101;
+    background-color: #F7CA0B;
     display: flex;
     position: relative;
     z-index: 99;
@@ -396,7 +396,7 @@ ul{
     width: 100%;
     text-align: center;
     box-shadow: 0px 0px 11px 3px #ddd;
-    border-bottom: 15px solid #FEE101;
+    border-bottom: 15px solid #F7CA0B;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -421,12 +421,12 @@ ul{
     background: #fff;
     padding: 0;
     margin: auto;
-    box-shadow: 0px 0px 0px 5px #fee101;
+    box-shadow: 0px 0px 0px 5px #F7CA0B;
     z-index: 99999;
     transition: 0.4s ease-in-out
 }
 .order-card-img img{
-    border: 5px solid #FEE101;
+    border: 5px solid #F7CA0B;
     border-radius: 50%;
     width: 100%;
     min-height: 5.2rem;
@@ -560,7 +560,7 @@ ul{
     font-size: 10px
 }
 .star .checked {
-    color: #FEE101;
+    color: #F7CA0B;
 }
 .star span{
     color: #C4C4C4
@@ -571,7 +571,7 @@ ul{
     border-bottom-right-radius: 30px !important
 }
 .card-footer i{
-    color: #FEE101
+    color: #F7CA0B
 }
 .most-wanted{
     background-image: url(../img/most-wanted.svg);
@@ -581,7 +581,7 @@ ul{
 }
 .co-p{
     padding: 60px 0;
-    background-color: #FEE101;
+    background-color: #F7CA0B;
 }
 .said-about-us{
     padding: 60px 0
@@ -642,7 +642,7 @@ ul{
 }
 .said-img img{
     padding: 5px;
-    border: 3px solid #F7C84E;
+    border: 3px solid #F7CA0B;
     border-radius: 50%;
 }
 .said-about-us h4{
@@ -710,7 +710,7 @@ ul{
     background-color: #FFFFFF
 }
 .contact-us-f{
-    border: 1px solid #FEC725;
+    border: 1px solid #F7CA0B;
     padding: 60px 40px 20px;
     border-radius: 30px;
     text-align: center
@@ -718,15 +718,15 @@ ul{
 .contact-us-f h2{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    color: #FEE101
+    color: #F7CA0B
 }
 .contact-us-f form input,.contact-us-f form textarea{
     border-radius: 20px
 }
 .contact-us-f button{
-    background-color: #FEE101;
+    background-color: #F7CA0B;
     color: #000000;
-    border-color: #FEE101;
+    border-color: #F7CA0B;
     padding: 10px 35px;
     border-radius: 30px;
     font-weight: 600;
@@ -774,8 +774,8 @@ ul{
 }
 .modal-header{
     justify-content: center;
-    background-color: #FEE101;
-    border: 1px solid #FEE101;
+    background-color: #F7CA0B;
+    border: 1px solid #F7CA0B;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     padding: 0.5rem;
@@ -817,7 +817,7 @@ ul{
     appearance: none;
 }
 .modal-tab .nav-pills .nav-link.active,.modal-tab .nav-pills .show>.nav-link{
-    background-color: #FEE101
+    background-color: #F7CA0B
 }
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -840,7 +840,7 @@ input[type=number] {
     flex-wrap: wrap;
 }
 .modal-body .form-group i{
-    color: #FEE101
+    color: #F7CA0B
 }
 .modal-body .form-control{
     border-radius: 30px
@@ -860,8 +860,8 @@ input[type=number] {
 .modal-body .tab-button button{
     width: 50%;
     border-radius: 30px;
-    background-color: #FEE101;
-    border: 1px solid #FEE101;
+    background-color: #F7CA0B;
+    border: 1px solid #F7CA0B;
 }
 .modal-body .tab-a{
     display: flex;
@@ -873,7 +873,7 @@ input[type=number] {
 }
 .modal-body .tab-a a{
     font-size: 12px;
-    color: #FEE101
+    color: #F7CA0B
 }
 .switch-field {
     display: inline-flex;
@@ -910,7 +910,7 @@ input[type=number] {
 }
 
 .switch-field input:checked + label {
-    background-color: #FEE101;
+    background-color: #F7CA0B;
     box-shadow: none;
     margin-bottom: 0;
     border-radius: 10px
@@ -927,7 +927,7 @@ input[type=number] {
     text-align: start;
 }
 .r-ch1 i{
-    color: #FEE101
+    color: #F7CA0B
 }
 .r-ch2{
     width: 70%;
@@ -996,11 +996,11 @@ input[type=number] {
     color: #000
 }
 .breadcrumb-item.active {
-    color: #FEE101;
+    color: #F7CA0B;
 }
 .our-services .most-l .active{
-    background-color: #FEE101;
-    border-color: #FEE101
+    background-color: #F7CA0B;
+    border-color: #F7CA0B
 }
 .cards{
     padding-top: 20px;
@@ -1024,7 +1024,7 @@ input[type=number] {
 }
 /** Start Sevice User **/
 .sevice-user .card{
-    background-color: #FEE101;
+    background-color: #F7CA0B;
     margin-bottom: 2rem
 }
 .sevice-user .card .img-o-h{
@@ -1065,7 +1065,7 @@ input[type=number] {
     display: flex;
 }
 .sevice-user .card-footer{
-    background-color: #FEE101
+    background-color: #F7CA0B
 }
 .sevice-user .card-footer i,.sevice-user .card-footer .star .checked{
     color: #000
@@ -1098,11 +1098,11 @@ input[type=number] {
     float: left
 }
 .pre-works .carousel-item a{
-    border: 1px solid #FEE101;
+    border: 1px solid #F7CA0B;
     border-radius: 9px;
 }
 .map-pre-w{
-    border: 1px solid #FEE101;
+    border: 1px solid #F7CA0B;
     border-radius: 15px
 }
 .map-pre-w img{
@@ -1114,7 +1114,7 @@ input[type=number] {
     border-radius: 20px;
 }
 .sevice-user .most-l .active{
-    background-color: #FEE101;
+    background-color: #F7CA0B;
     color: #000;
     width: 50%;
 }
@@ -1186,14 +1186,14 @@ input[type=number] {
     padding-left: 10px
 }
 .pro-ser-button{
-    border: 1px solid #FEE101;
+    border: 1px solid #F7CA0B;
     border-radius: 30px;
     margin-top: 15px;
     width: 100%;
     width: 50%;
     margin: 15px auto 0;
     color: #fff;
-    background-color: #FEE101
+    background-color: #F7CA0B
 }
 .count-pr{
     font-size: 1.1rem !important;
@@ -1223,7 +1223,7 @@ input[type=number] {
 .m-name span{
     width: 40% !important;
     display: flex !important;
-    background-color: #FEE101;
+    background-color: #F7CA0B;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
@@ -1240,14 +1240,14 @@ input[type=number] {
 .sitting-h{
     text-align: center!important;
     padding: 10px 0;
-    background-color: #FEE101
+    background-color: #F7CA0B
 }
 .siting-body{
     padding: 20px 55px;
     font-weight: bold
 }
 .siting-body i{
-    color: #FEE101
+    color: #F7CA0B
 }
 .siting-body a{
     color: #000;
@@ -1279,13 +1279,13 @@ input[type=number] {
 .edit-c{
     display: inline-flex;
     padding: 7px;
-    border: 1px solid #FEE101;
+    border: 1px solid #F7CA0B;
     border-radius: 50%;
     position: absolute;
     left: 5%;
     top: 15%;
     font-size: 12px;
-    background-color: #FEE101;
+    background-color: #F7CA0B;
 }
 .edit-c i{
     color: #fff !important
@@ -1293,13 +1293,13 @@ input[type=number] {
 .verify-c{
     display: inline-flex;
     padding: 7px;
-    border: 1px solid #FEE101;
+    border: 1px solid #F7CA0B;
     border-radius: 50%;
     position: absolute;
     left: 15%;
     top: 8%;
     font-size: 12px;
-    background-color: #FEE101;
+    background-color: #F7CA0B;
 }
 .verify-c i{
     color: #fff !important
@@ -1307,13 +1307,13 @@ input[type=number] {
 .add-c{
     display: inline-flex;
     padding: 7px;
-    border: 1px solid #FEE101;
+    border: 1px solid #F7CA0B;
     border-radius: 50%;
     position: absolute;
     left: 10%;
     top: 8%;
     font-size: 12px;
-    background-color: #FEE101;
+    background-color: #F7CA0B;
 }
 .add-c i{
     color: #fff !important
@@ -1377,14 +1377,14 @@ input[type=number] {
 }
 .orders-details .total-price span{
     font-weight: bold;
-    color: #FEE101;
+    color: #F7CA0B;
     font-size: 1.1rem !important
 }
 .orders-details .order-state .order-header{
     display: flex;
     width: 100%;
     justify-content: center;
-    background-color: #FEE101;
+    background-color: #F7CA0B;
     padding: 15px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -1452,7 +1452,7 @@ input[type=number] {
     width: min-content;
 }
 .time-line i{
-    color: #FEE101;
+    color: #F7CA0B;
     font-size: 1.2rem;
 }
 .time-line span{
@@ -1500,7 +1500,7 @@ input[type=number] {
     position: relative;
     width: min-content;
     margin: auto;
-    border: 1px solid #FEE101;
+    border: 1px solid #F7CA0B;
     border-radius: 50%;
     padding: 5px;
     margin-bottom: 20px;
@@ -1741,9 +1741,9 @@ input[type=number] {
 }
 .add-serv button{
     display: flex;
-    border: 1px solid #FEE102;
+    border: 1px solid #F7CA0B;
     border-radius: 30px;
-    background-color: #FEE101;
+    background-color: #F7CA0B;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -1758,9 +1758,9 @@ input[type=number] {
 }
 .add-orders .card-body button{
     font-size: 14px;
-    border: 1px solid #FEE101;
+    border: 1px solid #F7CA0B;
     border-radius: 20px;
-    background-color: #FEE101;
+    background-color: #F7CA0B;
     font-weight: bold;
     width: 100%
 }
@@ -1817,8 +1817,8 @@ select:-moz-focusring {
 /** Start Orders 2 **/
 .orders-2 .color-1 button{
     width: 70%;
-    background-color: #fdef85;
-    border: 1px solid #fdef85
+    background-color: #F7CA0B;
+    border: 1px solid #F7CA0B
 }
 .orders-2 .color-2 button{
     width: 70%;
@@ -1846,8 +1846,8 @@ select:-moz-focusring {
     margin-top: 0rem;
 }
 .color-y{
-    background-color: #FEE101;
-    border: 1px solid #FEE101 !important
+    background-color: #F7CA0B;
+    border: 1px solid #F7CA0B !important
 }
 /** Start Financial Operations **/
 .financial-operations .balance{
@@ -1877,7 +1877,7 @@ select:-moz-focusring {
 }
 .financial-operations .balance i{
     padding: 10px;
-    background-color: #fee101;
+    background-color: #F7CA0B;
     color: #FFF;
     border-radius: 15px;
     margin-left: 1rem
@@ -1929,7 +1929,7 @@ select:-moz-focusring {
 .collection-request .secound-m .vc-m{
     font-size: 1.5rem;
     font-weight: bold;
-    color: #FEE101;
+    color: #F7CA0B;
 }
 .collection-request .model-img{
     padding: 0
@@ -1951,7 +1951,7 @@ select:-moz-focusring {
     margin-top: 15px;
 }
 .confirm-order img{
-    border: 2px solid #FEE101;
+    border: 2px solid #F7CA0B;
     border-radius: 17px;
 }
 .confirm-order-content{
@@ -1970,7 +1970,7 @@ select:-moz-focusring {
 
 }
 .confirm-order-content span{
-    color: #FEE101;
+    color: #F7CA0B;
     font-weight: bold;
 }
 .count-card{
@@ -1992,7 +1992,7 @@ select:-moz-focusring {
     color: #fff;
     border-radius: 5px;
     padding: 5px;
-    background-color: #FEE101;
+    background-color: #F7CA0B;
 }
 .confirm-order-page label{
     font-weight: bold;
@@ -2019,7 +2019,7 @@ select:-moz-focusring {
 }
 .total-price p{
     text-align: end;
-    color: #FEE101;
+    color: #F7CA0B;
     padding-left: 0;
 }
 /**
@@ -2067,7 +2067,7 @@ Start Chats Page
     padding-top: 1rem;
 }
 .ch-messsage{
-    background-color: #FEE101;
+    background-color: #F7CA0B;
     padding: 1rem 15px 1rem 1rem;
     text-align: start;
     color: #fff;
@@ -2124,7 +2124,7 @@ Start Chats Page
 }
 .chat-upload-img,.upload-voice a{
     font-size: 1.5rem;
-    color: #FEE101
+    color: #F7CA0B
 }
 .chat-button button{
     font-size: 1.5rem;
@@ -2157,7 +2157,7 @@ loader
     margin: 0;
     width: 100%;
     height: 100%;
-    background: #fee101;
+    background: #F7CA0B;
     z-index: 9999999;
 }
 body {
@@ -2165,7 +2165,7 @@ body {
     margin: 0;
     width: 100%;
     height: 100vh;
-    background: #fee101;
+    background: #F7CA0B;
 }
 .circle {
     width: 20px;
@@ -2300,7 +2300,7 @@ Start notifications Page
     text-align: start
 }
 .carousel__prev, .carousel__next{
-    background-color: #fee101 !important;
+    background-color: #F7CA0B !important;
 }
 a {
     color: black;
@@ -2312,10 +2312,10 @@ a{
     cursor: pointer;
 }
 .carousel__pagination-button{
-    background-color: #dfce3b !important;
+    background-color: #F7CA0B !important;
 }
 .carousel__pagination-button--active{
-    background-color: #ffc107 !important;
+    background-color: #F7CA0B !important;
 }
 /**
 End notifications Page
@@ -2330,7 +2330,7 @@ End notifications Page
     text-align: start;
 }
 .payMethod h3{
-    color: #FEE101
+    color: #F7CA0B
 }
 .payMethod label{
     font-weight: bold
@@ -2338,8 +2338,25 @@ End notifications Page
 .payMethod button,.payMethod button:hover{
     margin: auto;
     display: flex;
-    background-color: #FEE101;
+    background-color: #F7CA0B;
     color: #fff;
     padding: 10px 25px;
     font-weight: bold
+}
+.imageHeight{
+    height: 150px;
+}
+.add-orders .card-body button{
+    margin: 0;
+}
+.modal-tab, .modal-tab li{
+    padding: 0!important
+}
+.modal-tab .nav-pills .nav-link.active,.modal-tab .nav-pills .show>.nav-link, .modal-tab ul a, .modal-tab{
+    color: #000;
+    font-size: 0.9rem
+}
+ .modal-tab{
+    background-color: #eee;
+    border: none
 }

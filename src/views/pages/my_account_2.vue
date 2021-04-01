@@ -26,8 +26,8 @@
                                 <div class="add-c"><a data-tooltip="add portfolio" data-toggle="modal" data-target="#add_portfolio" aria-label="Close" data-dismiss="modal"><i class="fas fa-plus-circle"></i></a></div>
                               <div class="acount-user-img">
                                     <img :src="User.avatar" id="profile-image" alt="">
-                                    <input type="file" class="d-none" id="file" ref="file" v-on:change="handleImage()" accept="image/*">
-                                    <label for="file"><span><i class="fas fa-plus-circle"></i></span></label>
+                                    <input type="file" class="d-none" id="Av_file" ref="Av_file" v-on:change="handleImage()" accept="image/*">
+                                    <label for="Av_file"><span><i class="fas fa-plus-circle"></i></span></label>
                                 </div>
                                 <div class="form-group">
                                     <div class="form-group">
@@ -149,10 +149,7 @@ let $ = jquery;
 import url from '../../main';
 
 export default {
-  name: 'my_account',
-    mounted() {
-        console.log('My_account_2 mounted.')
-    },
+  name: 'my_account_2',
   components:{
       change_setting_2,
       change_password_2,
@@ -162,11 +159,12 @@ export default {
   data(){
       return{
         User:[],
-        file:'',
+        Av_file:'',
       }
   },
   created() {
     this.userDetails2();
+
   },
   methods:{
     userDetails2(){
@@ -191,10 +189,11 @@ export default {
     },
     handleImage(){
       try {
-      let file = this.$refs.file.files[0];
-      if (file.type === "image/png"){
+        let Av_file = this.$refs.Av_file.files[0];
+      console.log(Av_file);
+      if (Av_file.type === "image/png"){
         let formData = new FormData();
-        formData.append('avatar',file);
+        formData.append('avatar',Av_file);
         const token = sessionStorage.getItem('access_token_1');
         axios.post(url+'/api/auth/update',
             formData,

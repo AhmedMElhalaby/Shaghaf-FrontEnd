@@ -47,9 +47,9 @@
                                 <div class="col-lg-11 o-h">
                                     <h6>الأعمال السابقة</h6>
                                   <carousel :items-to-show="1" :wrap-around="true">
-                                    <Slide v-for="slide in 1" :key="slide">
-                                      <div v-for="(portfolio, index) in Portfolios" :key="index">
-                                        <img :src="portfolio.media" style="max-width: 150px">
+                                    <Slide>
+                                      <div class="col-lg-4" v-for="(portfolio, index) in Portfolios" :key="index">
+                                        <input type="image" :src="portfolio.media" style="max-width: 150px;height: 100px;">
                                       </div>
                                     </Slide>
                                     <template #addons>
@@ -86,10 +86,10 @@
                 <div class="modal-tab col-3">
                   <ul class="nav nav-pills mb-3 list-con row" id="pills-tab" role="tablist">
                     <li class="nav-item col-6">
-                      <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" v-on:click.prevent="fetchProducts(2)">منتجات</a>
+                      <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" v-on:click.prevent="type= 2; fetchProducts()">منتجات</a>
                     </li>
                     <li class="nav-item col-6">
-                      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#transaction" role="tab" aria-controls="pills-profile" aria-selected="false" v-on:click.prevent="fetchProducts(1)">خدمات</a>
+                      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#transaction" role="tab" aria-controls="pills-profile" aria-selected="false" v-on:click.prevent="type= 1;fetchProducts()">خدمات</a>
                     </li>
                   </ul>
                 </div>
@@ -99,7 +99,7 @@
                   <div class="row pb-5">
                     <div class="col-lg-3" v-for="(product, index) in Products" :key="index">
                       <div class="card pro-ser-card">
-                        <img class="card-img-top" :src="product['first_image']" alt="Card image cap">
+                        <img class="card-img-top imageHeight" :src="product.Media[0].file" alt="Card image cap">
                         <div class="card-body">
                           <h6 class="card-title">{{product['name']}}</h6>
                           <p class="card-text">{{ product['description'] }}</p>
@@ -119,7 +119,7 @@
                   <div class="row pb-5">
                     <div class="col-lg-3" v-for="(product, index) in Products" :key="index">
                       <div class="card pro-ser-card">
-                        <img class="card-img-top" :src="product['first_image']" alt="Card image cap">
+                        <img class="card-img-top imageHeight" :src="product.Media[0].file" alt="Card image cap">
                         <div class="card-body">
                           <h6 class="card-title">{{product['name']}}</h6>
                           <p class="card-text">{{ product['description'] }}</p>
@@ -138,83 +138,6 @@
             </div>
         </div>
     </div>
-  <!--confirm order -->
-  <div class="modal fade confirm-order-page" id="exampleModalCenter-12" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        <div class="modal-header">
-          <p>تأكيد الطلب</p>
-        </div>
-        <div class="modal-body secound-m">
-          <div class="form-group">
-            <label for="deliveredDate"><img src="../../assets/img/calendar.svg" alt=""> تاريخ التسليم</label>
-            <input type="date" class="form-control" id="deliveredDate" placeholder="05873131316" v-model="delivered_date">
-          </div>
-          <div class="form-group">
-            <label for="deliveredTime"><img src="../../assets/img/clock-1.svg" alt=""> توقيت التسليم</label>
-            <input type="time" class="form-control" id="deliveredTime" placeholder="05873131316" v-model="delivered_time">
-          </div>
-          <div class="form-group">
-            <label for="notes"><img :src="User['avatar']" alt=""> الملاحظات</label>
-            <textarea class="form-control" id="notes" rows="5" v-model="note">
-                                        </textarea>
-          </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="row confirm-order">
-                <div class="col-lg-4 pr-0">
-                  <img class="w-100" :src="Product['first_image']" alt="">
-                </div>
-                <div class="col-lg-7 confirm-order-content">
-                  <h5>{{ Product['name'] }}</h5>
-                  <p>{{ Product['description'] }} </p>
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <span>{{ Product['category_name'] }}</span>
-                    </div>
-                    <div class="col-lg-6">
-                      <span>{{ Product['price'] }} ر.س</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-1 pl-0">
-                  <div class="count-card">
-                    <div class="add-to-cart">
-                                           <span>
-                                               <i id="increment" v-on:click.prevent="quantity++" :v-model="quantity" class="fas fa-plus"></i>
-                                           </span>
-                    </div>
-                    <div class="cart-counter">
-                      {{ quantity }}
-                    </div>
-                    <div class="remove-from-cart">
-                                           <span>
-                                               <i id="decrement" v-on:click="quantity--" :v-model="quantity" class="fas fa-minus"></i>
-                                           </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="row total-price">
-                <h6 class="h5 col-lg-6">السعر الاجمالي</h6>
-                <p :v-model="total = quantity * Product['price']" class="col-lg-6">{{ total }} ر.س</p>
-              </div>
-            </div>
-          </div>
-          <div class="tab-button">
-            <button type="submit" class="btn" v-on:click.prevent="creatrOrder()">اطلب الان</button>
-          </div>
-          <div class="tab-a"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
 </template>
 <script>
 import axios from "axios";
@@ -237,7 +160,6 @@ export default {
       Navigation
     },
     mounted() {
-        console.log('Component mounted.');
         this.fetchUser();
         this.fetchProduct();
     },
@@ -246,6 +168,7 @@ export default {
         User:{
           City:[],
         },
+        type:2,
         Portfolios:[],
         Products:[],
         Product:[],
@@ -325,7 +248,7 @@ export default {
           console.log(e);
         }
       },
-      fetchProducts(val){
+      fetchProducts(){
         try {
           const token = sessionStorage.getItem('access_token_1');
           const user_id = sessionStorage.getItem('user_id');
@@ -337,7 +260,7 @@ export default {
                 },
                 params: {
                   user_id: user_id,
-                  type: val,
+                  type: this.type,
                   per_page: 8,
                 }
               })
@@ -428,8 +351,10 @@ export default {
         try {
           navigator.geolocation.getCurrentPosition(
               position => {
-                console.log(position.coords.latitude);
-                console.log(position.coords.longitude);
+                position.coords.latitude;
+                position.coords.longitude;
+                //console.log(position.coords.latitude);
+                //console.log(position.coords.longitude);
               },
               error => {
                 console.log(error.message);
@@ -448,3 +373,9 @@ export default {
   },
 }
 </script>
+<style>
+.card-img-top{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+</style>

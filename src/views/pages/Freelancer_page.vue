@@ -80,18 +80,23 @@
                     </div>
                 </div>
               <div class="row justify-content-center">
-                <div class="pro-ser col-3">
-                  <!-- start navs section -->
-                  <div class="col-lg most-l">
-                    <a class="active" v-on:click.prevent="fetchFreelancerProducts(1)" style="cursor: pointer">خدمات</a>
-                    <a v-on:click.prevent="fetchFreelancerProducts(2)" style="cursor: pointer">منتجات</a>
-                  </div>
+                <div class="modal-tab col-3">
+                  <ul class="nav nav-pills mb-3 list-con row" id="pills-tab" role="tablist">
+                    <li class="nav-item col-6">
+                      <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" v-on:click.prevent="type= 2; fetchFreelancerProducts()">منتجات</a>
+                    </li>
+                    <li class="nav-item col-6">
+                      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#transaction" role="tab" aria-controls="pills-profile" aria-selected="false" v-on:click.prevent="type= 1; fetchFreelancerProducts()">خدمات</a>
+                    </li>
+                  </ul>
                 </div>
               </div>
+              <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
               <div class="row pb-5">
                 <div class="col-lg-3" v-for="(product, index) in Products" :key="index">
                   <div class="card pro-ser-card">
-                    <img class="card-img-top" :src="product['first_image']" alt="Card image cap">
+                    <img class="card-img-top imageHeight" :src="product.Media[0].file" alt="Card image cap">
                     <div class="card-body">
                       <h6 class="card-title">{{product['name']}}</h6>
                       <p class="card-text">{{ product['description'] }}</p>
@@ -106,6 +111,29 @@
                   </div>
                 </div>
               </div>
+              </div>
+              <div class="tab-pane fade" id="transaction" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row pb-5">
+                  <div class="col-lg-3" v-for="(product, index) in Products" :key="index">
+                    <div class="card pro-ser-card">
+                      <img class="card-img-top imageHeight" :src="product.Media[0].file" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">{{product['name']}}</h6>
+                        <p class="card-text">{{ product['description'] }}</p>
+                        <hr>
+                        <div class="row">
+                          <div class="col-lg-3"></div>
+                          <div class="col-lg-6"><span class="count count-pr">السعر : {{ product.price }}</span></div>
+                          <div class="col-lg-3"></div>
+                        </div>
+                        <a class="btn pro-ser-button" data-toggle="modal" data-target="#exampleModalCenter-12" aria-label="Close" data-dismiss="modal" v-on:click.prevent="fetchProduct(product.id)">أطلب الان</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
             </div>
         </div>
     </div>
@@ -227,6 +255,7 @@ export default {
         lng: '' ,
         User:[],
         user_id:'',
+        type: 2
       }
   },
   created() {
@@ -288,7 +317,7 @@ export default {
           console.log(e);
         }
       },
-      fetchFreelancerProducts(val){
+      fetchFreelancerProducts(){
         try {
           const token = sessionStorage.getItem('access_token_1');
           axios.get(url+'/api/products',
@@ -298,7 +327,7 @@ export default {
                   'X-localization': 'ar',
                 },
                 params: {
-                  type: val,
+                  type: this.type,
                   user_id: sessionStorage.getItem('freelancer_id'),
                   per_page: 10,
                 }

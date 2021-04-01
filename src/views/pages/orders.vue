@@ -2,7 +2,7 @@
     <!-- start wrapper -->
     <div class="wrapper">
         <div class="container">
-            <div class=" orders financial-operations">
+            <div class=" orders add-orders ">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><router-link to="/"><i class="fas fa-home"></i></router-link></li>
@@ -26,10 +26,10 @@
                   <div class="row">
                     <div class="col-lg-3" v-for="(order, index) in Orders" :key="index" v-on:click.prevent="getOrderId(order.id)">
                       <div class="card pro-ser-card">
-                        <img class="card-img-top" src="{{(order.Product)?order.Product.first_image:''}}" alt="Card image cap">
+                        <img class="card-img-top imageHeight" :src="order.Product.Media[0].file" alt="Card image cap">
                         <div class="card-body">
-                          <h6 class="card-title">{{ (order.Product)?order.Product.name:'-' }}</h6>
-                          <p class="card-text">{{ (order.Product)?order.Product.description:'-' }}</p>
+                          <h6 class="card-title">{{ order.Product.name}}</h6>
+                          <p class="card-text">{{ order.Product.description }}</p>
                           <hr>
                           <div class="row bg-h">
                             <div class="col-lg-6"><span class="count count-pr">{{ order.total }}</span></div>
@@ -41,7 +41,7 @@
                           <div class="row">
                             <div class="m-name col-7">
                               <span class="count">المنفذ</span>
-                              <p>{{ order['Freelancer']['name'] }}</p>
+                              <p>{{ (order['Freelancer'])?order['Freelancer']['name']:'' }}</p>
                             </div>
                             <button type="submit" class="btn" v-on:click.prevent="getFreelancerId(order['Freelancer']['id'])">
                               <div class="col-5 refused">
@@ -78,10 +78,10 @@
                   <div class="row">
                     <div class="col-lg-3" v-for="(order, index) in Orders" :key="index" v-on:click.prevent="getOrderId(order.id)">
                       <div class="card pro-ser-card">
-                        <img class="card-img-top" :src="(order.Product)?order.Product.first_image:''" alt="Card image cap">
+                        <img class="card-img-top imageHeight" :src="order.Product.Media[0].file" alt="Card image cap">
                         <div class="card-body">
-                          <h6 class="card-title">{{ (order.Product)?order.Product.name:'-' }}</h6>
-                          <p class="card-text">{{ (order.Product)?order.Product.description:'-' }}</p>
+                          <h6 class="card-title">{{ order.Product.name }}</h6>
+                          <p class="card-text">{{ order.Product.description }}</p>
                           <hr>
                           <div class="row bg-h">
                             <div class="col-lg-6"><span class="count count-pr">{{ order.total }}</span></div>
@@ -147,12 +147,38 @@ export default {
       page: 1,
       perPage: 5,
       pages: [],
+      Media:[],
     }
   },
   created() {
-      this.fetchCurrentOrder();
+      this.fetchOrders();
   },
   methods:{
+      fetchOrders(){
+        const token = sessionStorage.getItem('access_token_1');
+        axios.get(url+'/api/orders',
+            {
+              headers:{
+                'Authorization': 'Bearer ' + token,
+                'X-localization': 'ar',
+              },
+              params:{
+                page: this.page,
+                is_completed: this.is_completed,
+                per_page: 8,
+              }
+            })
+        .then(res=>{
+          if (res.data['status']['status'] === "success"){
+            this.Orders =res.data['Orders'];
+          }else {
+            console.log(res.data['status']['message']);
+          }
+        })
+        .catch(e=>{
+          console.log(e);
+        });
+      },
     fetchCurrentOrder(){
       try {
         const token = sessionStorage.getItem('access_token_1');

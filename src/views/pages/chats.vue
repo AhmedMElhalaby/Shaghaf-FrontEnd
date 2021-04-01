@@ -12,7 +12,7 @@
                   </div>
                   <div class="col-lg-9 chat-p">
                     <h4>{{ room.User['name'] }}</h4>
-                    <p>{{ room.latest_message }}</p>
+                    <p >{{ room.latest_message }}</p>
                   </div>
 
                 </div>
@@ -36,16 +36,16 @@
                   <div class="col-lg-12 showMore">
                     <a class="paginate" @click="page++; showMoreMessages()"> عرض الرسائل السابقة </a>
                   </div>
-                  <div class="col-lg-12" v-for="(message, index) in Messages" :key="index" :class="{'l-litter' :message.user_id === user_id , 'm-litter' : message.user_id !== user_id}">
+                  <div class="col-lg-12" v-for="(message, index) in Messages" :key="index" :class="{'l-litter' : (message.user_id == user_id) , 'm-litter' : (message.user_id != user_id)}">
                     <div class="col-lg-6 mb-3 ml-lang">
                       <p v-if="message.type === 1" class=" ch-messsage">{{ (message)?message.message: ''}}</p>
-                      <img v-if="message.type === 3" :src="'http://18.194.157.202/'+ message.message" >
+                      <img v-if="message.type === 3" :src="message.message" >
                       <audio controls v-if="message.type === 2">
-                        <source :src="'http://18.194.157.202/' + message.message" type="audio/mpeg">
+                        <source :src="message.message" type="audio/mpeg">
                         Your browser does not support the audio element.
                       </audio>
                       <p class="ch-messsage" v-show="message.type === 4">
-                        <a :href="'http://18.194.157.202/'+message.message" :src="'http://18.194.157.202/'+message.message" style="overflow-wrap: anywhere">
+                        <a :href="message.message" :src="message.message" style="overflow-wrap: anywhere">
                           {{ message.message }}</a>
                       </p>
                       <span>{{ message.created_at }}</span>
