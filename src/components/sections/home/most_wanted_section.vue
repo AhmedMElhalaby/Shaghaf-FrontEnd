@@ -8,7 +8,7 @@
                             <h5 class="text-right"><span class="text-con"> الاكثر طلبا </span><span class="text-c-y"></span></h5>
                         </div>
                         <div class="col-lg most-l">
-                            <a href="javascript:" class="active" v-bind:class="{ active: selected_cat===0 }" v-on:click.prevent="fetchAllFreelancer();selected_cat = 0">الكل</a>
+                            <a href="javascript:" v-bind:class="{ active: selected_cat===0 }" v-on:click.prevent="fetchAllFreelancer();selected_cat = 0">الكل</a>
                             <a href="javascript:" v-for="(category,index) in Categories" v-bind:class="{ active: selected_cat===category.id }"  :key="index" v-on:click.prevent="category_id = category.id; fetchFreelancer();selected_cat = category.id">{{ category.name }}</a>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ export default {
         City:[],
         category:[],
         category_id:'',
-        selected_cat: null
+        selected_cat: 0
       }
     },
     created() {

@@ -11,8 +11,8 @@
                     </ol>
                 </nav>
                 <div class="col-lg most-l">
-                    <a v-on:click.prevent="fetchAllFreelancers()" class="active" style="cursor: pointer">الكل</a>
-                    <a v-for="(category, index) in Categories" :key="index" v-on:click.prevent="category_id = category.id ; fetchAllFreelancers()" style="cursor: pointer">
+                    <a v-on:click.prevent="category_id=null;fetchAllFreelancers();selected_cat = 0" v-bind:class="{active:selected_cat===0}" style="cursor: pointer">الكل</a>
+                    <a v-for="(category, index) in Categories" :key="index" v-on:click.prevent="category_id = category.id ; fetchAllFreelancers();selected_cat = category.id" v-bind:class="{active:selected_cat===category.id}" style="cursor: pointer">
                       {{ category.name }}
                     </a>
                 </div>
@@ -24,7 +24,7 @@
                     <div class="card">
                       <div class="img-o-h">
                         <div class="order-card-img">
-                          <img class="card-img-top" :src="freelancer.avatar" alt="Card image cap" style="width: 70px; height: 70px">
+                          <img class="card-img-top" :src="freelancer.avatar" alt="Card image cap" style="width: 84px; height: 75px">
                         </div>
                       </div>
                       <div class="card-body">
@@ -93,6 +93,7 @@ export default {
         page: 1,
         perPage: 5,
         pages: [],
+        selected_cat:0
       }
   },
   created() {
