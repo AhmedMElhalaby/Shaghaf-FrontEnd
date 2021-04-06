@@ -21,42 +21,9 @@
 </template>
 
 <script>
-import axios from "axios";
-import url from '../../../main';
 
 export default {
     name: 'Categories',
-
-    data() {
-        return {
-            Categories : [],
-        }
-    },
-    created() {
-        this.fetchCategories();
-    },
-    methods : {
-        fetchCategories(){
-          try {
-            axios.get(url+'/api/home/categories', {
-              headers: {
-                'X-localization': 'ar',
-              }
-            })
-                .then(res => {
-                  if (res.data['status']['status'] === "success") {
-                    this.Categories = res.data['Categories'];
-                  } else {
-                    console.log();
-                  }
-                })
-                .catch(e => {
-                  console.log(e);
-                })
-          }catch (e){
-            console.log();
-          }
-        },
-    },
+    props:['Categories'],
 }
 </script>

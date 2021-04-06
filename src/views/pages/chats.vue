@@ -117,6 +117,7 @@ export default {
       page: 1,
       perPage: 5,
       pages: [],
+      soundurl : 'https://fsb.zobj.net/download/bucMa5bnqhDG6_UPLibVOj5wlo6PkH-FbLOhSF1fPiicxrR0UyxIAvKAI6A396pi2tz16lL6qNk4YehMDmBpgUT4HDN2S7EvybvPOpt7_Fwt7JaSW3wuXuIQ_Qbc/?a=web&c=72&f=facebook_pop_up.mp3&special=1617581381-f7fXe%2BoZUhYvAKCDBx%2B6cY47DrfKcrEBe6WUmHeOkY4%3D',
     }
   },
   computed:{
@@ -139,6 +140,8 @@ export default {
       this.channel = pusher.subscribe("chat_room." + this.chat_room_id + ".new_message");
       this.channel.bind('CreateMessageEvent', function(data) {
         that.Messages.push(data.message);
+        let bMusic = new Audio(that.soundurl);
+        bMusic.play();
       });
     }catch (e){
       console.log(e);

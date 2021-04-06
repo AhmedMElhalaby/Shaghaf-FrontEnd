@@ -1,5 +1,5 @@
 <template>
-  <form :action="'http://localhost:8080/#/paymentStatus'" class="paymentWidgets" data-brands="VISA MASTER AMEX"></form>
+  <form :action="url+'/#/paymentStatus'" class="paymentWidgets" data-brands="VISA MASTER AMEX"></form>
 </template>
 <script>
 export default {

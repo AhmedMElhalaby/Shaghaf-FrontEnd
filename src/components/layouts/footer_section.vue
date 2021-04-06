@@ -8,7 +8,7 @@
                             <div class="col-lg-3"><a :href="'/'"><img class="fw-img login100-pic js-tilt" v-tilt data-tilt src="../../assets/img/logo2.png" alt=""></a></div>
                             <div class="col-lg-9">
                                 <h4 class="h-f">المنصة الأولى في الوطن العربي</h4>
-                                <p class="phr-f">هذا نص تجريبي لاختبار شكل و حجم النصوص و طريقة عرضهاi في هذا المكان و حجم و لون الخط حيث يتم التحكم في هذا النص وامكانية تغييرة في اي وقت عن طريق ادارة الموقع . يتم اضافة هذا النص كنص </p>
+                                <p class="phr-f" v-text="footer_about"> </p>
                             </div>
                         </div>
                     </div>
@@ -33,15 +33,15 @@
                             </div>
                             <div class="col-lg-5 pl-0">
                                 <ul class="footer-ul l-s-f">
-                                    <li>(+800) 123 456 7890 <i class="fas fa-phone-alt"></i></li>
-                                    <li>manager@shop.com <i class="far fa-envelope"></i></li>
-                                    <li>Location store <i class="fas fa-map-marker-alt"></i></li>
+                                    <li><span v-text="mobile"></span> <i class="fas fa-phone-alt"></i></li>
+                                    <li> <i class="far fa-envelope"></i> <span v-text="email"></span></li>
+<!--                                    <li>Location store <i class="fas fa-map-marker-alt"></i></li>-->
                                 </ul>
                                 <hr class="footer-hr">
                                 <ul class="footer-ul last-ul">
-                                    <li><a><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a><i class="fab fa-instagram"></i></a></li>
-                                    <li><a><i class="fab fa-twitter"></i></a></li>
+                                    <li><a v-bind:href="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a v-bind:href="instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a v-bind:href="twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -59,6 +59,17 @@ import jquery from 'jquery';
 let $ = jquery;
 
 export default {
+  props:['Install'],
+  data(){
+    return{
+      footer_about:'',
+      mobile:'',
+      email:'',
+      twitter:'',
+      facebook:'',
+      instagram:'',
+    }
+  },
   created() {
     $(document).ready(function(){
       $('.li-onepage a').click(function(e) {
@@ -69,6 +80,17 @@ export default {
         }, 800)
       });
     });
+  },
+  mounted() {
+    setTimeout(() => {
+      this.footer_about =this.Install['Settings']['footer_about'];
+      this.mobile =this.Install['Settings']['mobile'];
+      this.email =this.Install['Settings']['email'];
+      this.twitter =this.Install['Settings']['twitter'];
+      this.facebook =this.Install['Settings']['facebook'];
+      this.instagram =this.Install['Settings']['instagram'];
+    }, 1000);
+
   },
 }
 </script>

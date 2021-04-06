@@ -1,7 +1,7 @@
 <template>
-  <header_section></header_section>
-  <router-view/>
-  <footer_section></footer_section>
+  <header_section :Install="Install"></header_section>
+  <router-view :Install="Install"/>
+  <footer_section :Install="Install"></footer_section>
 </template>
 
 <style>
@@ -45,6 +45,8 @@
 <script>
 import header_section from "@/components/layouts/header_section";
 import footer_section from "@/components/layouts/footer_section";
+import axios from "axios";
+import url from "@/main";
 
 
 export default {
@@ -54,13 +56,36 @@ export default {
   },
   data(){
     return{
+      Install:null
     }
   },
   updated() {
   },
   created() {
+    this.fetchInstall();
   },
   methods:{
+    fetchInstall(){
+      try {
+        axios.get(url+'/api/home/install', {
+          headers: {
+            'X-localization': 'ar',
+          }
+        }).then(res => {
+          if (res.data['status']['status'] === "success") {
+            this.Install = res.data['data'];
+            this.$forceUpdate();
+            console.log(this.Install);
+          } else {
+            console.log();
+          }
+        }).catch(e => {
+          console.log(e);
+        })
+      }catch (e){
+        console.log(e);
+      }
+    }
   }
 }
 

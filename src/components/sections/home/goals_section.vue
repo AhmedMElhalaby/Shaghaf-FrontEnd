@@ -6,19 +6,8 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <h5 class="text-right"><span class="text-con"> اهدافنا </span><span class="text-c-y"></span></h5>
-                            <ul>
-                                <li>
-                                    <p><span></span> دعم أصحاب وثيقة العمل الحر من وزارة الموارد البشرية والتنمية الاجتماعية</p>
-                                </li>
-                                <li>
-                                    <p><span></span> تقديم عدة خيارات للخدمات المقدمة للعملاء بأسعار مميزة</p>
-                                </li>
-                                <li>
-                                    <p><span></span> توفير منصة متكاملة لتقديم خدمات شركاء الشغف</p>
-                                </li>
-                                <li>
-                                    <p><span></span> تسهيل التواصل بين شركاء وعملاء منصة شغف</p>
-                                </li>
+                            <ul v-html="goals">
+
                             </ul>
                         </div>
                         <div class="col-lg-2"></div>
@@ -34,5 +23,6 @@
 
 <script>
 export default {
+  props:['goals']
 }
 </script>

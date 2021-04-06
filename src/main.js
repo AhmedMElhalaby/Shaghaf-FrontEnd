@@ -9,11 +9,10 @@ import Bootstrap from 'bootstrap'
 import jquery from 'jquery'
 import vmApp from './App.vue'
 import '../src/assets/js/head.js';
-import * as carousel from 'vue3-carousel';
 let url = 'https://app.passionplatforms.com';
 export default url;
 
 createApp(App).config.productionTip = false
 
 
-createApp(App).use(vmApp).use(router).use(store).use(VueTilt).use(Bootstrap).use(jquery).use(carousel).use(FileUpload).mount('#app');
+createApp(App).use(vmApp).use(router).use(store).use(VueTilt).use(Bootstrap).use(jquery).use(FileUpload).mount('#app');

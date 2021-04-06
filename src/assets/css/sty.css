@@ -2360,3 +2360,12 @@ End notifications Page
     background-color: #eee;
     border: none
 }
+.swal2-styled.swal2-confirm{
+    background-color: #F7CA0B !important;
+}
+.swal2-icon.swal2-success{
+    border-color:#F7CA0B !important;
+}
+a{
+    text-decoration: none !important;
+}

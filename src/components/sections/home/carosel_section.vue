@@ -3,7 +3,7 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="container">
                 <div class="carousel-inner">
-                    <div class="carousel-item" v-for="(Advertisment, index) in Advertisments" :key="index" :class="{'active' : index === 0}">
+                    <div class="carousel-item" v-for="(Advertisment, index) in Advertisements" :key="index" :class="{'active' : index === 0}">
                         <img class="d-block w-100" :src="Advertisment.image" alt="First slide" style="max-height: 500px">
                     </div>
                 </div>
@@ -17,48 +17,16 @@
                 <span class="sr-only">Next</span>
             </a>
             <ol class="carousel-indicators">
-                <li data-target="#carouselExampleControls" v-for="(Advertisment , index) in Advertisments" :key="index" :class="{'active' : index === 0}" :data-slide-to="index"></li>
+                <li data-target="#carouselExampleControls" v-for="(Advertisment , index) in Advertisements" :key="index" :class="{'active' : index === 0}" :data-slide-to="index"></li>
             </ol>
         </div>
     </div>
 </template>
 <script>
-import axios from "axios";
-import url from '../../../main';
 
 export default {
   name: 'carosel_section',
-    data() {
-        return {
-                Advertisments :[],
-            }
-        },
-    created() {
-    this.fetchAdvertisments();
-    },
-    methods : {
-    fetchAdvertisments(){
-      try {
-        axios.get(url+'/api/home/advertisements', {
-          headers: {
-            'X-localization': 'ar',
-          }
-        })
-            .then(res => {
-              if (res.data['status']['status'] === "success") {
-                this.Advertisments = res.data['Advertisements'];
-              } else {
-                console.log();
-              }
-            })
-            .catch(e => {
-              console.log(e);
-            })
-      }catch (e){
-        console.log(e);
-      }
-    }
-    },
+  props:['Advertisements'],
 };
 
 </script>
