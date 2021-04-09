@@ -1,142 +1,142 @@
 <template>
-    <div class="wrapper">
-        <div class="container">
-            <div class="sevice-user">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><router-link to="/"><i class="fas fa-home"></i></router-link></li>
-                      <li class="breadcrumb-item"><router-link to="/our_serve">خدماتنا</router-link></li>
-                      <li class="breadcrumb-item" aria-current="page"><router-link to="/our_serve">التصميم الجرافيكي</router-link></li>
-                        <li class="breadcrumb-item active" aria-current="page">{{Freelancer['name']}}</li>
-                    </ol>
-                </nav>
+  <div class="wrapper">
+    <div class="container">
+      <div class="sevice-user">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><router-link to="/"><i class="fas fa-home"></i></router-link></li>
+            <li class="breadcrumb-item"><router-link to="/our_serve">خدماتنا</router-link></li>
+            <li class="breadcrumb-item" aria-current="page"><router-link to="/our_serve">التصميم الجرافيكي</router-link></li>
+            <li class="breadcrumb-item active" aria-current="page">{{Freelancer['name']}}</li>
+          </ol>
+        </nav>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="img-o-h">
+                <router-link v-show="user_type === '1'" to="/chats" v-on:click.prevent="createRoom()"><span class="chat"><img src="../../assets/img/chat.svg" alt=""></span></router-link>
+                <div class="order-card-img">
+                  <img class="card-img-top" :src="Freelancer['avatar']" alt="Card image cap">
+                </div>
+              </div>
+              <div class="card-body">
+                <h4>{{ Freelancer['name'] }}</h4>
+                <span>{{ Freelancer['bio'] }}</span>
+              </div>
+              <div class="card-footer">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="img-o-h">
-                                <router-link to="/chats"><span class="chat"><img src="../../assets/img/chat.svg" alt=""></span></router-link>
-                                <div class="order-card-img">
-                                    <img class="card-img-top" :src="Freelancer['avatar']" alt="Card image cap">
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <h4>{{ Freelancer['name'] }}</h4>
-                                <span>{{ Freelancer['bio'] }}</span>
-                            </div>
-                            <div class="card-footer">
-                                <div class="row">
-                                    <div class="col-3 p-0"><span><i class="fas fa-map-marker-alt"></i> city</span></div>
-                                    <div class="col-lg-2"></div>
-                                    <div class="col-4 star">
-                                        <span class="fa fa-star" :class="{'checked' : Freelancer['rate'] >= 1}"></span>
-                                        <span class="fa fa-star" :class="{'checked' : Freelancer['rate'] >= 2}"></span>
-                                        <span class="fa fa-star" :class="{'checked' : Freelancer['rate'] >= 3}"></span>
-                                        <span class="fa fa-star" :class="{'checked' : Freelancer['rate'] >= 4}"></span>
-                                        <span class="fa fa-star" :class="{'checked' : Freelancer['rate'] >= 5}"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <div class="row">
-                            <div class="pre-works said-about-us">
-                                <div class="col-lg-11 o-h">
-                                    <h6>الأعمال السابقة</h6>
-                                  <carousel :items-to-show="1" :wrap-around="true" style="width: 100%">
-                                    <Slide>
-                                      <div class="col-lg-3" v-for="(portfolio, index) in Portfolios" :key="index">
-                                        <img :src="portfolio.media" alt="portfolio" style="max-width: 150px">
-                                      </div>
-                                    </Slide>
-                                    <template #addons>
-                                      <navigation />
-                                      <pagination />
-                                    </template>
-                                  </carousel>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="pre-works pre-works-sec">
-                                <div class="col-lg-3">
-                                    <h6>الموقع</h6>
-                                </div>
-                                <div class="col-lg-9">
-                                    <div class="map-pre-w">
-                                      <GoogleMap
-                                          api-key="AIzaSyCrtMEBxgNcO0-bqdMFxo5hev35ugBZMhI"
-                                          style="width: 100%; height: 500px"
-                                          :center="center"
-                                          :zoom="15"
-                                          :init="initializeGoogleMap" :markers="markers" :getUserLocation="true">
-                                        <Marker :options="{ position: center }" />
-                                      </GoogleMap>
-                                      <!--                                        <img src="../../assets/img/map.svg" alt="">-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-              <div class="row justify-content-center">
-                <div class="modal-tab col-3">
-                  <ul class="nav nav-pills mb-3 list-con row" id="pills-tab" role="tablist">
-                    <li class="nav-item col-6">
-                      <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" v-on:click.prevent="type= 2; fetchFreelancerProducts()">منتجات</a>
-                    </li>
-                    <li class="nav-item col-6">
-                      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#transaction" role="tab" aria-controls="pills-profile" aria-selected="false" v-on:click.prevent="type= 1; fetchFreelancerProducts()">خدمات</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="tab-content" id="pills-tabContent">
-              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-              <div class="row pb-5">
-                <div class="col-lg-3" v-for="(product, index) in Products" :key="index">
-                  <div class="card pro-ser-card">
-                    <img class="card-img-top imageHeight" :src="product.Media[0].file" alt="Card image cap">
-                    <div class="card-body">
-                      <h6 class="card-title">{{product['name']}}</h6>
-                      <p class="card-text">{{ product['description'] }}</p>
-                      <hr>
-                      <div class="row">
-                        <div class="col-lg-3"></div>
-                        <div class="col-lg-6"><span class="count count-pr">السعر : {{ product.price }}</span></div>
-                        <div class="col-lg-3"></div>
-                      </div>
-                        <a class="btn pro-ser-button" data-toggle="modal" data-target="#exampleModalCenter-12" aria-label="Close" data-dismiss="modal" v-on:click.prevent="fetchProduct(product.id)">أطلب الان</a>
-                    </div>
+                  <div class="col-3 p-0"><span><i class="fas fa-map-marker-alt"></i> city</span></div>
+                  <div class="col-lg-2"></div>
+                  <div class="col-4 star">
+                    <span class="fa fa-star" :class="{'checked' : Freelancer['rate'] >= 1}"></span>
+                    <span class="fa fa-star" :class="{'checked' : Freelancer['rate'] >= 2}"></span>
+                    <span class="fa fa-star" :class="{'checked' : Freelancer['rate'] >= 3}"></span>
+                    <span class="fa fa-star" :class="{'checked' : Freelancer['rate'] >= 4}"></span>
+                    <span class="fa fa-star" :class="{'checked' : Freelancer['rate'] >= 5}"></span>
                   </div>
                 </div>
               </div>
-              </div>
-              <div class="tab-pane fade" id="transaction" role="tabpanel" aria-labelledby="pills-home-tab">
-                <div class="row pb-5">
-                  <div class="col-lg-3" v-for="(product, index) in Products" :key="index">
-                    <div class="card pro-ser-card">
-                      <img class="card-img-top imageHeight" :src="product.Media[0].file" alt="Card image cap">
-                      <div class="card-body">
-                        <h6 class="card-title">{{product['name']}}</h6>
-                        <p class="card-text">{{ product['description'] }}</p>
-                        <hr>
-                        <div class="row">
-                          <div class="col-lg-3"></div>
-                          <div class="col-lg-6"><span class="count count-pr">السعر : {{ product.price }}</span></div>
-                          <div class="col-lg-3"></div>
-                        </div>
-                        <a class="btn pro-ser-button" data-toggle="modal" data-target="#exampleModalCenter-12" aria-label="Close" data-dismiss="modal" v-on:click.prevent="fetchProduct(product.id)">أطلب الان</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              </div>
-
             </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="pre-works said-about-us">
+                <div class="col-lg-11 o-h">
+                  <h6>الأعمال السابقة</h6>
+                  <carousel :items-to-show="1" :wrap-around="true" style="width: 100%">
+                    <Slide>
+                      <div class="col-lg-3" v-for="(portfolio, index) in Portfolios" :key="index">
+                        <img :src="portfolio.media" alt="portfolio" style="max-width: 150px">
+                      </div>
+                    </Slide>
+                    <template #addons>
+                      <navigation />
+                      <pagination />
+                    </template>
+                  </carousel>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="pre-works pre-works-sec">
+                <div class="col-lg-3">
+                  <h6>الموقع</h6>
+                </div>
+                <div class="col-lg-9">
+                  <div class="map-pre-w">
+                    <GoogleMap
+                        api-key="AIzaSyCrtMEBxgNcO0-bqdMFxo5hev35ugBZMhI"
+                        style="width: 100%; height: 500px"
+                        :center="center"
+                        :zoom="15"
+                        :init="initializeGoogleMap" :markers="markers" :getUserLocation="true">
+                      <Marker :options="{ position: center }" />
+                    </GoogleMap>
+                    <!--                                        <img src="../../assets/img/map.svg" alt="">-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="row justify-content-center">
+          <div class="modal-tab col-3">
+            <ul class="nav nav-pills mb-3 list-con row" id="pills-tab" role="tablist">
+              <li class="nav-item col-6">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" v-on:click.prevent="type= 2; fetchFreelancerProducts()">منتجات</a>
+              </li>
+              <li class="nav-item col-6">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#transaction" role="tab" aria-controls="pills-profile" aria-selected="false" v-on:click.prevent="type= 1; fetchFreelancerProducts()">خدمات</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row pb-5">
+              <div class="col-lg-3" v-for="(product, index) in Products" :key="index">
+                <div class="card pro-ser-card">
+                  <img class="card-img-top imageHeight" :src="product.Media[0].file" alt="Card image cap">
+                  <div class="card-body">
+                    <h6 class="card-title">{{product['name']}}</h6>
+                    <p class="card-text">{{ product['description'] }}</p>
+                    <hr>
+                    <div class="row">
+                      <div class="col-lg-3"></div>
+                      <div class="col-lg-6"><span class="count count-pr">السعر : {{ product.price }}</span></div>
+                      <div class="col-lg-3"></div>
+                    </div>
+                    <a class="btn pro-ser-button" data-toggle="modal" data-target="#exampleModalCenter-12" aria-label="Close" data-dismiss="modal" v-on:click.prevent="fetchProduct(product.id)">أطلب الان</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="transaction" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row pb-5">
+              <div class="col-lg-3" v-for="(product, index) in Products" :key="index">
+                <div class="card pro-ser-card">
+                  <img class="card-img-top imageHeight" :src="product.Media[0].file" alt="Card image cap">
+                  <div class="card-body">
+                    <h6 class="card-title">{{product['name']}}</h6>
+                    <p class="card-text">{{ product['description'] }}</p>
+                    <hr>
+                    <div class="row">
+                      <div class="col-lg-3"></div>
+                      <div class="col-lg-6"><span class="count count-pr">السعر : {{ product.price }}</span></div>
+                      <div class="col-lg-3"></div>
+                    </div>
+                    <a class="btn pro-ser-button" data-toggle="modal" data-target="#exampleModalCenter-12" aria-label="Close" data-dismiss="modal" v-on:click.prevent="fetchProduct(product.id)">أطلب الان</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
+  </div>
   <!--confirm order -->
   <div class="modal fade confirm-order-page" id="exampleModalCenter-12" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -227,121 +227,122 @@ import url from '../../main';
 
 
 export default {
-    name: 'Freelancer_page',
-    components:{
-      GoogleMap,
-      Marker,
-      Carousel,
-      Slide,
-      Pagination,
-      Navigation,
-    },
-    mounted() {
-        console.log('Component mounted.');
-    },
+  name: 'Freelancer_page',
+  components:{
+    GoogleMap,
+    Marker,
+    Carousel,
+    Slide,
+    Pagination,
+    Navigation,
+  },
+  mounted() {
+    console.log('Component mounted.');
+  },
   data(){
-      return{
-        Freelancer: [],
-        Portfolios:[],
-        Products:[],
-        Product:[],
-        Order : [],
-        delivered_date: '',
-        delivered_time : '',
-        quantity :1,
-        note :'',
-        product_id:'',
-        lat: '',
-        lng: '' ,
-        User:[],
-        user_id:'',
-        type: 2
-      }
+    return{
+      Freelancer: [],
+      Portfolios:[],
+      Products:[],
+      Product:[],
+      Order : [],
+      delivered_date: '',
+      delivered_time : '',
+      quantity :1,
+      note :'',
+      product_id:'',
+      lat: '',
+      lng: '' ,
+      User:[],
+      user_id:'',
+      type: 2,
+      user_type: sessionStorage.getItem('user_type')
+    }
   },
   created() {
-      this.fetchFreelancer();
-      this.fetchFreelancerPortfolios();
-      this.fetchFreelancerProducts();
+    this.fetchFreelancer();
+    this.fetchFreelancerPortfolios();
+    this.fetchFreelancerProducts();
 
 
   },
   methods:{
-      fetchFreelancer() {
-        try {
-          axios.get(url+'/api/home/get_freelancer', {
-            headers: {
-              'X-localization': 'ar',
-            },
-            params: {
-              user_id: sessionStorage.getItem('freelancer_id')
-            }
-          },)
-              .then(res => {
-                if (res.data['status']['status'] === "success") {
-                  this.Freelancer = res.data['Freelancer'];
-                } else {
-                  console.log();
-                }
-              })
-              .catch(e => {
-                console.log(e);
-              })
-        }catch (e){
-          console.log(e);
-        }
-      },
-      fetchFreelancerPortfolios(){
-        try {
-          const token = sessionStorage.getItem('access_token_1');
-          axios.get(url+'/api/portfolios',
-              {
-                headers: {
-                  'Authorization': 'Bearer ' + token,
-                  'X-localization': 'ar',
-                },
-                params: {
-                  user_id: sessionStorage.getItem('freelancer_id')
-                }
-              })
-              .then(res => {
-                if (res.data['status']['status'] === "success") {
-                  this.Portfolios = res.data['Portfolios'];
-                } else {
-                  console.log()
-                }
-              })
-              .catch(e => {
-                console.log(e);
-              })
-        }catch (e){
-          console.log(e);
-        }
-      },
-      fetchFreelancerProducts(){
-        try {
-          const token = sessionStorage.getItem('access_token_1');
-          axios.get(url+'/api/products',
-              {
-                headers: {
-                  'Authorization': 'Bearer ' + token,
-                  'X-localization': 'ar',
-                },
-                params: {
-                  type: this.type,
-                  user_id: sessionStorage.getItem('freelancer_id'),
-                  per_page: 10,
-                }
-              })
-              .then(res => {
-                if (res.data['status']['status'] === "success") {
-                  this.Products = res.data['Products'];
-                } else {
-                  console.log();
-                }
-              })
-        }catch (e){
-          console.log(e);
-        }
+    fetchFreelancer() {
+      try {
+        axios.get(url+'/api/home/get_freelancer', {
+          headers: {
+            'X-localization': 'ar',
+          },
+          params: {
+            user_id: sessionStorage.getItem('freelancer_id')
+          }
+        },)
+            .then(res => {
+              if (res.data['status']['status'] === "success") {
+                this.Freelancer = res.data['Freelancer'];
+              } else {
+                console.log();
+              }
+            })
+            .catch(e => {
+              console.log(e);
+            })
+      }catch (e){
+        console.log(e);
+      }
+    },
+    fetchFreelancerPortfolios(){
+      try {
+        const token = sessionStorage.getItem('access_token_1');
+        axios.get(url+'/api/portfolios',
+            {
+              headers: {
+                'Authorization': 'Bearer ' + token,
+                'X-localization': 'ar',
+              },
+              params: {
+                user_id: sessionStorage.getItem('freelancer_id')
+              }
+            })
+            .then(res => {
+              if (res.data['status']['status'] === "success") {
+                this.Portfolios = res.data['Portfolios'];
+              } else {
+                console.log()
+              }
+            })
+            .catch(e => {
+              console.log(e);
+            })
+      }catch (e){
+        console.log(e);
+      }
+    },
+    fetchFreelancerProducts(){
+      try {
+        const token = sessionStorage.getItem('access_token_1');
+        axios.get(url+'/api/products',
+            {
+              headers: {
+                'Authorization': 'Bearer ' + token,
+                'X-localization': 'ar',
+              },
+              params: {
+                type: this.type,
+                user_id: sessionStorage.getItem('freelancer_id'),
+                per_page: 10,
+              }
+            })
+            .then(res => {
+              if (res.data['status']['status'] === "success") {
+                this.Products = res.data['Products'];
+              } else {
+                console.log();
+              }
+            })
+      }catch (e){
+        console.log(e);
+      }
     },
     creatrOrder(product_id){
       try {
@@ -412,21 +413,52 @@ export default {
       }
     },
     locatorButtonPressed() {
-        try {
-          navigator.geolocation.getCurrentPosition(
-              position => {
-                this.lng = position.coords.longitude;
-                this.lat = position.coords.latitude;
-              },
-              error => {
-                alert(error.message);
-              },
-          )
-        }catch (e){
-          console.log();
-        }
+      try {
+        navigator.geolocation.getCurrentPosition(
+            position => {
+              this.lng = position.coords.longitude;
+              this.lat = position.coords.latitude;
+            },
+            error => {
+              alert(error.message);
+            },
+        )
+      }catch (e){
+        console.log();
+      }
 
-  }
+    },
+    createRoom(){
+      try {
+        const token = sessionStorage.getItem('access_token_1');
+        this.user_id = sessionStorage.getItem('freelancer_id');
+        axios.post(url+'/api/chats/rooms/create',
+            {
+              user_id: this.user_id,
+            },
+            {
+              headers: {
+                'Authorization': 'Bearer ' + token,
+                'X-localization': 'ar',
+              }
+            })
+            .then(res => {
+              if (res.data['status']['status'] === "success") {
+                this.chatRoom = res.data['ChatRoom'];
+                const room_id = res.data['ChatRoom']['id'];
+                sessionStorage.setItem('room_id', room_id);
+                this.$router.push('/chats');
+              } else {
+                console.log();
+              }
+            })
+            .catch(e => {
+              console.log(e);
+            })
+      }catch (e){
+        console.log(e);
+      }
+    },
 
   },
   setup() {

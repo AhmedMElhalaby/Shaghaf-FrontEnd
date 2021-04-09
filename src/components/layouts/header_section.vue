@@ -50,7 +50,7 @@
                 </div>
                 <div class="row  navbar-expand-lg w-100 p-top">
                     <div class="col-lg-2"></div>
-                    <nav_section id="h-nav" v-if="token === null"></nav_section>
+                    <nav_section id="h-nav" v-if="$route.path === '/'"></nav_section>
                 </div>
             </div>
         </nav>

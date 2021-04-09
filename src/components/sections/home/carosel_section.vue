@@ -1,10 +1,10 @@
 <template>
     <div class="first-s" id="home">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="container">
+            <div class="container-fulluid">
                 <div class="carousel-inner">
                     <div class="carousel-item" v-for="(Advertisment, index) in Advertisements" :key="index" :class="{'active' : index === 0}">
-                        <img class="d-block w-100" :src="Advertisment.image" alt="First slide" style="max-height: 500px">
+                        <img class="d-block w-100" :src="Advertisment.image" alt="First slide" style="height: 400px">
                     </div>
                 </div>
             </div>

@@ -26,7 +26,7 @@
                             </div>
                             <div class="col-lg-3 p-0">
                                 <ul class="footer-ul">
-                                    <li class="li-onepage"><a data-to="#said-about-us">قالوا عنا</a></li>
+                                    <li class="li-onepage"><a data-to="#said-about-us">آراء العملاء</a></li>
                                     <li class="li-onepage"><a data-to="#contact-us">تواصل معنا</a></li>
                                     <li><a href="http://18.194.157.202/privacy">سياسة الاستخدام</a></li>
                                 </ul>

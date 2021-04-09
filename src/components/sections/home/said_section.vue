@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-9">
-          <h5 class="text-right"><span class="text-con"> قالوا عنا </span><span class="text-c"></span></h5>
+          <h5 class="text-right"><span class="text-con"> آراء العملاء </span><span class="text-c"></span></h5>
           <p>عرض بعض مراجعات الزبائن في التعامل من منصة شغف</p>
           <carousel :settings="settings" :wrap-around="true">
             <Slide v-for="(review, index) in Reviews" :key="index">

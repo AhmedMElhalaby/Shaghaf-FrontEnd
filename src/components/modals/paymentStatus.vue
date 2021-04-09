@@ -44,39 +44,39 @@ import url from '../../main';
 export default {
   name:'paymentStatus',
   data(){
-      return{
-        Transaction:[],
-      }
+    return{
+      Transaction:[],
+    }
   },
   created() {
     this.checkPayment();
   },
   methods:{
-      checkPayment(){
-        try {
-          const token = sessionStorage.getItem('access_token_1');
-          axios.get(url+'/api/transactions/check_payment',
-              {
-                headers:{
-                  'Authorization' : 'Bearer ' + token,
-                  'X-localization' : 'ar',
-                },
-                params:{
-                  transaction_id : sessionStorage.getItem('transaction_id'),
-                  value : sessionStorage.getItem('amount'),
-                }
-              })
-          .then(res=>{
-            if (res.data['status']['status'] === "success"){
-              this.Transaction = res.data['Transaction'];
-            }else {
-              console.log(res.data['result']);
-            }
-          })
-        }catch (e){
-          console.log(e);
-        }
+    checkPayment(){
+      try {
+        const token = sessionStorage.getItem('access_token_1');
+        axios.get(url+'/api/transactions/check_payment',
+            {
+              headers:{
+                'Authorization' : 'Bearer ' + token,
+                'X-localization' : 'ar',
+              },
+              params:{
+                transaction_id : sessionStorage.getItem('transaction_id'),
+                value : sessionStorage.getItem('amount'),
+              }
+            })
+            .then(res=>{
+              if (res.data['status']['status'] === "success"){
+                this.Transaction = res.data['Transaction'];
+              }else {
+                console.log();
+              }
+            })
+      }catch (e){
+        console.log(e);
       }
+    }
   }
 }
 </script>

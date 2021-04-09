@@ -10,7 +10,7 @@
                   <router-link to="/our_serve">
 
                     <div class="service">
-                        <img v-bind:src="Category.image" alt="" style="width: 80%">
+                        <img v-bind:src="Category.image" alt="" style="width: 50%">
                         <p>{{Category.name}}</p>
                     </div>
                   </router-link>

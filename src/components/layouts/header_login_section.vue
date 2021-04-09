@@ -91,11 +91,13 @@ export default {
                     sessionStorage.removeItem('access_token_1');
                     this.$router.push('/');
                     $('#MyAccountDropdown').hide();
-                    Swal.fire(
-                        res.data['status']['status'],
-                        'تم تسجيل الخروج بنجاح',
-                        'success'
-                    );
+
+                    Swal.fire({
+                      icon: 'success',
+                      title: 'تم تسجيل الخروج بنجاح',
+                      showConfirmButton: false,
+                      timer: 1500
+                    });
                     this.$emit('RefreshHeader');
                   } else {
                     Swal.fire(

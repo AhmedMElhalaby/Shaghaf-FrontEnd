@@ -105,10 +105,12 @@ export default {
                      // $('#exampleModalCenter').modal('hide');
                       $('#profile_status').modal('show');
                     }else {
-                      Swal.fire(
-                          'أهلا بك في منصة شغف',
-                          '',
-                          'success');
+                      Swal.fire({
+                        icon: 'success',
+                        title: 'أهلا بك في منصة شغف',
+                        showConfirmButton: false,
+                        timer: 1500
+                      });
                     }
                   } else{
                     Swal.fire(

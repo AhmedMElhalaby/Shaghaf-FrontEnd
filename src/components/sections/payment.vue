@@ -2,10 +2,11 @@
   <form :action="url+'/#/paymentStatus'" class="paymentWidgets" data-brands="VISA MASTER AMEX"></form>
 </template>
 <script>
+
 export default {
   data(){
     return{
-      checkOutId : sessionStorage.getItem('payment_token')
+      url: 'https://passionplatforms.com'
     }
   },
   created() {
@@ -31,18 +32,20 @@ export default {
       window.wpwl = wpwl;
 
       // load static files async
-      try {
-        (function (d, t, w, s, j) {
-          s = d.createElement(t);
-          j = d.getElementsByTagName(t)[0];
-          let e = w.checkout.config.environmentConfig;
-          s.src = [e.url, "/v", w.apiVersion, "/static/", e.cacheVersion, "/js/static", w.minified ? ".min" : "", ".js"].join("");
-          s.async = true;
-          j.parentNode.insertBefore(s,j);
-        }(document, "script", wpwl));
-      }catch (e){
-        console.log(e);
-      }
+
+      (function (d, t, w, s, j) {
+            s = d.createElement(t);
+            j = d.getElementsByTagName(t)[1];
+            let e = w.checkout.config.environmentConfig;
+            s.src = [e.url, "/v", w.apiVersion, "/static/", e.cacheVersion, "/js/static", w.minified ? ".min" : "", ".js"].join("");
+            s.async = true;
+            if (j.parentNode){
+              j.parentNode.insertBefore(s,j);
+            }else {
+              console.log('error');
+            }
+          }(document, "script", wpwl)
+      );
 
     }());
   },

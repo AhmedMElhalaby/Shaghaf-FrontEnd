@@ -18,7 +18,7 @@
           <a class="nav-link scroll" data-to="#most-wanted">الاكثر طلبا</a>
         </li>
         <li class="nav-item li-onepage">
-          <a class="nav-link scroll" data-to="#said-about-us">قالوا عنا</a>
+          <a class="nav-link scroll" data-to="#said-about-us">آراء العملاء</a>
         </li>
         <li class="nav-item li-onepage">
           <a class="nav-link scroll" data-to="#our-goals">اهدافنا</a>
