@@ -2380,7 +2380,7 @@ a{
 .top-border {
     width: 40%;
     margin-right: auto;
-    background-color: rgb(254, 225, 1);
+    background-color: #f7ca0b;
     padding: 20px;
     border-radius: 70px 225px 360px 200px;
 }
