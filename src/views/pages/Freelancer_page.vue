@@ -371,9 +371,11 @@ export default {
                     'success'
                 );
               } else {
+                let messages = '';
+                res.data['status']['message'].forEach(message=>messages+='<br>'+message)
                 Swal.fire(
                     res.data['status']['status'],
-                    'خطأ في البيانات المدخلة',
+                    messages,
                     'error'
                 );
               }
