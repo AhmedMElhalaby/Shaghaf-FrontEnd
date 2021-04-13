@@ -41,28 +41,29 @@
           <div class="col-lg-8">
             <div class="row">
               <div class="pre-works said-about-us">
-                <div class="col-lg-11 o-h">
+                <div class="col-lg-12 o-h">
                   <h6>الأعمال السابقة</h6>
-                  <carousel :items-to-show="1" :wrap-around="true" style="width: 100%">
-                    <Slide>
-                      <div class="col-lg-3" v-for="(portfolio, index) in Portfolios" :key="index">
-                        <img :src="portfolio.media" alt="portfolio" style="max-width: 150px">
-                      </div>
-                    </Slide>
-                    <template #addons>
-                      <navigation />
-                      <pagination />
-                    </template>
-                  </carousel>
+                  <div class="container" style="padding-left: 80px;padding-right: 60px">
+                    <carousel :settings="settings" :wrap-around="true">
+                      <Slide v-for="(portfolio, index) in Portfolios" :key="index">
+                        <div class="carousel__item col-12">
+                          <img :src="portfolio.media" alt="portfolio" style="width: 150px;height: 150px">
+                        </div>
+                      </Slide>
+                      <template #addons="{slidesCount}">
+                        <navigation v-if="slidesCount > 1" />
+                      </template>
+                    </carousel>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="pre-works pre-works-sec">
-                <div class="col-lg-3">
+                <div class="col-lg-1">
                   <h6>الموقع</h6>
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-11">
                   <div class="map-pre-w">
                     <GoogleMap
                         api-key="AIzaSyCrtMEBxgNcO0-bqdMFxo5hev35ugBZMhI"
@@ -159,7 +160,7 @@
           <div class="form-group">
             <label for="notes"><img :src="User.avatar" alt=""> الملاحظات</label>
             <textarea class="form-control" id="notes" rows="5" v-model="note" required>
-                                        </textarea>
+            </textarea>
           </div>
           <div class="row">
             <div class="col-lg-12">
@@ -182,17 +183,17 @@
                 <div class="col-lg-1 pl-0">
                   <div class="count-card">
                     <div class="add-to-cart">
-                                           <span>
-                                               <i id="increment" v-on:click.prevent="quantity++" :v-model="quantity" class="fas fa-plus"></i>
-                                           </span>
+                       <span>
+                           <i id="increment" v-on:click.prevent="quantity++" :v-model="quantity" class="fas fa-plus"></i>
+                       </span>
                     </div>
                     <div class="cart-counter">
                       {{ quantity }}
                     </div>
                     <div class="remove-from-cart">
-                                           <span>
-                                               <i id="decrement" v-on:click="quantity--" :v-model="quantity" class="fas fa-minus"></i>
-                                           </span>
+                       <span>
+                           <i id="decrement" v-on:click="quantity--" :v-model="quantity" class="fas fa-minus"></i>
+                       </span>
                     </div>
                   </div>
                 </div>
@@ -219,7 +220,7 @@
 import axios from "axios";
 import { GoogleMap, Marker } from 'vue3-google-map'
 import 'vue3-carousel/dist/carousel.css';
-import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
+import { Carousel, Slide, Navigation } from 'vue3-carousel';
 import jquery from 'jquery';
 import * as Swal from "sweetalert2";
 let $ = jquery;
@@ -233,7 +234,6 @@ export default {
     Marker,
     Carousel,
     Slide,
-    Pagination,
     Navigation,
   },
   mounted() {
@@ -463,7 +463,24 @@ export default {
   },
   setup() {
     const center = { lat: 32, lng: 35.25 }
-    return { center }
-  },
+    return {
+      settings: {
+        itemsToShow: 3,
+        snapAlign: "center"
+      },
+      center
+    };
+  }
 }
 </script>
+<style>
+.carousel__track{
+  direction: ltr;
+}
+.carousel__viewport{
+  direction: ltr;
+}
+.carousel{
+  padding-right: 20px;
+}
+</style>

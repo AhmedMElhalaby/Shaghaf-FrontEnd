@@ -391,22 +391,6 @@ ul{
 .pre-works .slick-slide {
     width: 100% !important
 }
-.service{
-    display: block;
-    width: 100%;
-    text-align: center;
-    box-shadow: 0px 0px 11px 3px #ddd;
-    border-bottom: 15px solid #F7CA0B;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.service img,.service p{
-    padding-bottom: 10px;
-    padding-top: 10px
-}
-.service img{
-    padding-top: 30px
-}
 .test{
     position: absolute;
     bottom: 6rem;
@@ -2368,4 +2352,39 @@ End notifications Page
 }
 a{
     text-decoration: none !important;
+}
+
+.service{
+    display: block;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 11px 3px #ddd;
+    border-bottom: 15px solid #f8f9fa;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.service img, .service p {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: start;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.service span {
+    text-align: start;
+    font-size: 13px;
+    display: flex;
+    padding: 0px 10px 10px;
+}
+.top-border {
+    width: 40%;
+    margin-right: auto;
+    background-color: rgb(254, 225, 1);
+    padding: 20px;
+    border-radius: 70px 225px 360px 200px;
+}
+.service img{
+    width: 90%;
+    padding: 0px !important
 }

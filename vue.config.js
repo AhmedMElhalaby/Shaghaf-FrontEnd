@@ -1,3 +1,11 @@
 module.exports = {
-  runtimeCompiler: true
+  runtimeCompiler: true,
+  chainWebpack: config => {
+    config
+        .plugin('html')
+        .tap(args => {
+          args[0].title = "منصة شغف";
+          return args;
+        })
+  }
 }
