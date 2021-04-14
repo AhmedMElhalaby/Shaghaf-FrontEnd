@@ -70,6 +70,10 @@ export default {
             .then(res=>{
               if (res.data['status']['status'] === "success"){
                 this.Ticket = res.data['Ticket'];
+                this.name ='';
+                this.email ='';
+                this.title ='';
+                this.message ='';
                 Swal.fire(
                     res.data['status']['status'],
                     'تم الارسال بنجاح',
