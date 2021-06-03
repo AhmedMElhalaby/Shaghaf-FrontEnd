@@ -26,6 +26,8 @@
                                             <div class="dropdown-divider"></div>
                                             <router-link ref="link" to="/chats" class="dropdown-item" style="cursor: pointer" >محادثاتي</router-link>
                                             <div class="dropdown-divider"></div>
+                                            <router-link ref="link" to="/tickets" class="dropdown-item" style="cursor: pointer" >الشكاوي والإقتراحات</router-link>
+                                            <div class="dropdown-divider"></div>
                                             <router-link ref="link" to="" class="dropdown-item" v-on:click.prevent="logout()" style="cursor: pointer">تسجيل خروج</router-link>
                                         </div>
                                     </div>

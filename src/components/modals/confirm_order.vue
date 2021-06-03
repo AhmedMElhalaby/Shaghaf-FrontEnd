@@ -22,6 +22,10 @@
             <textarea class="form-control" id="notes" rows="5" v-model="note">
                                         </textarea>
           </div>
+          <div class="form-group">
+            <label for="discount_code"><img src="../../assets/img/clock-1.svg" alt=""> كود الخصم</label>
+            <input type="number" class="form-control" id="discount_code" placeholder="" v-model="discount_code">
+          </div>
           <div class="row">
             <div class="col-lg-12">
               <div class="row confirm-order">
@@ -43,17 +47,17 @@
                 <div class="col-lg-1 pl-0">
                   <div class="count-card">
                     <div class="add-to-cart">
-                                           <span>
-                                               <i id="increment" v-on:click.prevent="quantity++" :v-model="quantity" class="fas fa-plus"></i>
-                                           </span>
+                      <span>
+                        <i id="increment" v-on:click.prevent="quantity++" :v-model="quantity" class="fas fa-plus"></i>
+                      </span>
                     </div>
                     <div class="cart-counter">
                       {{ quantity }}
                     </div>
                     <div class="remove-from-cart">
-                                           <span>
-                                               <i id="decrement" v-on:click="quantity--" :v-model="quantity" class="fas fa-minus"></i>
-                                           </span>
+                      <span>
+                        <i id="decrement" v-on:click="quantity--" :v-model="quantity" class="fas fa-minus"></i>
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -91,6 +95,7 @@ export default {
       delivered_date: '',
       delivered_time : '',
       quantity :1,
+      discount_code:null,
       note :'',
       User:[],
       user_id:'',
